@@ -1,0 +1,87 @@
+//商品源数据
+var MZ = {
+    "environment": {
+        "checkL": true
+    },
+    "modelData": {
+        "itemId": 12397,
+        "itemNumber": "meizu_power_bank_3",
+        "type": 1,
+        "recommend": "3:32682;56:32686",
+        "activeStatus": 1,
+        "shelveTime": null,
+        "supportFastArrival": true,
+        "sku": {
+            "3:23957;56:32686": {
+                "cspuId": 3835,
+                "skuId": 9845,
+                "type": 1,
+                "shelveTime": null,
+                "shelfTime": null,
+                "nextShelveTime": null,
+                "saleStatus": null,
+                "activeStatus": 1,
+                "isSupportCart": true,
+                "price": 79.00,
+                "originPrice": 79.00,
+                "names": "魅族移动电源3 静谧黑 双向快充",
+                "itemName": "魅族移动电源3",
+                "attributes": "静谧黑 双向快充",
+                "images": ["//openfile.meizu.com/group1/M00/06/BD/Cgbj0FvJjK6AAcw8AAPKzUsctEA769.png", "//openfile.meizu.com/group1/M00/06/CD/Cgbj0VvJjK-AbRsTAASpjdD81rI585.png", "//openfile.meizu.com/group1/M00/06/BD/Cgbj0FvJjLKAEklPAARbXywUib8331.png", "//openfile.meizu.com/group1/M00/06/CD/Cgbj0VvJjLaANi-wAAGxC5ss3fw886.png"],
+                "stock": 1,
+                "packageIds": [],
+                "buyButton": "即将发售",
+                "isPreSale": 0,
+                "delaySendDayNum": null,
+                "huabei": [],
+                "appPrice": 0,
+                "priceCent": 7900
+            },
+            "3:32682;56:32686": {
+                "cspuId": 3834,
+                "skuId": 9846,
+                "type": 1,
+                "shelveTime": null,
+                "shelfTime": null,
+                "nextShelveTime": null,
+                "saleStatus": null,
+                "activeStatus": 1,
+                "isSupportCart": true,
+                "price": 79.00,
+                "originPrice": 79.00,
+                "names": "魅族移动电源3 简约白 双向快充",
+                "itemName": "魅族移动电源3",
+                "attributes": "简约白 双向快充",
+                "images": ["//openfile.meizu.com/group1/M00/06/CC/Cgbj0VvJjKeATLxsAAF7_uDseks390.png", "//openfile.meizu.com/group1/M00/06/BC/Cgbj0FvJjKeAcgynAAFFAUQ7Jkc389.png", "//openfile.meizu.com/group1/M00/06/BC/Cgbj0FvJjKeATmUqAAImOptGaEo086.png", "//openfile.meizu.com/group1/M00/06/CD/Cgbj0VvJjK2AEa5HAACchwAz2lQ263.png"],
+                "stock": 1,
+                "packageIds": [],
+                "buyButton": "售罄",
+                "isPreSale": 0,
+                "delaySendDayNum": null,
+                "huabei": [],
+                "appPrice": 0,
+                "priceCent": 7900
+            }
+        },
+        "packageMap": {},
+        "packageItems": {},
+        "skuMap": {
+            "9845": "3:23957;56:32686",
+            "9846": "3:32682;56:32686"
+        },
+        "discount": null,
+        "joinGroup": null,
+        "moduleName": null,
+        "relatedItems": null,
+        "isSupportCart": true,
+        "huabei": [],
+        "isSupportHuabei": false,
+        "showXiaoNeng": true,
+        "merchantId": 1,
+        "notifySkus": [],
+        "showItemRecommend": true,
+        "appActDesc": null,
+        "receptionTeamId": null,
+        "shipping": 0
+    }
+};

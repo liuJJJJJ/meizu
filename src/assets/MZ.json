@@ -1,0 +1,738 @@
+var MZ = {
+    "environment": {
+        "checkL": true
+    }, 
+    "modelData": {
+        "itemId": 12440, 
+        "itemNumber": "meizunote8", 
+        "type": 1, 
+                "skuId": 10174, 
+                "type": 1, 
+                "shelveTime": null, 
+                "shelfTime": null, 
+                "nextShelveTime": null, 
+                "saleStatus": null, 
+                "activeStatus": 1, 
+                "isSupportCart": true, 
+                "price": 1298, 
+                "originPrice": 1298, 
+                "names": "魅族 Note8 全网通公开版 烟紫 4+64GB", 
+                "itemName": "魅族 Note8", 
+                "attributes": "全网通公开版 烟紫 4+64GB",
+                "images": [
+                    "//openfile.meizu.com/group1/M00/06/C6/Cgbj0FvS5yWAZkC3AAQxqhurHi8122.png", 
+                    "//openfile.meizu.com/group1/M00/06/D3/Cgbj0VvQPleAYAR2AAtuSBS8PwY566.png", 
+                    "//openfile.meizu.com/group1/M00/06/D6/Cgbj0VvS5yWANIB2AAorvxMVvog021.png", 
+                    "//openfile.meizu.com/group1/M00/06/D6/Cgbj0VvS5ySAWkGvAAPYNBc5mTg605.png"
+                ], 
+                "stock": 0, 
+                "packageIds": [
+                    0, 
+                    290, 
+                    291
+                ], 
+                "buyButton": "即将发售", 
+                "isPreSale": 0, 
+                "delaySendDayNum": null, 
+                "huabei": [
+                    {
+                        "eachPriceCent": 442.61, 
+                        "period": 3, 
+                        "eachRatePriceCent": 9.95
+                    }, 
+                    {
+                        "eachPriceCent": 226.06, 
+                        "period": 6, 
+                        "eachRatePriceCent": 9.73
+                    }, 
+                    {
+                        "eachPriceCent": 116.27, 
+                        "period": 12, 
+                        "eachRatePriceCent": 8.11
+                    }
+                ], 
+                "appPrice": 0, 
+                "priceCent": 129800
+            }, 
+            "14:18238;3:32723;13:28258+0": {
+                "cspuId": 3957, 
+                "skuId": 10168, 
+                "type": 1, 
+                "shelveTime": null, 
+                "shelfTime": null, 
+                "nextShelveTime": null, 
+                "saleStatus": null, 
+                "activeStatus": 1, 
+                "isSupportCart": true, 
+                "price": 1298, 
+                "originPrice": 1298, 
+                "names": "魅族 Note8 全网通公开版 灰蓝 4+64GB", 
+                "itemName": "魅族 Note8", 
+                "attributes": "全网通公开版 灰蓝 4+64GB", 
+                "images": [
+                    "//openfile.meizu.com/group1/M00/06/C4/Cgbj0FvQPnGAARnYAANgsrqZggE950.png", 
+                    "//openfile.meizu.com/group1/M00/06/D2/Cgbj0VvQPkyAW6bfAAhiDWaswik443.png", 
+                    "//openfile.meizu.com/group1/M00/06/C3/Cgbj0FvQPmeAYV0qAAkDJB0SnUQ364.png", 
+                    "//openfile.meizu.com/group1/M00/06/D3/Cgbj0VvQPl-AcAr7AANjBBom0x0095.png"
+                ], 
+                "stock": 0, 
+                "packageIds": [
+                    0, 
+                    290, 
+                    291
+                ], 
+                "buyButton": "即将发售", 
+                "isPreSale": 0, 
+                "delaySendDayNum": null, 
+                "huabei": [
+                    {
+                        "eachPriceCent": 442.61, 
+                        "period": 3, 
+                        "eachRatePriceCent": 9.95
+                    }, 
+                    {
+                        "eachPriceCent": 226.06, 
+                        "period": 6, 
+                        "eachRatePriceCent": 9.73
+                    }, 
+                    {
+                        "eachPriceCent": 116.27, 
+                        "period": 12, 
+                        "eachRatePriceCent": 8.11
+                    }
+                ], 
+                "appPrice": 0, 
+                "priceCent": 129800
+            }, 
+            "14:18238;3:32724;13:28258+291": {
+                "cspuId": 3958, 
+                "skuId": 10186, 
+                "type": 1, 
+                "shelveTime": null, 
+                "shelfTime": null, 
+                "nextShelveTime": null, 
+                "saleStatus": null, 
+                "activeStatus": 1, 
+                "isSupportCart": true, 
+                "price": 1298, 
+                "originPrice": 1298, 
+                "names": "魅族 Note8 全网通公开版 烟紫 4+64GB", 
+                "itemName": "魅族 Note8", 
+                "attributes": "全网通公开版 烟紫 4+64GB", 
+                "images": [
+                    "//openfile.meizu.com/group1/M00/06/C6/Cgbj0FvS5yWAZkC3AAQxqhurHi8122.png", 
+                    "//openfile.meizu.com/group1/M00/06/D3/Cgbj0VvQPleAYAR2AAtuSBS8PwY566.png", 
+                    "//openfile.meizu.com/group1/M00/06/D6/Cgbj0VvS5yWANIB2AAorvxMVvog021.png", 
+                    "//openfile.meizu.com/group1/M00/06/D6/Cgbj0VvS5ySAWkGvAAPYNBc5mTg605.png"
+                ], 
+                "stock": 0, 
+                "packageIds": [
+                    0, 
+                    290, 
+                    291
+                ], 
+                "buyButton": "即将发售", 
+                "isPreSale": 0, 
+                "delaySendDayNum": null, 
+                "huabei": [
+                    {
+                        "eachPriceCent": 466.14, 
+                        "period": 3, 
+                        "eachRatePriceCent": 10.48
+                    }, 
+                    {
+                        "eachPriceCent": 238.08, 
+                        "period": 6, 
+                        "eachRatePriceCent": 10.25
+                    }, 
+                    {
+                        "eachPriceCent": 122.45, 
+                        "period": 12, 
+                        "eachRatePriceCent": 8.54
+                    }
+                ], 
+                "appPrice": 0, 
+                "priceCent": 129800
+            }, 
+            "14:18238;3:32723;13:28258+290": {
+                "cspuId": 3957, 
+                "skuId": 10176, 
+                "type": 1, 
+                "shelveTime": null, 
+                "shelfTime": null, 
+                "nextShelveTime": null, 
+                "saleStatus": null, 
+                "activeStatus": 1, 
+                "isSupportCart": true, 
+                "price": 1298, 
+                "originPrice": 1298, 
+                "names": "魅族 Note8 全网通公开版 灰蓝 4+64GB", 
+                "itemName": "魅族 Note8", 
+                "attributes": "全网通公开版 灰蓝 4+64GB", 
+                "images": [
+                    "//openfile.meizu.com/group1/M00/06/C4/Cgbj0FvQPnGAARnYAANgsrqZggE950.png", 
+                    "//openfile.meizu.com/group1/M00/06/D2/Cgbj0VvQPkyAW6bfAAhiDWaswik443.png", 
+                    "//openfile.meizu.com/group1/M00/06/C3/Cgbj0FvQPmeAYV0qAAkDJB0SnUQ364.png", 
+                    "//openfile.meizu.com/group1/M00/06/D3/Cgbj0VvQPl-AcAr7AANjBBom0x0095.png"
+                ], 
+                "stock": 0, 
+                "packageIds": [
+                    0, 
+                    290, 
+                    291
+                ], 
+                "buyButton": "即将发售", 
+                "isPreSale": 0, 
+                "delaySendDayNum": null, 
+                "huabei": [
+                    {
+                        "eachPriceCent": 455.91, 
+                        "period": 3, 
+                        "eachRatePriceCent": 10.25
+                    }, 
+                    {
+                        "eachPriceCent": 232.85, 
+                        "period": 6, 
+                        "eachRatePriceCent": 10.02
+                    }, 
+                    {
+                        "eachPriceCent": 119.76, 
+                        "period": 12, 
+                        "eachRatePriceCent": 8.35
+                    }
+                ], 
+                "appPrice": 0, 
+                "priceCent": 129800
+            }, 
+            "14:18238;3:32723;13:28258+291": {
+                "cspuId": 3957, 
+                "skuId": 10185, 
+                "type": 1, 
+                "shelveTime": null, 
+                "shelfTime": null, 
+                "nextShelveTime": null, 
+                "saleStatus": null, 
+                "activeStatus": 1, 
+                "isSupportCart": true, 
+                "price": 1298, 
+                "originPrice": 1298, 
+                "names": "魅族 Note8 全网通公开版 灰蓝 4+64GB", 
+                "itemName": "魅族 Note8", 
+                "attributes": "全网通公开版 灰蓝 4+64GB", 
+                "images": [
+                    "//openfile.meizu.com/group1/M00/06/C4/Cgbj0FvQPnGAARnYAANgsrqZggE950.png", 
+                    "//openfile.meizu.com/group1/M00/06/D2/Cgbj0VvQPkyAW6bfAAhiDWaswik443.png", 
+                    "//openfile.meizu.com/group1/M00/06/C3/Cgbj0FvQPmeAYV0qAAkDJB0SnUQ364.png", 
+                    "//openfile.meizu.com/group1/M00/06/D3/Cgbj0VvQPl-AcAr7AANjBBom0x0095.png"
+                ], 
+                "stock": 0, 
+                "packageIds": [
+                    0, 
+                    290, 
+                    291
+                ], 
+                "buyButton": "即将发售", 
+                "isPreSale": 0, 
+                "delaySendDayNum": null, 
+                "huabei": [
+                    {
+                        "eachPriceCent": 466.14, 
+                        "period": 3, 
+                        "eachRatePriceCent": 10.48
+                    }, 
+                    {
+                        "eachPriceCent": 238.08, 
+                        "period": 6, 
+                        "eachRatePriceCent": 10.25
+                    }, 
+                    {
+                        "eachPriceCent": 122.45, 
+                        "period": 12, 
+                        "eachRatePriceCent": 8.54
+                    }
+                ], 
+                "appPrice": 0, 
+                "priceCent": 129800
+            }, 
+            "14:18238;3:32722;13:28258+290": {
+                "cspuId": 3956, 
+                "skuId": 10175, 
+                "type": 1, 
+                "shelveTime": null, 
+                "shelfTime": null, 
+                "nextShelveTime": null, 
+                "saleStatus": null, 
+                "activeStatus": 1, 
+                "isSupportCart": true, 
+                "price": 1298, 
+                "originPrice": 1298, 
+                "names": "魅族 Note8 全网通公开版 曜黑 4+64GB", 
+                "itemName": "魅族 Note8", 
+                "attributes": "全网通公开版 曜黑 4+64GB", 
+                "images": [
+                    "//openfile.meizu.com/group1/M00/06/C4/Cgbj0FvQPm-AKpRJAANYUefuOfg281.png", 
+                    "//openfile.meizu.com/group1/M00/06/C2/Cgbj0FvQPkyAYLm-AAeHBY_8hwY127.png", 
+                    "//openfile.meizu.com/group1/M00/06/C3/Cgbj0FvQPmCAB4J9AAjQXlKrPyA451.png", 
+                    "//openfile.meizu.com/group1/M00/06/C3/Cgbj0FvQPliAH09-AANaoUYg1Wc407.png"
+                ], 
+                "stock": 1, 
+                "packageIds": [
+                    0, 
+                    290, 
+                    291
+                ], 
+                "buyButton": "即将发售", 
+                "isPreSale": 0, 
+                "delaySendDayNum": null, 
+                "huabei": [
+                    {
+                        "eachPriceCent": 455.91, 
+                        "period": 3, 
+                        "eachRatePriceCent": 10.25
+                    }, 
+                    {
+                        "eachPriceCent": 232.85, 
+                        "period": 6, 
+                        "eachRatePriceCent": 10.02
+                    }, 
+                    {
+                        "eachPriceCent": 119.76, 
+                        "period": 12, 
+                        "eachRatePriceCent": 8.35
+                    }
+                ], 
+                "appPrice": 0, 
+                "priceCent": 129800
+            }, 
+            "14:18238;3:32722;13:28258+291": {
+                "cspuId": 3956, 
+                "skuId": 10184, 
+                "type": 1, 
+                "shelveTime": null, 
+                "shelfTime": null, 
+                "nextShelveTime": null, 
+                "saleStatus": null, 
+                "activeStatus": 1, 
+                "isSupportCart": true, 
+                "price": 1298, 
+                "originPrice": 1298, 
+                "names": "魅族 Note8 全网通公开版 曜黑 4+64GB", 
+                "itemName": "魅族 Note8", 
+                "attributes": "全网通公开版 曜黑 4+64GB", 
+                "images": [
+                    "//openfile.meizu.com/group1/M00/06/C4/Cgbj0FvQPm-AKpRJAANYUefuOfg281.png", 
+                    "//openfile.meizu.com/group1/M00/06/C2/Cgbj0FvQPkyAYLm-AAeHBY_8hwY127.png", 
+                    "//openfile.meizu.com/group1/M00/06/C3/Cgbj0FvQPmCAB4J9AAjQXlKrPyA451.png", 
+                    "//openfile.meizu.com/group1/M00/06/C3/Cgbj0FvQPliAH09-AANaoUYg1Wc407.png"
+                ], 
+                "stock": 1, 
+                "packageIds": [
+                    0, 
+                    290, 
+                    291
+                ], 
+                "buyButton": "即将发售", 
+                "isPreSale": 0, 
+                "delaySendDayNum": null, 
+                "huabei": [
+                    {
+                        "eachPriceCent": 466.14, 
+                        "period": 3, 
+                        "eachRatePriceCent": 10.48
+                    }, 
+                    {
+                        "eachPriceCent": 238.08, 
+                        "period": 6, 
+                        "eachRatePriceCent": 10.25
+                    }, 
+                    {
+                        "eachPriceCent": 122.45, 
+                        "period": 12, 
+                        "eachRatePriceCent": 8.54
+                    }
+                ], 
+                "appPrice": 0, 
+                "priceCent": 129800
+            }, 
+            "14:18238;3:32722;13:28258+0": {
+                "cspuId": 3956, 
+                "skuId": 10167, 
+                "type": 1, 
+                "shelveTime": null, 
+                "shelfTime": null, 
+                "nextShelveTime": null, 
+                "saleStatus": null, 
+                "activeStatus": 1, 
+                "isSupportCart": true, 
+                "price": 1298, 
+                "originPrice": 1298, 
+                "names": "魅族 Note8 全网通公开版 曜黑 4+64GB", 
+                "itemName": "魅族 Note8", 
+                "attributes": "全网通公开版 曜黑 4+64GB", 
+                "images": [
+                    "//openfile.meizu.com/group1/M00/06/C4/Cgbj0FvQPm-AKpRJAANYUefuOfg281.png", 
+                    "//openfile.meizu.com/group1/M00/06/C2/Cgbj0FvQPkyAYLm-AAeHBY_8hwY127.png", 
+                    "//openfile.meizu.com/group1/M00/06/C3/Cgbj0FvQPmCAB4J9AAjQXlKrPyA451.png", 
+                    "//openfile.meizu.com/group1/M00/06/C3/Cgbj0FvQPliAH09-AANaoUYg1Wc407.png"
+                ], 
+                "stock": 1, 
+                "packageIds": [
+                    0, 
+                    290, 
+                    291
+                ], 
+                "buyButton": "即将发售", 
+                "isPreSale": 0, 
+                "delaySendDayNum": null, 
+                "huabei": [
+                    {
+                        "eachPriceCent": 442.61, 
+                        "period": 3, 
+                        "eachRatePriceCent": 9.95
+                    }, 
+                    {
+                        "eachPriceCent": 226.06, 
+                        "period": 6, 
+                        "eachRatePriceCent": 9.73
+                    }, 
+                    {
+                        "eachPriceCent": 116.27, 
+                        "period": 12, 
+                        "eachRatePriceCent": 8.11
+                    }
+                ], 
+                "appPrice": 0, 
+                "priceCent": 129800
+            }, 
+            "14:18238;3:32724;13:28258+290": {
+                "cspuId": 3958, 
+                "skuId": 10177, 
+                "type": 1, 
+                "shelveTime": null, 
+                "shelfTime": null, 
+                "nextShelveTime": null, 
+                "saleStatus": null, 
+                "activeStatus": 1, 
+                "isSupportCart": true, 
+                "price": 1298, 
+                "originPrice": 1298, 
+                "names": "魅族 Note8 全网通公开版 烟紫 4+64GB", 
+                "itemName": "魅族 Note8", 
+                "attributes": "全网通公开版 烟紫 4+64GB", 
+                "images": [
+                    "//openfile.meizu.com/group1/M00/06/C6/Cgbj0FvS5yWAZkC3AAQxqhurHi8122.png", 
+                    "//openfile.meizu.com/group1/M00/06/D3/Cgbj0VvQPleAYAR2AAtuSBS8PwY566.png", 
+                    "//openfile.meizu.com/group1/M00/06/D6/Cgbj0VvS5yWANIB2AAorvxMVvog021.png", 
+                    "//openfile.meizu.com/group1/M00/06/D6/Cgbj0VvS5ySAWkGvAAPYNBc5mTg605.png"
+                ], 
+                "stock": 0, 
+                "packageIds": [
+                    0, 
+                    290, 
+                    291
+                ], 
+                "buyButton": "即将发售", 
+                "isPreSale": 0, 
+                "delaySendDayNum": null, 
+                "huabei": [
+                    {
+                        "eachPriceCent": 455.91, 
+                        "period": 3, 
+                        "eachRatePriceCent": 10.25
+                    }, 
+                    {
+                        "eachPriceCent": 232.85, 
+                        "period": 6, 
+                        "eachRatePriceCent": 10.02
+                    }, 
+                    {
+                        "eachPriceCent": 119.76, 
+                        "period": 12, 
+                        "eachRatePriceCent": 8.35
+                    }
+                ], 
+                "appPrice": 0, 
+                "priceCent": 129800
+            }, 
+            "14:18238;3:33022;13:28258+290": {
+                "cspuId": 3959, 
+                "skuId": 10178, 
+                "type": 1, 
+                "shelveTime": null, 
+                "shelfTime": null, 
+                "nextShelveTime": null,
+                "saleStatus": null, 
+                "activeStatus": 1, 
+                "isSupportCart": true, 
+                "price": 1298, 
+                "originPrice": 1298, 
+                "names": "魅族 Note8 全网通公开版 焰红 4+64GB", 
+                "itemName": "魅族 Note8", 
+                "attributes": "全网通公开版 焰红 4+64GB", 
+                "images": [
+                    "//openfile.meizu.com/group1/M00/06/D3/Cgbj0VvQPm-AU7iSAAN3TL0zCwc952.png", 
+                    "//openfile.meizu.com/group1/M00/06/C2/Cgbj0FvQPkyAeA3jAAlxckyWpiE392.png", 
+                    "//openfile.meizu.com/group1/M00/06/D3/Cgbj0VvQPmaAJJ_8AAjqfW6zZpI896.png", 
+                    "//openfile.meizu.com/group1/M00/06/D3/Cgbj0VvQPliAdzCRAANqob0dHIc404.png"
+                ], 
+                "stock": 1, 
+                "packageIds": [
+                    0, 
+                    290, 
+                    291
+                ], 
+                "buyButton": "即将发售", 
+                "isPreSale": 0, 
+                "delaySendDayNum": null, 
+                "huabei": [
+                    {
+                        "eachPriceCent": 455.91, 
+                        "period": 3, 
+                        "eachRatePriceCent": 10.25
+                    }, 
+                    {
+                        "eachPriceCent": 232.85, 
+                        "period": 6, 
+                        "eachRatePriceCent": 10.02
+                    }, 
+                    {
+                        "eachPriceCent": 119.76, 
+                        "period": 12, 
+                        "eachRatePriceCent": 8.35
+                    }
+                ], 
+                "appPrice": 0, 
+                "priceCent": 129800
+            }, 
+            "14:18238;3:33022;13:28258+0": {
+                "cspuId": 3959, 
+                "skuId": 10170, 
+                "type": 1, 
+                "shelveTime": null, 
+                "shelfTime": null, 
+                "nextShelveTime": null, 
+                "saleStatus": null, 
+                "activeStatus": 1, 
+                "isSupportCart": true, 
+                "price": 1298, 
+                "originPrice": 1298, 
+                "names": "魅族 Note8 全网通公开版 焰红 4+64GB", 
+                "itemName": "魅族 Note8", 
+                "attributes": "全网通公开版 焰红 4+64GB", 
+                "images": [
+                    "//openfile.meizu.com/group1/M00/06/D3/Cgbj0VvQPm-AU7iSAAN3TL0zCwc952.png", 
+                    "//openfile.meizu.com/group1/M00/06/C2/Cgbj0FvQPkyAeA3jAAlxckyWpiE392.png", 
+                    "//openfile.meizu.com/group1/M00/06/D3/Cgbj0VvQPmaAJJ_8AAjqfW6zZpI896.png", 
+                    "//openfile.meizu.com/group1/M00/06/D3/Cgbj0VvQPliAdzCRAANqob0dHIc404.png"
+                ], 
+                "stock": 1, 
+                "packageIds": [
+                    0, 
+                    290, 
+                    291
+                ], 
+                "buyButton": "即将发售", 
+                "isPreSale": 0, 
+                "delaySendDayNum": null, 
+                "huabei": [
+                    {
+                        "eachPriceCent": 442.61, 
+                        "period": 3, 
+                        "eachRatePriceCent": 9.95
+                    }, 
+                    {
+                        "eachPriceCent": 226.06, 
+                        "period": 6, 
+                        "eachRatePriceCent": 9.73
+                    }, 
+                    {
+                        "eachPriceCent": 116.27, 
+                        "period": 12, 
+                        "eachRatePriceCent": 8.11
+                    }
+                ], 
+                "appPrice": 0, 
+                "priceCent": 129800
+            }, 
+            "14:18238;3:33022;13:28258+291": {
+                "cspuId": 3959, 
+                "skuId": 10187, 
+                "type": 1, 
+                "shelveTime": null, 
+                "shelfTime": null, 
+                "nextShelveTime": null, 
+                "saleStatus": null, 
+                "activeStatus": 1, 
+                "isSupportCart": true, 
+                "price": 1298, 
+                "originPrice": 1298, 
+                "names": "魅族 Note8 全网通公开版 焰红 4+64GB", 
+                "itemName": "魅族 Note8", 
+                "attributes": "全网通公开版 焰红 4+64GB", 
+                "images": [
+                    "//openfile.meizu.com/group1/M00/06/D3/Cgbj0VvQPm-AU7iSAAN3TL0zCwc952.png", 
+                    "//openfile.meizu.com/group1/M00/06/C2/Cgbj0FvQPkyAeA3jAAlxckyWpiE392.png", 
+                    "//openfile.meizu.com/group1/M00/06/D3/Cgbj0VvQPmaAJJ_8AAjqfW6zZpI896.png", 
+                    "//openfile.meizu.com/group1/M00/06/D3/Cgbj0VvQPliAdzCRAANqob0dHIc404.png"
+                ], 
+                "stock": 1, 
+                "packageIds": [
+                    0, 
+                    290, 
+                    291
+                ], 
+                "buyButton": "即将发售", 
+                "isPreSale": 0, 
+                "delaySendDayNum": null, 
+                "huabei": [
+                    {
+                        "eachPriceCent": 466.14,
+                        "period": 3, 
+                        "eachRatePriceCent": 10.48
+                    }, 
+                    {
+                        "eachPriceCent": 238.08, 
+                        "period": 6, 
+                        "eachRatePriceCent": 10.25
+                    }, 
+                    {
+                        "eachPriceCent": 122.45, 
+                        "period": 12, 
+                        "eachRatePriceCent": 8.54
+                    }
+                ], 
+                "appPrice": 0, 
+                "priceCent": 129800
+            }
+        },
+        "packageMap": {
+            "0": {
+                "id": null, 
+                "name": "官方标配", 
+                "profits": 0, 
+                "items": null, 
+                "price": 0, 
+                "available": true
+            }, 
+            "290": {
+                "id": 290, 
+                "name": "套餐一", 
+                "profits": 60, 
+                "items": [
+                    "290&11026"
+                ], 
+                "price": 39, 
+                "available": true
+            }, 
+            "291": {
+                "id": 291, 
+                "name": "碎屏险套餐", 
+                "profits": 0, 
+                "items": [
+                    "291&11458"
+                ], 
+                "price": 69, 
+                "available": true
+            }
+        }, 
+        "packageItems": {
+            "291&11458": {
+                "imgUrl": "//openfile.meizu.com/group1/M00/06/C9/Cgbj0FvZYlSAZFeeAASxvI401Bs465.png", 
+                "name": "碎屏保", 
+                "recommend": "340:33087", 
+                "saleAttrs": {
+                    "340": [
+                        {
+                            "id": 33087, 
+                            "name": "魅族 Note8", 
+                            "imageColor": null, 
+                            "cspuImageColor": null, 
+                            "order": null
+                        }
+                    ]
+                }, 
+                "cells": {
+                    "340:33087": {
+                        "skuId": 10183, 
+                        "price": 69, 
+                        "priceCent": 6900, 
+                        "originPriceCent": 6900, 
+                        "profits": 0, 
+                        "stock": 99931, 
+                        "images": "//openfile.meizu.com/group1/M00/06/C9/Cgbj0FvZYlSAZFeeAASxvI401Bs465.png", 
+                        "names": "魅族 Note8"
+                    }
+                }
+            }, 
+            "290&11026": {
+                "imgUrl": "//openfile.meizu.com/group1/M00/01/F5/Cgbj0Vmk5cSAUtF6AAQC0CO2nsw453.png", 
+                "name": "三星存储卡32G/64G", 
+                "recommend": "84:11232", 
+                "saleAttrs": {
+                    "84": [
+                        {
+                            "id": 11232, 
+                            "name": "32G", 
+                            "imageColor": "", 
+                            "cspuImageColor": "//openfile.meizu.com/group1/M00/01/F5/Cgbj0Vmk5cSAUtF6AAQC0CO2nsw453.png", 
+                            "order": null
+                        }
+                    ]
+                }, 
+                "cells": {
+                    "84:11232": {
+                        "skuId": 4834, 
+                        "price": 39, 
+                        "priceCent": 3900, 
+                        "originPriceCent": 9900, 
+                        "profits": 60, 
+                        "stock": 252, 
+                        "images": "//openfile.meizu.com/group1/M00/01/F5/Cgbj0Vmk5cSAUtF6AAQC0CO2nsw453.png", 
+                        "names": "32GB"
+                    }
+                }
+            }
+        }, 
+        "skuMap": {
+            "10167": "14:18238;3:32722;13:28258+0", 
+            "10168": "14:18238;3:32723;13:28258+0", 
+            "10170": "14:18238;3:33022;13:28258+0", 
+            "10174": "14:18238;3:32724;13:28258+0", 
+            "10175": "14:18238;3:32722;13:28258+290", 
+            "10176": "14:18238;3:32723;13:28258+290", 
+            "10177": "14:18238;3:32724;13:28258+290", 
+            "10178": "14:18238;3:33022;13:28258+290", 
+            "10184": "14:18238;3:32722;13:28258+291", 
+            "10185": "14:18238;3:32723;13:28258+291", 
+            "10186": "14:18238;3:32724;13:28258+291", 
+            "10187": "14:18238;3:33022;13:28258+291"
+        }, 
+        "discount": null, 
+        "joinGroup": null, 
+        "moduleName": null, 
+        "relatedItems": null, 
+        "isSupportCart": true, 
+        "huabei": [
+            {
+                "period": 3, 
+                "rate": 0.023
+            }, 
+            {
+                "period": 6, 
+                "rate": 0.045
+            }, 
+            {
+                "period": 12, 
+                "rate": 0.075
+            }
+        ], 
+        "isSupportHuabei": true, 
+        "showXiaoNeng": true, 
+        "merchantId": 1, 
+        "notifySkus": [ ], 
+        "showItemRecommend": false, 
+        "appActDesc": null, 
+        "receptionTeamId": null, 
+        "shipping": 0
+    }
+}

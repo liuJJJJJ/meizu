@@ -1,0 +1,101 @@
+//商品源数据
+var MZ = {
+    "environment": {
+        "checkL": true
+    },
+    "modelData": {
+        "itemId": 11017,
+        "itemNumber": "everydaychestpack",
+        "type": 1,
+        "recommend": "3:18",
+        "activeStatus": 1,
+        "shelveTime": null,
+        "supportFastArrival": false,
+        "sku": {
+            "3:12": {
+                "cspuId": 2150,
+                "skuId": 4791,
+                "type": 1,
+                "shelveTime": null,
+                "shelfTime": null,
+                "nextShelveTime": null,
+                "saleStatus": null,
+                "activeStatus": 1,
+                "isSupportCart": true,
+                "price": 119.00,
+                "originPrice": 119.00,
+                "names": "魅蓝胸包 黑色",
+                "itemName": "魅蓝胸包",
+                "attributes": "黑色",
+                "images": ["//openfile.meizu.com/group1/M00/02/6D/Cgbj0Fn6yW6AAx4RAAVoxZkIpog184.png", "//openfile.meizu.com/group1/M00/02/7C/Cgbj0Vn6yXSAEV_hAAbUkj3vdfk961.png"],
+                "stock": 1,
+                "packageIds": [],
+                "buyButton": "售罄",
+                "isPreSale": 0,
+                "delaySendDayNum": null,
+                "huabei": [],
+                "appPrice": 0,
+                "priceCent": 11900
+            },
+            "3:18": {
+                "cspuId": 2151,
+                "skuId": 4792,
+                "type": 1,
+                "shelveTime": null,
+                "shelfTime": null,
+                "nextShelveTime": null,
+                "saleStatus": null,
+                "activeStatus": 1,
+                "isSupportCart": true,
+                "price": 119.00,
+                "originPrice": 119.00,
+                "names": "魅蓝胸包 灰色",
+                "itemName": "魅蓝胸包",
+                "attributes": "灰色",
+                "images": ["//openfile.meizu.com/group1/M00/02/7B/Cgbj0Vn6yW6AUlsRAAWrjB0SvJc768.png", "//openfile.meizu.com/group1/M00/02/6D/Cgbj0Fn6yW-AIuRwAAkAugUgDao618.png"],
+                "stock": 1,
+                "packageIds": [],
+                "buyButton": "售罄",
+                "isPreSale": 0,
+                "delaySendDayNum": null,
+                "huabei": [],
+                "appPrice": 0,
+                "priceCent": 11900
+            }
+        },
+        "packageMap": {},
+        "packageItems": {},
+        "skuMap": {
+            "4791": "3:12",
+            "4792": "3:18"
+        },
+        "discount": {
+            "name": "限时特惠",
+            "remark": "自有配件",
+            "endTime": 1546963199000,
+            "cspuMap": {
+                "3:12": {
+                    "price": 89.00,
+                    "priceCent": 8900
+                },
+                "3:18": {
+                    "price": 89.00,
+                    "priceCent": 8900
+                }
+            }
+        },
+        "joinGroup": null,
+        "moduleName": null,
+        "relatedItems": null,
+        "isSupportCart": true,
+        "huabei": [],
+        "isSupportHuabei": false,
+        "showXiaoNeng": true,
+        "merchantId": 1,
+        "notifySkus": [],
+        "showItemRecommend": true,
+        "appActDesc": null,
+        "receptionTeamId": null,
+        "shipping": 0
+    }
+};
