@@ -1,0 +1,123 @@
+//商品源数据
+var MZ = {
+    "environment": {
+        "checkL": true
+    },
+    "modelData": {
+        "itemId": 11603,
+        "itemNumber": "meizu_g20",
+        "type": 1,
+        "recommend": "3:1153",
+        "activeStatus": 1,
+        "shelveTime": null,
+        "supportFastArrival": true,
+        "sku": {
+            "3:13": {
+                "cspuId": 2771,
+                "skuId": 7157,
+                "type": 1,
+                "shelveTime": null,
+                "shelfTime": null,
+                "nextShelveTime": null,
+                "saleStatus": null,
+                "activeStatus": 1,
+                "isSupportCart": true,
+                "price": 999.00,
+                "originPrice": 999.00,
+                "names": "魅族 HALO 激光蓝牙耳机 蓝色",
+                "itemName": "魅族 HALO 激光蓝牙耳机",
+                "attributes": "蓝色",
+                "images": ["//openfile.meizu.com/group1/M00/04/17/Cgbj0VrcX6yABHxPAARZwWUAjc4748.png", "//openfile.meizu.com/group1/M00/04/16/Cgbj0VrcX6OAAW6lAAPIqwaY3Yk458.png", "//openfile.meizu.com/group1/M00/06/E1/Cgbj0VwA5jCAVNq3AARxYwtsFeI008.png", "//openfile.meizu.com/group1/M00/06/D1/Cgbj0FwA5K6AdeU_AAorDn3t-Vs866.jpg"],
+                "stock": 1,
+                "packageIds": [],
+                "buyButton": "售罄",
+                "isPreSale": 0,
+                "delaySendDayNum": null,
+                "huabei": [{
+                    "eachPriceCent": 166.33,
+                    "period": 3,
+                    "eachRatePriceCent": 0.0
+                }, {
+                    "eachPriceCent": 83.16,
+                    "period": 6,
+                    "eachRatePriceCent": 0.0
+                }],
+                "appPrice": 0,
+                "priceCent": 99900
+            },
+            "3:1153": {
+                "cspuId": 2770,
+                "skuId": 7158,
+                "type": 1,
+                "shelveTime": null,
+                "shelfTime": null,
+                "nextShelveTime": null,
+                "saleStatus": null,
+                "activeStatus": 1,
+                "isSupportCart": true,
+                "price": 999.00,
+                "originPrice": 999.00,
+                "names": "魅族 HALO 激光蓝牙耳机 红色",
+                "itemName": "魅族 HALO 激光蓝牙耳机",
+                "attributes": "红色",
+                "images": ["//openfile.meizu.com/group1/M00/04/08/Cgbj0FrcX6iAfZfmAARPvQUH0FM087.png", "//openfile.meizu.com/group1/M00/04/16/Cgbj0VrcX6OAAW6lAAPIqwaY3Yk458.png", "//openfile.meizu.com/group1/M00/06/E1/Cgbj0VwA5AuAIu01AA7Zqhqlg9I506.jpg", "//openfile.meizu.com/group1/M00/06/D1/Cgbj0FwA5K6AdeU_AAorDn3t-Vs866.jpg"],
+                "stock": 1,
+                "packageIds": [],
+                "buyButton": "售罄",
+                "isPreSale": 0,
+                "delaySendDayNum": null,
+                "huabei": [{
+                    "eachPriceCent": 166.33,
+                    "period": 3,
+                    "eachRatePriceCent": 0.0
+                }, {
+                    "eachPriceCent": 83.16,
+                    "period": 6,
+                    "eachRatePriceCent": 0.0
+                }],
+                "appPrice": 0,
+                "priceCent": 99900
+            }
+        },
+        "packageMap": {},
+        "packageItems": {},
+        "skuMap": {
+            "7157": "3:13",
+            "7158": "3:1153"
+        },
+        "discount": {
+            "name": "限时特惠",
+            "remark": "自有配件",
+            "endTime": 1546963199000,
+            "cspuMap": {
+                "3:13": {
+                    "price": 499.00,
+                    "priceCent": 49900
+                },
+                "3:1153": {
+                    "price": 499.00,
+                    "priceCent": 49900
+                }
+            }
+        },
+        "joinGroup": null,
+        "moduleName": null,
+        "relatedItems": null,
+        "isSupportCart": true,
+        "huabei": [{
+            "period": 3,
+            "rate": 0.0
+        }, {
+            "period": 6,
+            "rate": 0.0
+        }],
+        "isSupportHuabei": true,
+        "showXiaoNeng": true,
+        "merchantId": 1,
+        "notifySkus": [],
+        "showItemRecommend": true,
+        "appActDesc": null,
+        "receptionTeamId": null,
+        "shipping": 0
+    }
+};
