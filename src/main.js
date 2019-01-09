@@ -20,17 +20,20 @@ import Search from "./container/Search.vue";
 import Personal from "./container/Personal.vue";
 import Goodlist from "./container/Goodlist.vue";
 import Detail from "./container/Detail.vue";
+import Phone from "./container/Phone.vue";
 
 
 
 
 //实例化路由
 const routes = [
-  { path: '/Index', component: Index },
-   { path: '/Search', component: Search },
-    { path: '/Personal', component: Personal },
-    { path: '/Goodlist', component: Goodlist },
-    { path: '/Detail', component: Detail },
+  { name:'Index',path: '/Index', component: Index },
+   { name:'Search',path: '/Search', component: Search },
+    { name:'Personal',path: '/Personal', component: Personal },
+    { name:'Goodlist',path: '/Goodlist', component: Goodlist },
+    { name:'Detail',path: '/Detail', component: Detail },
+    { name:'Phone',path: '/Phone', component: Phone},
+    {path:'/',redirect:{name:'Index'}}
 
 
 ]

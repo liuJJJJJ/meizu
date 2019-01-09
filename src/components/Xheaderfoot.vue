@@ -6,8 +6,7 @@
       <a href="https://mall.meizu.com/marrive/summary.html?click=mall_index_buttom_serv_1" data-mtype="mall_index_buttom_serv_1">
         <img src="https://fms.res.meizu.com/dms/2018/04/02/09c1ad50-ce96-4d90-82a6-7253c51e9745.jpg" lazy-src="https://fms.res.meizu.com/dms/2018/04/02/09c1ad50-ce96-4d90-82a6-7253c51e9745.jpg" alt="">
       </a>
-    </div>
-  
+123  
     <div>
       <a href="http://service.meizu.com/authenticity.html?click=mall_index_buttom_serv_2" data-mtype="mall_index_buttom_serv_2">
         <img src="https://fms.res.meizu.com/dms/2018/04/10/8fabb917-4f09-40f1-b915-3aaa21151e0c.png" lazy-src="https://fms.res.meizu.com/dms/2018/04/10/8fabb917-4f09-40f1-b915-3aaa21151e0c.png" alt="">

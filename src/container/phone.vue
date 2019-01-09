@@ -1,27 +1,31 @@
 <template>
     <div>
+         <Xheader/>
 
-        <!--<Xpersonalheader/>-->
-        <Xpersonallist/>
-
+        <Xheaderfoot/>
     </div>
 </template>
 
 <script>
-    //  import Xpersonalheader from '../components/Xpersonalheader.vue';
-    import Xpersonallist from '../components/Xpersonallist.vue';
+   import Xheader from '../components/Xheader.vue';
+    import Xheaderfoot from '../components/Xheaderfoot.vue';
 
     
     export default {    
 
         components: {
-            //          Xpersonalheader,
-            Xpersonallist,
+            Xheader,
+            Xheaderfoot
 
         }
     };
 </script>
 
 <style>
-
+.li_active {
+    border-bottom: .35vw solid #0bbbef;
+}
+.a_active {
+    color: #0bbbef!important;
+}
 </style>
