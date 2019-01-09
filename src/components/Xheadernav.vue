@@ -11,70 +11,16 @@
     </ul>
   </div></div>
   <!-- 轮播图 -->
-  <div id="mz-index-banner" class="banner-wrapper">
-   <div id="bannerSwipe" class="swiper-container-banner swiper-container-horizontal"> 
-    <div class="swiper-wrapper" style="transition-duration: 0ms; transform: translate3d(-1875px, 0px, 0px);">
-    <mt-swipe :auto="4000">
-    <mt-swipe-item>
-     <div class="swiper-slide slide6 swiper-slide-duplicate" data-theme="white" data-swiper-slide-index="5" style="width: 375px;"> 
-      <a class="link" href="https://detail.meizu.com/item/meizu_g20.html?click=mall_index_ba_6" data-mtype="mall_index_ba_6" data-bh="click_mall_index_ba_6"> <img src="https://fms.res.meizu.com/dms/2018/12/29/3eefa61e-79ee-4935-9959-92ad1cf1831a.jpg" /> </a> 
-      <div class="buttons"> 
-      </div>
-     </div>
-    </mt-swipe-item>
-    <mt-swipe-item>
-     <div class="swiper-slide slide1" data-theme="gray" data-swiper-slide-index="0" style="width: 375px;"> 
-      <a class="link" href="https://detail.meizu.com/item/meizu16th.html?click=mall_index_ba_1" data-mtype="mall_index_ba_1" data-bh="click_mall_index_ba_1"> <img src="https://fms.res.meizu.com/dms/2018/12/29/2d596394-2ffc-4773-a03f-85614f6f38ab.jpg" /> </a> 
-      <div class="buttons"> 
-      </div> 
-     </div> 
-    </mt-swipe-item>
-    <mt-swipe-item>
-     <div class="swiper-slide slide2" data-theme="white" data-swiper-slide-index="1" style="width: 375px;"> 
-      <a class="link" href="https://bbs-act.meizu.cn/index.php?mod=shop&amp;click=mall_index_ba_2" data-mtype="mall_index_ba_2" data-bh="click_mall_index_ba_2"> <img src="https://openfile.meizu.com/group1/M00/06/E1/Cgbj0FwaChSAOPmIAAHqkCSTzsI528.jpg" /> </a> 
-      <div class="buttons"> 
-      </div> 
-     </div>
-    </mt-swipe-item>
-    <mt-swipe-item>
-     <div class="swiper-slide slide3" data-theme="white" data-swiper-slide-index="2" style="width: 375px;"> 
-      <a class="link" href="https://detail.meizu.com/item/meizu16th.html?click=mall_index_ba_3" data-mtype="mall_index_ba_3" data-bh="click_mall_index_ba_3"> <img src="https://openfile.meizu.com/group1/M00/06/F1/Cgbj0VwZ9kSADxvDAAGXgSSzm8s747.jpg" /> </a> 
-      <div class="buttons"> 
-      </div> 
-     </div> 
-    </mt-swipe-item>
-    <mt-swipe-item>
-     <div class="swiper-slide slide4 swiper-slide-prev" data-theme="white" data-swiper-slide-index="3" style="width: 375px;"> 
-      <a class="link" href="https://detail.meizu.com/item/meizu15.html?click=mall_index_ba_4" data-mtype="mall_index_ba_4" data-bh="click_mall_index_ba_4"> <img src="https://openfile.meizu.com/group1/M00/06/E1/Cgbj0FwZ9-CAMhf_AADjezobOTQ307.jpg" /> </a> 
-      <div class="buttons"> 
-      </div> 
-     </div> 
-    </mt-swipe-item>
-    <mt-swipe-item>
-     <div class="swiper-slide slide5 swiper-slide-active" data-theme="white" data-swiper-slide-index="4" style="width: 375px;"> 
-      <a class="link" href="https://detail.meizu.com/item/meizux8.html?click=mall_index_ba_5" data-mtype="mall_index_ba_5" data-bh="click_mall_index_ba_5"> <img src="https://openfile.meizu.com/group1/M00/06/E8/Cgbj0VwJKueASN6UAAJHf--24yc269.jpg" /> </a> 
-      <div class="buttons"> 
-      </div> 
-     </div> 
-    </mt-swipe-item>
-    <mt-swipe-item>
-     <div class="swiper-slide slide6 swiper-slide-next" data-theme="white" data-swiper-slide-index="5" style="width: 375px;"> 
-      <a class="link" href="https://detail.meizu.com/item/meizu_g20.html?click=mall_index_ba_6" data-mtype="mall_index_ba_6" data-bh="click_mall_index_ba_6"> <img src="https://fms.res.meizu.com/dms/2018/12/29/3eefa61e-79ee-4935-9959-92ad1cf1831a.jpg" /> </a> 
-      <div class="buttons"> 
-      </div> 
-     </div> 
-    </mt-swipe-item>
-    <mt-swipe-item>
-     <div class="swiper-slide slide1 swiper-slide-duplicate" data-theme="gray" data-swiper-slide-index="0" style="width: 375px;"> 
-      <a class="link" href="https://detail.meizu.com/item/meizu16th.html?click=mall_index_ba_1" data-mtype="mall_index_ba_1" data-bh="click_mall_index_ba_1"> <img src="https://fms.res.meizu.com/dms/2018/12/29/2d596394-2ffc-4773-a03f-85614f6f38ab.jpg" /> </a> 
-      <div class="buttons"> 
-      </div> 
-     </div>
-    </mt-swipe-item>
-    </mt-swipe>
-    </div> 
-     
-   </div>
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"><img src="https://fms.res.meizu.com/dms/2018/12/29/3eefa61e-79ee-4935-9959-92ad1cf1831a.jpg" style="width:375px;"></div>
+      <div class="swiper-slide"><img src="https://fms.res.meizu.com/dms/2018/12/29/2d596394-2ffc-4773-a03f-85614f6f38ab.jpg" style="width:375px;"></div>
+      <div class="swiper-slide"><img src="https://openfile.meizu.com/group1/M00/06/E1/Cgbj0FwaChSAOPmIAAHqkCSTzsI528.jpg" style="width:375px;"></div>
+      <div class="swiper-slide"><img src="https://openfile.meizu.com/group1/M00/06/F1/Cgbj0VwZ9kSADxvDAAGXgSSzm8s747.jpg" style="width:375px;"></div>
+      <div class="swiper-slide"><img src="https://openfile.meizu.com/group1/M00/06/E1/Cgbj0FwZ9-CAMhf_AADjezobOTQ307.jpg" style="width:375px;"></div>
+      <div class="swiper-slide"><img src="https://openfile.meizu.com/group1/M00/06/E8/Cgbj0VwJKueASN6UAAJHf--24yc269.jpg" style="width:375px;"></div>
+    </div>
+    <div class="swiper-pagination"></div>
   </div>
   <!-- 热点 -->
   <div class="index-hot-site" id="index-hot-site"><div class="hot-tip-bar">
@@ -712,19 +658,17 @@
   </div></div>
   </div>
   <div class="index-back-center" id="index-back-center">
-    <div class="back-to-top" id="toTop"><span>返回顶部</span></div>
+    <div @click="backTop" class="back-to-top" id="toTop"><span>返回顶部</span></div>
   </div>
 </div>
 
-	
 </template>
-
-<script src="../assets/common_3fdea50.js"></script>
 <script>
+  import Swiper from 'swiper';
 
 	export default {
 		data() {
-			return {
+			return { 
 				navs: [{
 						title: "推荐",
 						path: "",
@@ -749,27 +693,60 @@
 						isSeclect: false
 					}
 				],
-				nav: 0
+				nav: 0,
+        isTop: true,
+        timer: null
 			};
 		},
 		methods: {
 			selectNav(nav) {
 				this.nav = nav;
-			}
-
+			},
+      needScroll () {
+        window.onscroll = function () {
+          if (!this.isTop) {
+            clearInterval(this.timer)
+          }
+          this.isTop = false
+        }
+      },
+      backTop(){
+        let self = this
+        self.timer = setInterval(function () {
+          let osTop = document.documentElement.scrollTop || document.body.scrollTop
+          let ispeed = Math.floor(-osTop / 5)
+          document.documentElement.scrollTop = document.body.scrollTop = osTop + ispeed
+          self.isTop = true
+          if (osTop === 0) {
+            clearInterval(self.timer)
+          }
+        }, 30)
+      }
 		},
 		watch: {},
-		mounted (){}
+		mounted (){
+      new Swiper('.swiper-container', {
+          spaceBetween: 30,
+          centeredSlides: true,
+          autoplay: {
+            delay: 2500,
+            disableOnInteraction: false,
+          },
+          pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+          },
+      }),
+      this.needScroll()
+    }
 	}
-	
-	
-	
+
 </script>
 
 <style scoped>
 @import url("../assets/index_f715205.css");
 @import url("../assets/common_5dd8cc3.css");
 .icon{
-  width:90.75px;
+  width:90vw;
 }
 </style>
