@@ -1,5 +1,5 @@
 <template>
-	<div class="index-container">
+  <div class="index-container">
   <!-- 头部导航 -->
   <div class="index-header" id="index-nav"><div class="nav-bar">
     <ul>
@@ -666,42 +666,42 @@
 <script>
   import Swiper from 'swiper';
 
-	export default {
-		data() {
-			return { 
-				navs: [{
-						title: "推荐",
-						path: "",
-						isSeclect: true
-					}, {
-						title: "手机",
-						path: "",
-						isSeclect: false
-					},
-					{
-						title: "声学",
-						path: "",
-						isSeclect: false
-					},
-					{
-						title: "配件",
-						path: "",
-						isSeclect: false
-					}, {
-						title: " 生活",
-						path: "",
-						isSeclect: false
-					}
-				],
-				nav: 0,
+  export default {
+    data() {
+      return { 
+        navs: [{
+            title: "推荐",
+            path: "",
+            isSeclect: true
+          }, {
+            title: "手机",
+            path: "",
+            isSeclect: false
+          },
+          {
+            title: "声学",
+            path: "",
+            isSeclect: false
+          },
+          {
+            title: "配件",
+            path: "",
+            isSeclect: false
+          }, {
+            title: " 生活",
+            path: "",
+            isSeclect: false
+          }
+        ],
+        nav: 0,
         isTop: true,
         timer: null
-			};
-		},
-		methods: {
-			selectNav(nav) {
-				this.nav = nav;
-			},
+      };
+    },
+    methods: {
+      selectNav(nav) {
+        this.nav = nav;
+      },
       needScroll () {
         window.onscroll = function () {
           if (!this.isTop) {
@@ -722,9 +722,9 @@
           }
         }, 30)
       }
-		},
-		watch: {},
-		mounted (){
+    },
+    watch: {},
+    mounted (){
       new Swiper('.swiper-container', {
           spaceBetween: 30,
           centeredSlides: true,
@@ -739,7 +739,7 @@
       }),
       this.needScroll()
     }
-	}
+  }
 
 </script>
 

@@ -2,7 +2,7 @@
 	
 	<footer class="site-footer">
 		<div class="index-footer-service" id="index-footer-service">
-    <div>
+    </div>
       <a href="https://mall.meizu.com/marrive/summary.html?click=mall_index_buttom_serv_1" data-mtype="mall_index_buttom_serv_1">
         <img src="https://fms.res.meizu.com/dms/2018/04/02/09c1ad50-ce96-4d90-82a6-7253c51e9745.jpg" lazy-src="https://fms.res.meizu.com/dms/2018/04/02/09c1ad50-ce96-4d90-82a6-7253c51e9745.jpg" alt="">
       </a>
@@ -25,43 +25,6 @@
       </a>
     </div>
   </div>
-		<!-- <div class="footer-contact">
-        <div class="footer-hotline">
-            <p>24小时全国服务热线</p>
-            <a href="tel:400-788-3333">400-788-3333</a>
-        </div>
-        <div class="footer-online">
-            <a class="onlive-btn" href="http://live-i.meizu.com/live800/chatClient/chatbox.jsp?companyID=8957&amp;configID=4&amp;enterurl=&amp;pagereferrer=&amp;info=&amp;k=1&amp;click=wmz_index_foot_onservice" data-mtype="wmz_index_foot_onservice">在线客服</a>
-        </div>
-    </div> -->
-		<!-- <div class="footer-links" id="footer-links-m">
-                <dl>
-            <dt>魅族商城 <span class="arrow"></span></dt>
-            <dd>
-                                <a href="http://mall.meizu.com/index.html" data-mtype="mmz_footer_onstore_index">商城首页</a>
-                                <a href="http://mall.meizu.com/category/index" data-mtype="mmz_footer_onstore_category">商品分类</a>
-                                <a href="http://ordercenter.mall.meizu.com/mall/order/init.html" data-mtype="mmz_footer_onstore_myorder">我的订单</a>
-                                <a href="https://hd.mall.meizu.com/activity/download.html" data-mtype="">魅族商城APP</a>
-                            </dd>
-        </dl>
-                <dl>
-            <dt>服务支持 <span class="arrow"></span></dt>
-            <dd>
-                                <a href="http://care.meizu.com/index.html" data-mtype="mmz_footer_service_selfservice">自助服务</a>
-                                <a href="http://mcycle.mall.meizu.com" data-mtype="mmz_footer_service_mcycle">以旧换新</a>
-                                <a href="http://url.meizu.com/meizufuwud" data-mtype="">魅族服务APP</a>
-                                <a href="https://m.meizu.com/contact.html" data-mtype="mmz_footer_service_contactus">联系我们</a>
-                            </dd>
-        </dl>
-                <dl>
-            <dt>魅族社区 <span class="arrow"></span></dt>
-            <dd>
-                                <a href="https://bbs.meizu.cn/mobile.html" data-mtype="mmz_footer_service_index">论坛首页</a>
-                                <a href="https://bbs.meizu.cn/forum.php?mod=forumdisplay&fid=22&rc=gw" data-mtype="mmz_footer_bbs_discuss">综合讨论</a>
-                                <a href="https://bbs.meizu.cn/forum.php?mod=forumdisplay&fid=149&rc=gw" data-mtype="mmz_footer_bbs_mzphone">魅族手机</a>
-                            </dd>
-        </dl>
-            </div> -->
 		<div class="footer-contact-wp">
 			<span class="footer-btn tel" data-mtype="mall_index_buttom_tel">
             <a class="" href="tel:400-788-3333">400-788-3333</a>
@@ -69,8 +32,6 @@
 			<a class="onlive-btn-new footer-btn" href="http://url.meizu.com/ols_M?click=mall_index_buttom_online" data-mtype="mall_index_buttom_online">在线客服</a>
 		</div>
 		<div class="footer-nav clearfix">
-			<!-- <a class="footer-item" href="http://www.meizu.com/index.html" target="_blank">电脑版</a>
-        <a class="footer-item" href="http://www.meizu.com/legal.html" data-mtype="mmz_footer_legal">法律声明</a> -->
 			<p class="footer-copy">
 
 				<a href="http://www.miitbeian.gov.cn/">粤ICP备13003602号-2</a>
@@ -93,14 +54,6 @@
 				</div>
 			</div>
 		</div>
-		<!-- <p class="footer-copy">
-      
-      <a href="http://www.miitbeian.gov.cn/">粤ICP备13003602号-2</a>
-      <a href="https://www3.res.meizu.com/static/cn/_partial/footer/images/icp2_fb8db74.jpg">合字B2-20170010</a><br>
-      <a href="http://www2.res.meizu.com/zh_cn/images/common/com_licence.jpg">营业执照</a>
-    
-      &copy;2018&nbsp;Meizu&nbsp;<a href="http://www2.res.meizu.com/zh_cn/images/common/com_licence.jpg" target="_blank">All rights reserved</a>
-    </p> -->
 	</footer>
 </template>
 
