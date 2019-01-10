@@ -1,60 +1,79 @@
 <template>
-	<div class="search-box" style="display: block; transform-origin: 0px 0px 0px; opacity: 1; transform: scale(1, 1);">
-		<header class="header">
-			<div class="search-form">
-				<form action="//mall.meizu.com/new/s" method="get">
-					<div class="so-keyword">
-						<input class="so-input" type="search" name="keyword" autocomplete="off">
-						<span class="btn-clear"></span>
-					</div>
-					<button type="submit" name="">搜索</button>
-				</form>
-			</div>
-			<div class="goback">
-				<a @click="back" class="btn-back"> <i class="iconfont ico-back"></i> </a>
-			</div>
-		</header>
+	<div class="search-box" style="display: block;">
+		<header class="header"> 
+			<div class="search-form"> 
+				<form action="//mall.meizu.com/new/s" method="get"> 
+					<div class="so-keyword"> 
+						<input class="so-input" type="search" name="keyword" autocomplete="off" /> 
+						<span class="btn-clear"></span> 
+					</div> 
+					<button type="submit" name="">搜索</button> 
+				</form> 
+			</div> 
+			<div class="goback"> 
+				<a @click="back" class="btn-back"> <i class="iconfont ico-back"></i> </a> 
+			</div> 
+		</header> 
 		<div class="so-recommend">
 			<div class="re-wrap">
-				<div class="recommend-hd">大家都在搜</div>
-				<div class="hotwords">
-					<a href="//mall.meizu.com/new/s?keyword=魅族16th plus" data-val="魅族16th plus">魅族16th plus</a>
-					<a href="//mall.meizu.com/new/s?keyword=PRO 7" data-val="PRO 7">PRO 7</a>
-					<a href="//mall.meizu.com/new/s?keyword=魅蓝 E2" data-val="魅蓝 E2">魅蓝 E2</a>
-					<a href="//mall.meizu.com/new/s?keyword=魅蓝 S6" data-val="魅蓝 S6">魅蓝 S6</a>
+				<div class="recommend-hd">
+					大家都在搜
+				</div>
+				<div class="hotwords" v-for="item in recommend" :key="item">
+					<a href="/">{{item.data.keyword}}</a>
 				</div>
 			</div>
-		</div>
-		<div class="scroll-wrap" id="J_scrollWrap" style="height: 463px;">
-			<div style="transition-timing-function: cubic-bezier(0.1, 0.57, 0.1, 1); transition-duration: 0ms; transform: translate(0px, 0px) translateZ(0px);">
+		</div> 
+		<div class="scroll-wrap" id="J_scrollWrap"> 
+			<div> 
 				<div class="so-history">
-					<div class="recommend-hd">历史纪录<i class="dele"></i></div>
-					<div class="lists">
-						<a href="//mall.meizu.com/new/s?keyword=魅蓝 S6">魅蓝 S6</a>
-						<a href="//mall.meizu.com/new/s?keyword=PRO 7">PRO 7</a>
-						<a href="//mall.meizu.com/new/s?keyword=魅蓝 E2">魅蓝 E2</a>
+					<div class="recommend-hd">
+						历史纪录
+						<i class="dele"></i>
 					</div>
-				</div>
-			</div>
-		</div>
-		<div class="scroll-wrap auto-keyword" id="J_autoKeywordWrap">
-			<div>
-				<div class="so-list"></div>
-			</div>
+					<div class="lists">
+						<a href="//mall.meizu.com/new/s?keyword=魅蓝">魅蓝</a>
+					</div>
+				</div> 
+			</div> 
+		</div> 
+		<div class="scroll-wrap auto-keyword" id="J_autoKeywordWrap"> 
+			<div> 
+				<div class="so-list"></div> 
+			</div> 
 		</div>
 	</div>
-
 </template>
 
 <script>
+
 	export default {
-		methods: {
+		//props: ["status"],
+		data() {
+			return {
+				recommend:[]
+			};
+		},
+		methods: {	
+			back() {
+				this.$router.history.go(-1);
+			},
+			loadMore(){
+			this.axios.get("https://www.nanshig.com/mobile/index.php",{
+					params:{
+						act:'index',
+						op:'search_hot_info'
+					}
+				}).then(res => {
+					console.log(res)
+				})
+			}
 			
-     back() {
-      this.$router.history.go(-1);
-    },
-		
-	}
+		},
+		mounted(){
+			//window.console.log(this.status);
+			this.loadMore();
+		}
 	}
 </script>
 

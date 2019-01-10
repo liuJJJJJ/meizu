@@ -21,8 +21,8 @@
       <!-- <div class="index-search" data-mtype="mgw_index_yt_search">
         <input type="text" id="indexSearch" placeholder="">
       </div> -->
-      <a href="https://m.meizu.com/?click=mall_index_dh_tuijian2#search&amp;click=mgw_index_yt_search" id="btn-search" data-mtype="mgw_index_yt_search" data-bh="click_mgw_index_yt_search" class="icon-search"></a>
-      <a href="https://cart.mall.meizu.com/?click=mgw_index_yt_cart" data-mtype="mgw_index_yt_cart" data-bh="click_mgw_index_yt_cart" class="shop-cart"></a>
+      <a href="#/search" id="btn-search" class="icon-search"></a>
+      <a href="/" data-mtype="mgw_index_yt_cart" data-bh="click_mgw_index_yt_cart" class="shop-cart"></a>
       <span @click="perso" class="icon-nav-btn" data-mtype="mgw_index_yt_menu" id="JS_menubar"></span>
     </header>
 
