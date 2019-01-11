@@ -4,7 +4,7 @@
 			<div class="search-form"> 
 				<form action="//mall.meizu.com/new/s" method="get"> 
 					<div class="so-keyword"> 
-						<input class="so-input" type="search" name="keyword" autocomplete="off" /> 
+						<input class="so-input" type="search" name="keyword" autocomplete="off" v-model="status" @input="soso"/> 
 						<span class="btn-clear"></span> 
 					</div> 
 					<button type="submit" name="">搜索</button> 
@@ -19,8 +19,8 @@
 				<div class="recommend-hd">
 					大家都在搜
 				</div>
-				<div class="hotwords" v-for="item in recommend" :key="item">
-					<a href="/">{{item.data.keyword}}</a>
+				<div class="hotwords">
+					<a href="/" v-for="item in recommend" :key="item.id">{{item.keyword}}</a>
 				</div>
 			</div>
 		</div> 
@@ -32,26 +32,32 @@
 						<i class="dele"></i>
 					</div>
 					<div class="lists">
-						<a href="//mall.meizu.com/new/s?keyword=魅蓝">魅蓝</a>
+						<a href="/">魅蓝</a>
 					</div>
 				</div> 
 			</div> 
 		</div> 
-		<div class="scroll-wrap auto-keyword" id="J_autoKeywordWrap"> 
+		<div class="scroll-wrap auto-keyword" id="J_autoKeywordWrap" v-show="showkey"> 
 			<div> 
-				<div class="so-list"></div> 
+				<div class="so-list">
+					<div class="lists">
+						<a href="/" v-for="item in hot" :key="item.name">{{item.name}}<span>约{{item.num}}种</span></a>
+					</div>
+				</div> 
 			</div> 
 		</div>
 	</div>
 </template>
 
 <script>
-
 	export default {
 		//props: ["status"],
 		data() {
 			return {
-				recommend:[]
+				recommend:[],
+				hot:[],
+				status:'',
+				showkey:false
 			};
 		},
 		methods: {	
@@ -59,20 +65,32 @@
 				this.$router.history.go(-1);
 			},
 			loadMore(){
-			this.axios.get("https://www.nanshig.com/mobile/index.php",{
+			this.axios.get("https://lists.meizu.com/search/primary/hot",{
 					params:{
-						act:'index',
-						op:'search_hot_info'
+						_:'1547169407089'
 					}
 				}).then(res => {
-					console.log(res)
+					console.log(res.data.data)
+					this.recommend = res.data.data;
 				})
+			},
+			soso(){
+			this.showkey= this.status.length !==0
+			this.axios.get("https://lists.meizu.com/search/primary/autocomplete",{
+				params:{
+					keyword:this.status
+				}
+			}).then(res=>{
+				console.log(res.data.data.autoComplete)
+				this.hot = res.data.data.autoComplete;
+			})
 			}
 			
 		},
 		mounted(){
-			//window.console.log(this.status);
+			console.log(this.status);
 			this.loadMore();
+			this.soso();
 		}
 	}
 </script>
@@ -1235,7 +1253,7 @@
 		position: absolute;
 		z-index: 1002;
 		top: 44px;
-		display: none
+		display: block
 	}
 	
 	.search-box .scroll-wrap.auto-keyword .so-list {
