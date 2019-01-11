@@ -2,56 +2,54 @@
 	
 	<footer class="site-footer">
 		<div class="index-footer-service" id="index-footer-service">
-    </div>
-      <a href="https://mall.meizu.com/marrive/summary.html?click=mall_index_buttom_serv_1" data-mtype="mall_index_buttom_serv_1">
-        <img src="https://fms.res.meizu.com/dms/2018/04/02/09c1ad50-ce96-4d90-82a6-7253c51e9745.jpg" lazy-src="https://fms.res.meizu.com/dms/2018/04/02/09c1ad50-ce96-4d90-82a6-7253c51e9745.jpg" alt="">
-      </a>
-123  
-    <div>
-      <a href="http://service.meizu.com/authenticity.html?click=mall_index_buttom_serv_2" data-mtype="mall_index_buttom_serv_2">
-        <img src="https://fms.res.meizu.com/dms/2018/04/10/8fabb917-4f09-40f1-b915-3aaa21151e0c.png" lazy-src="https://fms.res.meizu.com/dms/2018/04/10/8fabb917-4f09-40f1-b915-3aaa21151e0c.png" alt="">
-      </a>
-    </div>
-  
-    <div>
-      <a href="http://service.meizu.com/help/after_ser.html#policy3?click=mall_index_buttom_serv_3" data-mtype="mall_index_buttom_serv_3">
-        <img src="https://fms.res.meizu.com/dms/2018/04/10/e8696c18-a345-48a9-a171-86096b041659.png" lazy-src="https://fms.res.meizu.com/dms/2018/04/10/e8696c18-a345-48a9-a171-86096b041659.png" alt="">
-      </a>
-    </div>
-  
-    <div>
-      <a href="http://i3.res.meizu.com/resources/appStore/browser/views/browser-detail.html?packageName=com.meizu.mcare&amp;app_id=3137350&amp;business=1&amp;click=mall_index_buttom_serv_4" data-mtype="mall_index_buttom_serv_4">
-        <img src="https://fms.res.meizu.com/dms/2018/04/10/e42ba553-b282-43de-a1e4-909eac71b96d.png" lazy-src="https://fms.res.meizu.com/dms/2018/04/10/e42ba553-b282-43de-a1e4-909eac71b96d.png" alt="">
-      </a>
-    </div>
-  </div>
-		<div class="footer-contact-wp">
-			<span class="footer-btn tel" data-mtype="mall_index_buttom_tel">
-            <a class="" href="tel:400-788-3333">400-788-3333</a>
-        </span>
-			<a class="onlive-btn-new footer-btn" href="http://url.meizu.com/ols_M?click=mall_index_buttom_online" data-mtype="mall_index_buttom_online">在线客服</a>
-		</div>
-		<div class="footer-nav clearfix">
-			<p class="footer-copy">
+		    <div>
+		      <a href="https://mall.meizu.com/marrive/summary.html?click=mall_index_buttom_serv_1" data-mtype="mall_index_buttom_serv_1">
+		        <img src="https://fms.res.meizu.com/dms/2018/04/02/09c1ad50-ce96-4d90-82a6-7253c51e9745.jpg" lazy-src="https://fms.res.meizu.com/dms/2018/04/02/09c1ad50-ce96-4d90-82a6-7253c51e9745.jpg" alt="">
+		      </a>  
+		    </div>
+		    <div>
+		      <a href="http://service.meizu.com/authenticity.html?click=mall_index_buttom_serv_2" data-mtype="mall_index_buttom_serv_2">
+		        <img src="https://fms.res.meizu.com/dms/2018/04/10/8fabb917-4f09-40f1-b915-3aaa21151e0c.png" lazy-src="https://fms.res.meizu.com/dms/2018/04/10/8fabb917-4f09-40f1-b915-3aaa21151e0c.png" alt="">
+		      </a>
+		    </div>
+		    <div>
+		      <a href="http://service.meizu.com/help/after_ser.html#policy3?click=mall_index_buttom_serv_3" data-mtype="mall_index_buttom_serv_3">
+		        <img src="https://fms.res.meizu.com/dms/2018/04/10/e8696c18-a345-48a9-a171-86096b041659.png" lazy-src="https://fms.res.meizu.com/dms/2018/04/10/e8696c18-a345-48a9-a171-86096b041659.png" alt="">
+		      </a>
+		    </div>
+		    <div>
+		      <a href="http://i3.res.meizu.com/resources/appStore/browser/views/browser-detail.html?packageName=com.meizu.mcare&amp;app_id=3137350&amp;business=1&amp;click=mall_index_buttom_serv_4" data-mtype="mall_index_buttom_serv_4">
+		        <img src="https://fms.res.meizu.com/dms/2018/04/10/e42ba553-b282-43de-a1e4-909eac71b96d.png" lazy-src="https://fms.res.meizu.com/dms/2018/04/10/e42ba553-b282-43de-a1e4-909eac71b96d.png" alt="">
+		      </a>
+		    </div>
+	  	</div>
+			<div class="footer-contact-wp">
+				<span class="footer-btn tel" data-mtype="mall_index_buttom_tel">
+	            <a class="" href="tel:400-788-3333">400-788-3333</a>
+	        	</span>
+				<a class="onlive-btn-new footer-btn" href="http://url.meizu.com/ols_M?click=mall_index_buttom_online" data-mtype="mall_index_buttom_online">在线客服</a>
+			</div>
+			<div class="footer-nav clearfix">
+				<p class="footer-copy">
 
-				<a href="http://www.miitbeian.gov.cn/">粤ICP备13003602号-2</a>
-				<a href="https://www3.res.meizu.com/static/cn/_partial/footer/images/icp2_fb8db74.jpg">合字B2-20170010</a><br>
-				<a href="http://www2.res.meizu.com/zh_cn/images/common/com_licence.jpg">营业执照</a>
+					<a href="http://www.miitbeian.gov.cn/">粤ICP备13003602号-2</a>
+					<a href="https://www3.res.meizu.com/static/cn/_partial/footer/images/icp2_fb8db74.jpg">合字B2-20170010</a><br>
+					<a href="http://www2.res.meizu.com/zh_cn/images/common/com_licence.jpg">营业执照</a>
 
-				©2018&nbsp;Meizu&nbsp;
-				<a href="http://www2.res.meizu.com/zh_cn/images/common/com_licence.jpg" target="_blank">All rights reserved</a>
-			</p>
-			<div class="footer-item lang-choose-container">
-				<div class="lang-choose-wrapper" id="lang-choose-wrapper-m">
-					<ul class="lang-choose-list" id="lang-choose-list-m">
-						<li class="lang-choose-item" data-lang="index.html-INDEX.HTML" data-url="https://m.meizu.com/index.html"><i style="background-image:url(https://fms.res.meizu.com/dms/2017/12/18/1c31db15-ab85-4932-8e6c-edfd6039bc60.png);background-position: 0 0;" class="icon icon-cn"></i><span class="lang-title">简体中文<i class="icon-more"></i></span></li>
-						<li class="lang-choose-item" data-lang="hk/-HK/" data-url="https://m.meizu.com/hk"><i style="background-image:url(https://fms.res.meizu.com/dms/2017/12/18/85fba643-95ca-4db1-991c-43e66f108afb.png);background-position: 0 0;" class="icon icon-hk/"></i><span class="lang-title">繁體中文<i class="icon-more"></i></span></li>
-						<li class="lang-choose-item" data-lang="en/-EN/" data-url="https://m.meizu.com/en"><i style="background-image:url(https://www3.res.meizu.com/static/cn/icon-en/f9C63F21yJxwMNvsqRSTpnWlkiahgBue.png);background-position: 0 0;" class="icon icon-en/"></i><span class="lang-title">English<i class="icon-more"></i></span></li>
-						<li class="lang-choose-item" data-lang="ru-RU" data-url="https://mymeizu.ru/"><i style="background-image:url(https://fms.res.meizu.com/dms/2017/12/18/e743e97c-71af-4853-a91d-bd81c2d3a31c.png);background-position: 0 0;" class="icon icon-ru"></i><span class="lang-title">Русский<i class="icon-more"></i></span></li>
-						<li class="lang-choose-item" data-lang="tr-TR" data-url="https://www.meizuturkiye.org"><i style="background-image:url(https://fms.res.meizu.com/dms/2017/12/20/062710b5-2f96-4402-ad27-822af5b4f993.png);background-position: 0 0;" class="icon icon-tr"></i><span class="lang-title">Türkiye<i class="icon-more"></i></span></li>
-						<li class="lang-choose-item" data-lang="zh-CN" data-url="http://m.meizu.com/index.html" data-self="true"><i class="icon icon-cn"></i><span class="lang-title">简体中文<i class="icon-more"></i></span></li>
-					</ul>
-				</div>
+					©2018&nbsp;Meizu&nbsp;
+					<a href="http://www2.res.meizu.com/zh_cn/images/common/com_licence.jpg" target="_blank">All rights reserved</a>
+				</p>
+				<div class="footer-item lang-choose-container">
+					<div class="lang-choose-wrapper" id="lang-choose-wrapper-m">
+						<ul class="lang-choose-list" id="lang-choose-list-m">
+							<li class="lang-choose-item" data-lang="index.html-INDEX.HTML" data-url="https://m.meizu.com/index.html"><i style="background-image:url(https://fms.res.meizu.com/dms/2017/12/18/1c31db15-ab85-4932-8e6c-edfd6039bc60.png);background-position: 0 0;" class="icon icon-cn"></i><span class="lang-title">简体中文<i class="icon-more"></i></span></li>
+							<li class="lang-choose-item" data-lang="hk/-HK/" data-url="https://m.meizu.com/hk"><i style="background-image:url(https://fms.res.meizu.com/dms/2017/12/18/85fba643-95ca-4db1-991c-43e66f108afb.png);background-position: 0 0;" class="icon icon-hk/"></i><span class="lang-title">繁體中文<i class="icon-more"></i></span></li>
+							<li class="lang-choose-item" data-lang="en/-EN/" data-url="https://m.meizu.com/en"><i style="background-image:url(https://www3.res.meizu.com/static/cn/icon-en/f9C63F21yJxwMNvsqRSTpnWlkiahgBue.png);background-position: 0 0;" class="icon icon-en/"></i><span class="lang-title">English<i class="icon-more"></i></span></li>
+							<li class="lang-choose-item" data-lang="ru-RU" data-url="https://mymeizu.ru/"><i style="background-image:url(https://fms.res.meizu.com/dms/2017/12/18/e743e97c-71af-4853-a91d-bd81c2d3a31c.png);background-position: 0 0;" class="icon icon-ru"></i><span class="lang-title">Русский<i class="icon-more"></i></span></li>
+							<li class="lang-choose-item" data-lang="tr-TR" data-url="https://www.meizuturkiye.org"><i style="background-image:url(https://fms.res.meizu.com/dms/2017/12/20/062710b5-2f96-4402-ad27-822af5b4f993.png);background-position: 0 0;" class="icon icon-tr"></i><span class="lang-title">Türkiye<i class="icon-more"></i></span></li>
+							<li class="lang-choose-item" data-lang="zh-CN" data-url="http://m.meizu.com/index.html" data-self="true"><i class="icon icon-cn"></i><span class="lang-title">简体中文<i class="icon-more"></i></span></li>
+						</ul>
+					</div>
 			</div>
 		</div>
 	</footer>
