@@ -1971,8 +1971,8 @@ body,html {
 }
 
 .list-goods .list-hd {
-    height: 1.92608rem;
-    line-height: 1.92608rem;
+    height: 3.92608rem;
+    line-height: 2.92608rem;
     padding: 0 .33336rem;
     color: #333;
     font-size: 18px;
@@ -2007,8 +2007,8 @@ body,html {
 }
 
 .list-goods .swiper-container .swiper-slide img {
-    width: 3.33333rem;
-    height: 3.33333rem
+    width: 137.98px;
+    height: 137.98px
 }
 
 .list-goods .swiper-container .swiper-slide p {
@@ -2018,8 +2018,8 @@ body,html {
 
 .list-goods .swiper-container .swiper-slide p .vm-tit {
     display: block;
-    height: .5556rem;
-    line-height: .5556rem;
+    height: 23px;
+    line-height: 23px;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
@@ -3656,7 +3656,7 @@ html.no-scroll body {
     position: fixed;
     background: #fff;
     z-index: 999;
-    width: 94%;
+    width: 96%;
     top: 14.2vw;
     padding: 0 3.33333vw
 }

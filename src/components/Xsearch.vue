@@ -1,60 +1,97 @@
 <template>
-	<div class="search-box" style="display: block; transform-origin: 0px 0px 0px; opacity: 1; transform: scale(1, 1);">
-		<header class="header">
-			<div class="search-form">
-				<form action="//mall.meizu.com/new/s" method="get">
-					<div class="so-keyword">
-						<input class="so-input" type="search" name="keyword" autocomplete="off">
-						<span class="btn-clear"></span>
-					</div>
-					<button type="submit" name="">搜索</button>
-				</form>
-			</div>
-			<div class="goback">
-				<a @click="back" class="btn-back"> <i class="iconfont ico-back"></i> </a>
-			</div>
-		</header>
+	<div class="search-box" style="display: block;">
+		<header class="header"> 
+			<div class="search-form"> 
+				<form action="//mall.meizu.com/new/s" method="get"> 
+					<div class="so-keyword"> 
+						<input class="so-input" type="search" name="keyword" autocomplete="off" v-model="status" @input="soso"/> 
+						<span class="btn-clear"></span> 
+					</div> 
+					<button type="submit" name="">搜索</button> 
+				</form> 
+			</div> 
+			<div class="goback"> 
+				<a @click="back" class="btn-back"> <i class="iconfont ico-back"></i> </a> 
+			</div> 
+		</header> 
 		<div class="so-recommend">
 			<div class="re-wrap">
-				<div class="recommend-hd">大家都在搜</div>
+				<div class="recommend-hd">
+					大家都在搜
+				</div>
 				<div class="hotwords">
-					<a href="//mall.meizu.com/new/s?keyword=魅族16th plus" data-val="魅族16th plus">魅族16th plus</a>
-					<a href="//mall.meizu.com/new/s?keyword=PRO 7" data-val="PRO 7">PRO 7</a>
-					<a href="//mall.meizu.com/new/s?keyword=魅蓝 E2" data-val="魅蓝 E2">魅蓝 E2</a>
-					<a href="//mall.meizu.com/new/s?keyword=魅蓝 S6" data-val="魅蓝 S6">魅蓝 S6</a>
+					<a href="/" v-for="item in recommend" :key="item.id">{{item.keyword}}</a>
 				</div>
 			</div>
-		</div>
-		<div class="scroll-wrap" id="J_scrollWrap" style="height: 463px;">
-			<div style="transition-timing-function: cubic-bezier(0.1, 0.57, 0.1, 1); transition-duration: 0ms; transform: translate(0px, 0px) translateZ(0px);">
+		</div> 
+		<div class="scroll-wrap" id="J_scrollWrap"> 
+			<div> 
 				<div class="so-history">
-					<div class="recommend-hd">历史纪录<i class="dele"></i></div>
-					<div class="lists">
-						<a href="//mall.meizu.com/new/s?keyword=魅蓝 S6">魅蓝 S6</a>
-						<a href="//mall.meizu.com/new/s?keyword=PRO 7">PRO 7</a>
-						<a href="//mall.meizu.com/new/s?keyword=魅蓝 E2">魅蓝 E2</a>
+					<div class="recommend-hd">
+						历史纪录
+						<i class="dele"></i>
 					</div>
-				</div>
-			</div>
-		</div>
-		<div class="scroll-wrap auto-keyword" id="J_autoKeywordWrap">
-			<div>
-				<div class="so-list"></div>
-			</div>
+					<div class="lists">
+						<a href="/">魅蓝</a>
+					</div>
+				</div> 
+			</div> 
+		</div> 
+		<div class="scroll-wrap auto-keyword" id="J_autoKeywordWrap" v-show="showkey"> 
+			<div> 
+				<div class="so-list">
+					<div class="lists">
+						<a href="/" v-for="item in hot" :key="item.name">{{item.name}}<span>约{{item.num}}种</span></a>
+					</div>
+				</div> 
+			</div> 
 		</div>
 	</div>
-
 </template>
 
 <script>
 	export default {
-		methods: {
+		//props: ["status"],
+		data() {
+			return {
+				recommend:[],
+				hot:[],
+				status:'',
+				showkey:false
+			};
+		},
+		methods: {	
+			back() {
+				this.$router.history.go(-1);
+			},
+			loadMore(){
+			this.axios.get("https://lists.meizu.com/search/primary/hot",{
+					params:{
+						_:'1547169407089'
+					}
+				}).then(res => {
+					console.log(res.data.data)
+					this.recommend = res.data.data;
+				})
+			},
+			soso(){
+			this.showkey= this.status.length !==0
+			this.axios.get("https://lists.meizu.com/search/primary/autocomplete",{
+				params:{
+					keyword:this.status
+				}
+			}).then(res=>{
+				console.log(res.data.data.autoComplete)
+				this.hot = res.data.data.autoComplete;
+			})
+			}
 			
-     back() {
-      this.$router.history.go(-1);
-    },
-		
-	}
+		},
+		mounted(){
+			console.log(this.status);
+			this.loadMore();
+			this.soso();
+		}
 	}
 </script>
 
@@ -1216,7 +1253,7 @@
 		position: absolute;
 		z-index: 1002;
 		top: 44px;
-		display: none
+		display: block
 	}
 	
 	.search-box .scroll-wrap.auto-keyword .so-list {

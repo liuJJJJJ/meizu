@@ -1,15 +1,5 @@
 <template>
   <div class="phone-container">
-        <!-- 头部导航 -->
-        <div class="index-header" id="index-nav"><div class="nav-bar">
-        <ul>
-            <li @click="selectNav(index)" v-for="(n,index) in navs" :key="index" :class="{cur:nav===index}">
-                <a href="#" >
-                {{n.title}}
-                </a>
-            </li>
-        </ul>
-        </div></div>
         <!-- 宣传图 -->
     <div class="app list">
         <div id="scroll-wrap" class="scroll-wrap">
@@ -25,7 +15,7 @@
                                 <path d="M104.296,5.824h-71.36c-8.576,0-15.618,7.012-15.618,15.588v57.967H31.14V23.743
               c0-2.711,2.208-5.041,4.92-5.041h25.31v60.677h14.428V18.702h25.312c2.712,0,4.919,2.329,4.919,5.041v55.636h13.86V21.416
               C119.888,12.841,112.872,5.824,104.296,5.824"></path>
-                                <path d="M148.765,23.614c0-2.712,2.199-4.912,4.911-4.912h55.909V5.824h-58.236c-8.576,0-15.592,7.016-15.592,15.592
+                                <path d="M148.765,23.614c0-2.712,2.199-4.912,4.911-4.912h55.909V5.824h-58.236c-8.576,0-15.592,7.016-15.592,data-v-3116832615.592
               v42.37c0,8.576,7.017,15.592,15.592,15.592h58.236V66.5h-55.909c-2.711,0-4.911-2.199-4.911-4.912V49.042h58.43V36.117h-58.43
               V23.614z"></path>
                                 <path d="M405.506,5.824v55.637c0,2.71-2.22,5.039-4.931,5.039h-39.77c-2.711,0-4.892-2.328-4.892-5.039V5.824h-13.86
@@ -49,11 +39,31 @@
                     </div>
 
                 </div>
-                <div class="index-header" id="index-nav"><div class="nav-bar"><ul><li id="header-nav-bar-0">          <a href="https://m.meizu.com/?click=mall_index_dh_tuijian2" data-bh="click_mall_index_dh_tuijian1" data-mtype="mall_index_dh_tuijian2">推荐</a></li><li id="header-nav-bar-1" class="li_active">          <a href="https://mall.meizu.com/list/category?categoryId=76&amp;click=mall_index_dh_tuijian3" data-bh="click_mall_index_dh_tuijian2" data-mtype="mall_index_dh_tuijian3">手机</a></li><li id="header-nav-bar-2">          <a href="https://mall.meizu.com/list/category?categoryId=231&amp;click=mall_index_dh_tuijian4" data-bh="click_mall_index_dh_tuijian3" data-mtype="mall_index_dh_tuijian4">声学</a></li><li id="header-nav-bar-3">         <a href="https://mall.meizu.com/list/category?categoryId=186&amp;click=mall_index_dh_tuijian5" data-bh="click_mall_index_dh_tuijian4" data-mtype="mall_index_dh_tuijian5">配件</a></li><li id="header-nav-bar-4">         <a href="https://mall.meizu.com/list/category?categoryId=222&amp;click=mall_index_dh_tuijian6" data-bh="click_mall_index_dh_tuijian5" data-mtype="mall_index_dh_tuijian6">生活</a></li></ul></div></div>
-
+                <!-- <div class="index-header" id="index-nav">
+                    <div class="nav-bar">
+                        <ul>
+                            <li id="header-nav-bar-0">
+                                <a href="https://m.meizu.com/?click=mall_index_dh_tuijian2" data-bh="click_mall_index_dh_tuijian1" data-mtype="mall_index_dh_tuijian2">推荐</a>
+                            </li>
+                            <li id="header-nav-bar-1" class="li_active">          
+                                <a href="https://mall.meizu.com/list/category?categoryId=76&amp;click=mall_index_dh_tuijian3" data-bh="click_mall_index_dh_tuijian2" data-mtype="mall_index_dh_tuijian3">手机</a>
+                            </li>
+                            <li id="header-nav-bar-2">          
+                                <a href="https://mall.meizu.com/list/category?categoryId=231&amp;click=mall_index_dh_tuijian4" data-bh="click_mall_index_dh_tuijian3" data-mtype="mall_index_dh_tuijian4">声学</a>
+                            </li>
+                            <li id="header-nav-bar-3">         
+                                <a href="https://mall.meizu.com/list/category?categoryId=186&amp;click=mall_index_dh_tuijian5" data-bh="click_mall_index_dh_tuijian4" data-mtype="mall_index_dh_tuijian5">配件</a>
+                            </li> 
+                            <li id="header-nav-bar-4">         
+                                <a href="https://mall.meizu.com/list/category?categoryId=222&amp;click=mall_index_dh_tuijian6" data-bh="click_mall_index_dh_tuijian5" data-mtype="mall_index_dh_tuijian6">生活</a>
+                            </li> 
+                        </ul>
+                    </div>
+                </div>
+ -->
 
                 <div class="maincon">
-                    <section class="brand" id="J_listBrand" style="margin-top:0">
+                    <section class="brand" id="J_listBrand" style="margin-top:99px">
                                 <!--活动专场形式-->
                                 <div class="brand-single">
                                     <a class="brand-single-pic" href="https://detail.mall.meizu.com/item/meizu16th.html">
@@ -461,45 +471,7 @@
 
 <script>
     export default {
-        data() {
-          return { 
-                navs: [{
-                        title: "推荐",
-                        path: "/Index",
-                        isSeclect: true
-                    }, {
-                        title: "手机",
-                        path: "/Phone",
-                        isSeclect: false
-                    },
-                    {
-                        title: "声学",
-                        path: "",
-                        isSeclect: false
-                    },
-                    {
-                        title: "配件",
-                        path: "",
-                        isSeclect: false
-                    }, {
-                        title: " 生活",
-                        path: "",
-                        isSeclect: false
-                    }
-                ],
-                nav: 0,
-            };
-        },
-        methods: {
-            selectNav(nav) {
-                this.nav = nav;
-            },
-            goto(title){
-          this.$router.push({path:'/Phone/'+title})
-      }
-  },
-        watch: {},
-    }    
+        }
 </script>
 
 <style scoped>
@@ -508,4 +480,11 @@
 .icon{
   width:90vw;
 }
+.swiper-wrapper{
+    overflow:hidden;
+}
+.swiper-slide{
+ overflow-x:scroll;
+}
+
 </style>

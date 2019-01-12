@@ -1,15 +1,6 @@
 <template>
   <div class="index-container">
-  <!-- 头部导航 -->
-  <div class="index-header" id="index-nav"><div class="nav-bar">
-    <ul>
-        <li @click="selectNav(index)" v-for="(n,index) in navs" :key="index" :class="{cur:nav===index}">
-                                    <a href="#" >
-        {{n.title}}
-                                    </a>
-        </li>
-    </ul>
-  </div></div>
+
   <!-- 轮播图 -->
   <div class="swiper-container">
     <div class="swiper-wrapper">
@@ -300,7 +291,7 @@
   </div>
     <div class="phone-list accessory-list" id="accessoryList">
   <div class="phone-content">
-    <a href="https://detail.meizu.com/item/meizu_power_bank_3.html?click=mall_index_kw_3_2" data-mtype="mall_index_kw_3_2">
+    <a href="/" data-mtype="mall_index_kw_3_2">
       <img src="https://openfile.meizu.com/group1/M00/06/A6/Cgbj0Vui_8WAE1NEAAKmTUL1qRE335.png" lazy-src="https://openfile.meizu.com/group1/M00/06/A6/Cgbj0Vui_8WAE1NEAAKmTUL1qRE335.png" alt="">
       <div class="info">
         <p class="products-name">魅族移动电源3</p>
@@ -326,7 +317,7 @@
   </div>
   
   <div class="phone-content">
-    <a href="https://detail.meizu.com/item/type_c_2.html?click=mall_index_kw_3_4" data-mtype="mall_index_kw_3_4">
+    <a href="/" data-mtype="mall_index_kw_3_4">
       <img src="https://openfile.meizu.com/group1/M00/03/2F/Cgbj0FqYqxqAcZ-nAAGaLqkN71s729.png" lazy-src="https://openfile.meizu.com/group1/M00/03/2F/Cgbj0FqYqxqAcZ-nAAGaLqkN71s729.png" alt="">
       <div class="info">
         <p class="products-name">魅族 Type-C 2.0数据线</p>
@@ -352,7 +343,7 @@
   </div>
   
   <div class="phone-content">
-    <a href="https://detail.meizu.com/item/meizu_16_plus_pasting.html?click=mall_index_kw_3_6" data-mtype="mall_index_kw_3_6">
+    <a href="/" data-mtype="mall_index_kw_3_6">
       <img src="https://openfile.meizu.com/group1/M00/06/09/Cgbj0Ft1OouARgW_AAAqV1uVbaA668.png" lazy-src="https://openfile.meizu.com/group1/M00/06/09/Cgbj0Ft1OouARgW_AAAqV1uVbaA668.png" alt="">
       <div class="info">
         <p class="products-name">魅族 16th Plus 高透保护膜</p>
@@ -365,7 +356,7 @@
   </div>
   
   <div class="phone-content">
-    <a href="https://detail.meizu.com/item/meizu_16th_plus_protector.html?click=mall_index_kw_3_7" data-mtype="mall_index_kw_3_7">
+    <a href="/" data-mtype="mall_index_kw_3_7">
       <img src="https://openfile.meizu.com/group1/M00/06/16/Cgbj0Ft7iV6AQANcAAL00J0tbyQ152.png" lazy-src="https://openfile.meizu.com/group1/M00/06/16/Cgbj0Ft7iV6AQANcAAL00J0tbyQ152.png" alt="">
       <div class="info">
         <p class="products-name">魅族 16th Plus 亲肤保护壳</p>
@@ -383,7 +374,7 @@
     <h3 class="list-title">生活周边</h3>
     <div class="accessory-list-ad" id="house-list-ad">
   <div class="accessoary-ad" style="background:#7063C9">
-    <a href="https://detail.mall.meizu.com/item/meilan_bag.html?click=mall_index_kw_4_1" data-mtype="mall_index_kw_4_1">
+    <a href="/" data-mtype="mall_index_kw_4_1">
       <div>
         <h4>魅蓝 休闲旅行双肩包</h4>
         <p>曲面一体式 多功能隔层 极简与线条之美</p>
@@ -394,7 +385,7 @@
   </div>
   
   <div class="accessoary-ad" style="background:#F55C5C">
-    <a href="https://detail.mall.meizu.com/item/everydaychestpack.html?click=mall_index_kw_4_2" data-mtype="mall_index_kw_4_2">
+    <a href="/" data-mtype="mall_index_kw_4_2">
       <div>
         <h4>魅蓝胸包</h4>
         <p>时尚个性 动无拘束</p>
@@ -406,7 +397,7 @@
   </div>
     <div class="phone-list house-list" id="houseList">
   <div class="phone-content">
-    <a href="https://detail.meizu.com/item/meilan_travellingbag.html?click=mall_index_kw_4_2" data-mtype="mall_index_kw_4_2">
+    <a href="/" data-mtype="mall_index_kw_4_2">
       <img src="https://openfile.meizu.com/group1/M00/01/B0/Cgbj0VlZqvaAGb0QAAUD7V55-H8213.png" lazy-src="https://openfile.meizu.com/group1/M00/01/B0/Cgbj0VlZqvaAGb0QAAUD7V55-H8213.png" alt="">
       <div class="info">
         <p class="products-name">魅蓝旅行包</p>
@@ -419,7 +410,7 @@
   </div>
   
   <div class="phone-content">
-    <a href="https://detail.meizu.com/item/color_mini_selfie_stick.html?click=mall_index_kw_4_3" data-mtype="mall_index_kw_4_3">
+    <a href="/" data-mtype="mall_index_kw_4_3">
       <img src="https://openfile.meizu.com/group1/M00/01/AE/Cgbj0VlWDM-AMSS5AAHtFENnYsc914.png" lazy-src="https://openfile.meizu.com/group1/M00/01/AE/Cgbj0VlWDM-AMSS5AAHtFENnYsc914.png" alt="">
       <div class="info">
         <p class="products-name">魅族缤纷 MINi自拍杆</p>
@@ -432,7 +423,7 @@
   </div>
   
   <div class="phone-content">
-    <a href="https://detail.meizu.com/item/usb_platooninsert.html?click=mall_index_kw_4_4" data-mtype="mall_index_kw_4_4">
+    <a href="/" data-mtype="mall_index_kw_4_4">
       <img src="https://openfile.meizu.com/group1/M00/01/07/CnQOjViEff2AGm-aAADs7Q-pP_M820.png" lazy-src="https://openfile.meizu.com/group1/M00/01/07/CnQOjViEff2AGm-aAADs7Q-pP_M820.png" alt="">
       <div class="info">
         <p class="products-name">魅族桌面多功能USB排插</p>
@@ -445,7 +436,7 @@
   </div>
   
   <div class="phone-content">
-    <a href="https://detail.meizu.com/item/everydaychestpack.html?click=mall_index_kw_4_5" data-mtype="mall_index_kw_4_5">
+    <a href="/" data-mtype="mall_index_kw_4_5">
       <img src="https://openfile.meizu.com/group1/M00/02/7B/Cgbj0Vn6yW6AUlsRAAWrjB0SvJc768.png" lazy-src="https://openfile.meizu.com/group1/M00/02/7B/Cgbj0Vn6yW6AUlsRAAWrjB0SvJc768.png" alt="">
       <div class="info">
         <p class="products-name">魅蓝胸包</p>
@@ -458,7 +449,7 @@
   </div>
   
   <div class="phone-content">
-    <a href="https://detail.meizu.com/item/luggage.html?click=mall_index_kw_4_6" data-mtype="mall_index_kw_4_6">
+    <a href="/" data-mtype="mall_index_kw_4_6">
       <img src="https://openfile.meizu.com/group1/M00/03/49/Cgbj0FqwvJWAFb0PAAleBEBSg7E656.png" lazy-src="https://openfile.meizu.com/group1/M00/03/49/Cgbj0FqwvJWAFb0PAAleBEBSg7E656.png" alt="">
       <div class="info">
         <p class="products-name">魅蓝20寸旅行箱 酷MA萌定制版</p>
@@ -471,7 +462,7 @@
   </div>
   
   <div class="phone-content">
-    <a href="https://detail.meizu.com/item/bluetooth_selfie_stick.html?click=mall_index_kw_4_7" data-mtype="mall_index_kw_4_7">
+    <a href="/" data-mtype="mall_index_kw_4_7">
       <img src="https://openfile.meizu.com/group1/M00/01/0B/Cix_s1iW3W-AKGlWAAIXT7S3bdY622.png" lazy-src="https://openfile.meizu.com/group1/M00/01/0B/Cix_s1iW3W-AKGlWAAIXT7S3bdY622.png" alt="">
       <div class="info">
         <p class="products-name">魅族蓝牙自拍杆</p>
@@ -497,7 +488,7 @@
       
       <div class="swiper-slide swiper-slide-active" style="margin-right: 6px;">
         <div class="phone-content">
-          <a class="comment-link" href="https://bbs.meizu.cn/thread-10472663-1-1.html?click=gw_comment_kw_1" target="_blank" data-mtype="gw_comment_kw_1">
+          <a class="comment-link" href="/" target="_blank" data-mtype="gw_comment_kw_1">
             <div class="comment-img-wp">
               <img src="https://fms.res.meizu.com/dms/2018/10/11/a3d15b05-6d1b-4ebb-b86a-e237093a3121.jpg" lazy-src="https://fms.res.meizu.com/dms/2018/10/11/a3d15b05-6d1b-4ebb-b86a-e237093a3121.jpg" alt="">
             </div>
@@ -513,7 +504,7 @@
       
       <div class="swiper-slide swiper-slide-next" style="margin-right: 6px;">
         <div class="phone-content">
-          <a class="comment-link" href="https://bbs.meizu.cn/thread-10493169-1-1.html?click=gw_comment_kw_2" target="_blank" data-mtype="gw_comment_kw_2">
+          <a class="comment-link" href="/" target="_blank" data-mtype="gw_comment_kw_2">
             <div class="comment-img-wp">
               <img src="https://fms.res.meizu.com/dms/2018/10/11/d3646316-c762-4dc4-9448-51f9a522a5c3.jpg" lazy-src="https://fms.res.meizu.com/dms/2018/10/11/d3646316-c762-4dc4-9448-51f9a522a5c3.jpg" alt="">
             </div>
@@ -529,7 +520,7 @@
       
       <div class="swiper-slide" style="margin-right: 6px;">
         <div class="phone-content">
-          <a class="comment-link" href="https://bbs.meizu.cn/thread-10410913-1-1.html?click=gw_comment_kw_3" target="_blank" data-mtype="gw_comment_kw_3">
+          <a class="comment-link" href="/" target="_blank" data-mtype="gw_comment_kw_3">
             <div class="comment-img-wp">
               <img src="https://fms.res.meizu.com/dms/2018/09/05/3e229e6e-1744-4738-86d2-30a7cb133741.jpg" lazy-src="https://fms.res.meizu.com/dms/2018/09/05/3e229e6e-1744-4738-86d2-30a7cb133741.jpg" alt="">
             </div>
@@ -545,7 +536,7 @@
       
       <div class="swiper-slide" style="margin-right: 6px;">
         <div class="phone-content">
-          <a class="comment-link" href="https://bbs.meizu.cn/thread-10413243-1-1.html?click=gw_comment_kw_4" target="_blank" data-mtype="gw_comment_kw_4">
+          <a class="comment-link" href="/" target="_blank" data-mtype="gw_comment_kw_4">
             <div class="comment-img-wp">
               <img src="https://fms.res.meizu.com/dms/2018/09/05/27f54fe9-b02b-4188-8fdc-9c7ae5f0a453.jpeg" lazy-src="https://fms.res.meizu.com/dms/2018/09/05/27f54fe9-b02b-4188-8fdc-9c7ae5f0a453.jpeg" alt="">
             </div>
@@ -561,7 +552,7 @@
       
       <div class="swiper-slide" style="margin-right: 6px;">
         <div class="phone-content">
-          <a class="comment-link" href="https://bbs.meizu.cn/thread-10398991-1-1.html?click=gw_comment_kw_5" target="_blank" data-mtype="gw_comment_kw_5">
+          <a class="comment-link" href="/" target="_blank" data-mtype="gw_comment_kw_5">
             <div class="comment-img-wp">
               <img src="https://fms.res.meizu.com/dms/2018/09/05/5e9d294a-bc4d-4131-aa12-c124e28d620c.jpg" lazy-src="https://fms.res.meizu.com/dms/2018/09/05/5e9d294a-bc4d-4131-aa12-c124e28d620c.jpg" alt="">
             </div>
@@ -577,7 +568,7 @@
       
       <div class="swiper-slide" style="margin-right: 6px;">
         <div class="phone-content">
-          <a class="comment-link" href="https://bbs.meizu.cn/thread-10357357-1-1.html?click=gw_comment_kw_6" target="_blank" data-mtype="gw_comment_kw_6">
+          <a class="comment-link" href="/" target="_blank" data-mtype="gw_comment_kw_6">
             <div class="comment-img-wp">
               <img src="https://fms.res.meizu.com/dms/2018/08/22/d2fed1be-f417-4ed1-a667-b04cca0ce5d0.jpg" lazy-src="https://fms.res.meizu.com/dms/2018/08/22/d2fed1be-f417-4ed1-a667-b04cca0ce5d0.jpg" alt="">
             </div>
@@ -593,7 +584,7 @@
       
       <div class="swiper-slide" style="margin-right: 6px;">
         <div class="phone-content">
-          <a class="comment-link" href="https://bbs.meizu.cn/thread-10335180-1-1.html?click=gw_comment_kw_7" target="_blank" data-mtype="gw_comment_kw_7">
+          <a class="comment-link" href="/" target="_blank" data-mtype="gw_comment_kw_7">
             <div class="comment-img-wp">
               <img src="https://fms.res.meizu.com/dms/2018/08/22/83ddd375-c804-47e0-84f8-c0fb394aad26.jpg" lazy-src="https://fms.res.meizu.com/dms/2018/08/22/83ddd375-c804-47e0-84f8-c0fb394aad26.jpg" alt="">
             </div>
@@ -616,7 +607,7 @@
     <div class="index-video-center" id="index-video-center"><div class="phone-list ">
   
     <div class="phone-content">
-      <a class="box-img box-img-retina jpVideo" data-video="https://cimg2.res.meizu.com/www/201810/note8/Note8亮相视频（不带价格）的副本.mp4" data-mtype="mall_index_video_1" href="javascript:;?click=mall_index_video_1">
+      <a class="box-img box-img-retina jpVideo" data-video="https://cimg2.res.meizu.com/www/201810/note8/Note8亮相视频（不带价格）的副本.mp4" data-mtype="mall_index_video_1" href="/">
         <div class="comment-img-wp">
           <i></i>
           <img src="https://fms.res.meizu.com/dms/2018/10/29/66a6a875-bc3e-4ee7-aacd-b5401c0524b0.jpg" lazy-src="https://fms.res.meizu.com/dms/2018/10/29/66a6a875-bc3e-4ee7-aacd-b5401c0524b0.jpg">
@@ -626,7 +617,7 @@
     </div>
   
     <div class="phone-content">
-      <a class="box-img box-img-retina jpVideo" data-video="https://cimg2.res.meizu.com/www/201809/m-16X产品视频不带价格_2.mp4" data-mtype="mall_index_video_2" href="javascript:;?click=mall_index_video_2">
+      <a class="box-img box-img-retina jpVideo" data-video="https://cimg2.res.meizu.com/www/201809/m-16X产品视频不带价格_2.mp4" data-mtype="mall_index_video_2" href="/">
         <div class="comment-img-wp">
           <i></i>
           <img src="https://fms.res.meizu.com/dms/2018/09/19/920ef028-90ee-43fe-a90d-4cb6c1282780.jpg" lazy-src="https://fms.res.meizu.com/dms/2018/09/19/920ef028-90ee-43fe-a90d-4cb6c1282780.jpg">
@@ -636,7 +627,7 @@
     </div>
   
     <div class="phone-content">
-      <a class="box-img box-img-retina jpVideo" data-video="https://cimg2.res.meizu.com/www/201809/m_X8亮相视频_2.mp4" data-mtype="mall_index_video_3" href="javascript:;?click=mall_index_video_3">
+      <a class="box-img box-img-retina jpVideo" data-video="https://cimg2.res.meizu.com/www/201809/m_X8亮相视频_2.mp4" data-mtype="mall_index_video_3" href="/">
         <div class="comment-img-wp">
           <i></i>
           <img src="https://fms.res.meizu.com/dms/2018/09/19/59995ff5-6fa5-4c2e-a39d-602068e84c22.jpg" lazy-src="https://fms.res.meizu.com/dms/2018/09/19/59995ff5-6fa5-4c2e-a39d-602068e84c22.jpg">
@@ -665,43 +656,15 @@
 </template>
 <script>
   import Swiper from 'swiper';
-
+  
   export default {
     data() {
-      return { 
-        navs: [{
-            title: "推荐",
-            path: "",
-            isSeclect: true
-          }, {
-            title: "手机",
-            path: "",
-            isSeclect: false
-          },
-          {
-            title: "声学",
-            path: "",
-            isSeclect: false
-          },
-          {
-            title: "配件",
-            path: "",
-            isSeclect: false
-          }, {
-            title: " 生活",
-            path: "",
-            isSeclect: false
-          }
-        ],
-        nav: 0,
+      return {
         isTop: true,
         timer: null
       };
     },
     methods: {
-      selectNav(nav) {
-        this.nav = nav;
-      },
       needScroll () {
         window.onscroll = function () {
           if (!this.isTop) {
@@ -726,8 +689,8 @@
     watch: {},
     mounted (){
       new Swiper('.swiper-container', {
-          spaceBetween: 30,
           centeredSlides: true,
+          loop:true,
           autoplay: {
             delay: 2500,
             disableOnInteraction: false,
@@ -737,7 +700,7 @@
             clickable: true,
           },
       }),
-      this.needScroll()
+      this.needScroll();
     }
   }
 

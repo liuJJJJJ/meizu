@@ -1,26 +1,18 @@
 <template>
 	<div>
-		<Xheader/>
-		<Xheadernav/>
-		<Xheaderfoot/>
-
+		<Xheader status="Index"/>
+		<router-view></router-view>
 	</div>
 
 </template>
 
 <script>
 	import Xheader from '../components/Xheader.vue';
-	import Xheadernav from '../components/Xheadernav.vue';
-	import Xheaderfoot from '../components/Xheaderfoot.vue';
-	
 
 	export default {
 
 		components: {
 			Xheader,
-			Xheadernav,
-			Xheaderfoot
-
 		}
 	};
 </script>

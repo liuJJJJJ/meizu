@@ -21,8 +21,8 @@
       <!-- <div class="index-search" data-mtype="mgw_index_yt_search">
         <input type="text" id="indexSearch" placeholder="">
       </div> -->
-      <a href="https://m.meizu.com/?click=mall_index_dh_tuijian2#search&amp;click=mgw_index_yt_search" id="btn-search" data-mtype="mgw_index_yt_search" data-bh="click_mgw_index_yt_search" class="icon-search"></a>
-      <a href="https://cart.mall.meizu.com/?click=mgw_index_yt_cart" data-mtype="mgw_index_yt_cart" data-bh="click_mgw_index_yt_cart" class="shop-cart"></a>
+      <a href="#/search" id="btn-search" class="icon-search"></a>
+      <a href="/" data-mtype="mgw_index_yt_cart" data-bh="click_mgw_index_yt_cart" class="shop-cart"></a>
       <span @click="perso" class="icon-nav-btn" data-mtype="mgw_index_yt_menu" id="JS_menubar"></span>
     </header>
 
@@ -31,17 +31,61 @@
       <a href="https://m.meizu.com" class="header-menu-logo">魅族官网</a>
     </div>
 
+  <!-- 头部导航 -->
+  <div class="index-header" id="index-nav"><div class="nav-bar">
+    <ul>
+        <li @click="selectNav(index)" v-for="(n,index) in navs" :key="index" :class="{
+        li_active:nav===index
+        }">
+                                    <a href="javascript:;" >
+        {{n.title}}
+                                    </a>
+        </li>
+    </ul>
+  </div></div>
 </div>
 	
 </template>
 
 <script>
+	import judgeRouter from '../libs/judgeRouter.js';
 	export default {
+	data() {
+		return { 
+			};
+		},	
 		methods: {	
 			perso() {
-				this.$router.push("Personal");
-		//    this.$router.push({ name: " Personal" });
+				this.$router.push({name:"Personal"});
 			},
+			selectNav(nav) {
+				this.$router.push({ name: this.navs[nav].path });
+				this.$store.dispatch("setNav", nav);
+			},
+			judgeRouter
+		},
+		computed:{
+			title() {
+		      return this.$store.getters.getTitle;
+		    },
+			// 往仓库获取频道信息
+			navs() {
+				return this.$store.getters.getNavs;
+			},
+		    nav: {
+		      // getter
+		      get: function() {
+		        return this.$store.getters.getNav;
+		      },
+		      // setter
+		      set: function(newValue) {
+		        this.$store.state.nav = newValue;
+		      }
+		    }
+		},
+		watch:{},
+		mounted(){
+			this.judgeRouter("nav");
 		}
 	}
 	
@@ -51,9 +95,8 @@
 @import url("../assets/index_f715205.css");
 @import url("../assets/common_5dd8cc3.css");
 @charset "UTF-8";
-
 * {
-	padding: 0;
+	
 	margin: 0
 }
 
@@ -719,5 +762,12 @@ input[type=search]::-webkit-search-cancel-button {
 
 html.no-scroll body {
 	overflow: hidden
+}
+.li_active {
+	border-bottom: .35vw solid #0bbbef
+}
+
+.index-header .nav-bar .li_active a {
+	color: #0bbbef
 }
 </style>

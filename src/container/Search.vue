@@ -2,8 +2,7 @@
 	<div>
 		
 		<Xsearch/>
-		<!--<Xsearchtop/>
-		<Xsearchlist/>-->
+
 
 	</div>
 
@@ -11,14 +10,12 @@
 
 <script>
 	import Xsearch from '../components/Xsearch.vue';
-//		import Xsearchtop from '../components/Xsearchtop.vue';
-//		import Xsearchlist from '../components/Xsearchlist.vue';
+
 
 	export default {
 
 		components: {
-//						Xsearchtop,
-//						Xsearchlist,
+
 						Xsearch
 	
 
