@@ -95,7 +95,6 @@
 @import url("../assets/index_f715205.css");
 @import url("../assets/common_5dd8cc3.css");
 @charset "UTF-8";
-
 * {
 	
 	margin: 0

@@ -24,6 +24,7 @@ import Detail from "./container/Detail.vue";
 //二级路由
 import recommend from "./container/Recommend.vue";
 import phone from "./container/Phone.vue";
+import music from "./container/Music.vue";
 
 const routes = [{
     path: '/',
@@ -41,6 +42,11 @@ const routes = [{
         path:'phone',
         component:phone,
         name:"phone",
+    },
+    {
+        path:'music',
+        component:music,
+        name:"music",
     }
     ]
 }, {

@@ -1,10 +1,12 @@
 <template>
-    <div>
-        手机界面
-    </div>
+  <div>
+    <Xmusic/>
+    <Xheaderfoot/>
+  </div>
 </template>
 <script>
-
+import Xmusic from "../components/Xmusic.vue";
+import Xheaderfoot from "../components/Xheaderfoot.vue";
 import judgeRouter from "../libs/judgeRouter.js";
 export default {
   data() { 
@@ -13,7 +15,8 @@ export default {
   };
   },
   components: {
-    
+    Xmusic,
+    Xheaderfoot
   },
   methods: {
     judgeRouter,
@@ -28,3 +31,6 @@ export default {
   }
 };
 </script>
+<style scoped>
+
+</style>
