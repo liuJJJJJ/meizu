@@ -64,13 +64,13 @@ body.white .banner-wrapper .swiper-pagination-bullet-active {
     white-space: nowrap
 }
 
-.index-header .nav-bar li:first-child {
+/*.index-header .nav-bar li:first-child {
     border-bottom: .35vw solid #0bbbef
-}
+}*/
 
-.index-header .nav-bar li:first-child a {
+/*.index-header .nav-bar li:first-child a {
     color: #0bbbef
-}
+}*/
 
 .index-header .nav-bar .active a {
     color: #0bbbef

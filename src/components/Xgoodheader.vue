@@ -29,5 +29,5 @@ export default {
 </script>
 
 <style scoped>
-	@import url("../assets/list-9b331762e7.css");
+
 </style>

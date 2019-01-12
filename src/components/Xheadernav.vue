@@ -1,15 +1,6 @@
 <template>
 	<div class="index-container">
-  <!-- 头部导航 -->
-  <div class="index-header" id="index-nav"><div class="nav-bar">
-    <ul>
-        <li @click="selectNav(index)" v-for="(n,index) in navs" :key="index" :class="{cur:nav===index}">
-                                    <a href="#" >
-        {{n.title}}
-                                    </a>
-        </li>
-    </ul>
-  </div></div>
+
   <!-- 轮播图 -->
   <div class="swiper-container">
     <div class="swiper-wrapper">
@@ -665,43 +656,15 @@
 </template>
 <script>
   import Swiper from 'swiper';
-
+  
 	export default {
 		data() {
-			return { 
-				navs: [{
-						title: "推荐",
-						path: "",
-						isSeclect: true
-					}, {
-						title: "手机",
-						path: "",
-						isSeclect: false
-					},
-					{
-						title: "声学",
-						path: "",
-						isSeclect: false
-					},
-					{
-						title: "配件",
-						path: "",
-						isSeclect: false
-					}, {
-						title: " 生活",
-						path: "",
-						isSeclect: false
-					}
-				],
-				nav: 0,
+			return {
         isTop: true,
         timer: null
 			};
 		},
 		methods: {
-			selectNav(nav) {
-				this.nav = nav;
-			},
       needScroll () {
         window.onscroll = function () {
           if (!this.isTop) {
@@ -737,7 +700,7 @@
             clickable: true,
           },
       }),
-      this.needScroll()
+      this.needScroll();
     }
 	}
 

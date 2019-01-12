@@ -199,7 +199,6 @@
 </script>
 
 <style >
-	@import url("../assets/list-9b331762e7.css");
 	html {
 		font-size: 32px;
 	}
