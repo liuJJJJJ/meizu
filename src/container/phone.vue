@@ -38,5 +38,11 @@
 </script>
 
 <style>
-
+body{
+    min-height: 100%;
+    height: auto;
+    background: #f4f4f4;
+    line-height: 1.5;
+    top: 23.5vw;
+}
 </style>

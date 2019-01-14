@@ -30,7 +30,7 @@
                 
 
             </div>
-           <!--  <div class="index-header" id="index-nav"><div class="nav-bar"><ul><li id="header-nav-bar-0">          <a href="https://m.meizu.com/?click=mall_index_dh_tuijian2" data-bh="click_mall_index_dh_tuijian1" data-mtype="mall_index_dh_tuijian2">推荐</a></li><li id="header-nav-bar-1">        <a href="https://mall.meizu.com/list/category?categoryId=76&amp;click=mall_index_dh_tuijian3" data-bh="click_mall_index_dh_tuijian2" data-mtype="mall_index_dh_tuijian3">手机</a></li><li id="header-nav-bar-2">          <a href="https://mall.meizu.com/list/category?categoryId=231&amp;click=mall_index_dh_tuijian4" data-bh="click_mall_index_dh_tuijian3" data-mtype="mall_index_dh_tuijian4">声学</a></li><li id="header-nav-bar-3" class="li_active">       <a href="https://mall.meizu.com/list/category?categoryId=186&amp;click=mall_index_dh_tuijian5" data-bh="click_mall_index_dh_tuijian4" data-mtype="mall_index_dh_tuijian5">配件</a></li><li id="header-nav-bar-4">         <a href="https://mall.meizu.com/list/category?categoryId=222&amp;click=mall_index_dh_tuijian6" data-bh="click_mall_index_dh_tuijian5" data-mtype="mall_index_dh_tuijian6">生活</a></li></ul></div></div> -->
+        
 
 
             <div class="maincon">
@@ -200,7 +200,7 @@
                             </li>
                             <li>
                                 <a href="https://detail.meizu.com/item/meizu_v8_protector2.html?click=mall_list_lc_kw_9" data-mtype="mall_list_lc_kw_9">
-                                    <img class="be-lazy" src="//mall.res.meizu.com/common/img/blank.png" data-src="//openfile.meizu.com/group1/M00/06/EE/Cgbj0VwRr8OAK0BlAApiHfXlhQA575.png@240x240.jpg">
+                                    <img class="be-lazy" src="//openfile.meizu.com/group1/M00/06/EE/Cgbj0VwRr8OAK0BlAApiHfXlhQA575.png@240x240.jpg" data-src="//openfile.meizu.com/group1/M00/06/EE/Cgbj0VwRr8OAK0BlAApiHfXlhQA575.png@240x240.jpg">
                                     <p>
                                         <span class="vm-tit">魅族 V8 高配版高透保护膜</span>
                                         <span class="slogan">
@@ -219,7 +219,7 @@
                             </li>
                             <li>
                                 <a href="https://detail.meizu.com/item/meizu_v8_protector1.html?click=mall_list_lc_kw_10" data-mtype="mall_list_lc_kw_10">
-                                    <img class="be-lazy" src="//mall.res.meizu.com/common/img/blank.png" data-src="//openfile.meizu.com/group1/M00/06/DF/Cgbj0FwRr8OAG5T_AAjO-o9qvxg580.png@240x240.jpg">
+                                    <img class="be-lazy" src="//openfile.meizu.com/group1/M00/06/DF/Cgbj0FwRr8OAG5T_AAjO-o9qvxg580.png@240x240.jpg" data-src="//openfile.meizu.com/group1/M00/06/DF/Cgbj0FwRr8OAG5T_AAjO-o9qvxg580.png@240x240.jpg">
                                     <p>
                                         <span class="vm-tit">魅族 V8 标配版高透保护膜</span>
                                         <span class="slogan">
@@ -238,7 +238,7 @@
                             </li>
                             <li>
                                 <a href="https://detail.meizu.com/item/meizu_16X_case.html?click=mall_list_lc_kw_11" data-mtype="mall_list_lc_kw_11">
-                                    <img class="be-lazy" src="//mall.res.meizu.com/common/img/blank.png" data-src="//openfile.meizu.com/group1/M00/06/C4/Cgbj0Vu7BuOAOYWWAAfB94yQC34186.png@240x240.jpg">
+                                    <img class="be-lazy" src="//openfile.meizu.com/group1/M00/06/C4/Cgbj0Vu7BuOAOYWWAAfB94yQC34186.png@240x240.jpg" data-src="//openfile.meizu.com/group1/M00/06/C4/Cgbj0Vu7BuOAOYWWAAfB94yQC34186.png@240x240.jpg">
                                     <p>
                                         <span class="vm-tit">魅族 16X 亲肤保护壳</span>
                                         <span class="slogan">
@@ -257,7 +257,7 @@
                             </li>
                             <li>
                                 <a href="https://detail.meizu.com/item/type_c_2.html?click=mall_list_lc_kw_12" data-mtype="mall_list_lc_kw_12">
-                                    <img class="be-lazy" src="//mall.res.meizu.com/common/img/blank.png" data-src="//openfile.meizu.com/group1/M00/03/2F/Cgbj0FqYqxqAcZ-nAAGaLqkN71s729.png@240x240.jpg">
+                                    <img class="be-lazy" src="//openfile.meizu.com/group1/M00/00/1F/Cix_s1ef_G2AYNlYAAIxGo35tB4079.png@240x240.jpg" data-src="//openfile.meizu.com/group1/M00/03/2F/Cgbj0FqYqxqAcZ-nAAGaLqkN71s729.png@240x240.jpg">
                                     <p>
                                         <span class="vm-tit">魅族 Type-C 2.0数据线</span>
                                         <span class="slogan">
@@ -277,7 +277,7 @@
                             </li>
                             <li>
                                 <a href="https://detail.meizu.com/item/type_c.html?click=mall_list_lc_kw_13" data-mtype="mall_list_lc_kw_13">
-                                    <img class="be-lazy" src="//mall.res.meizu.com/common/img/blank.png" data-src="//openfile.meizu.com/group1/M00/00/1F/Cix_s1ef_G2AYNlYAAIxGo35tB4079.png@240x240.jpg">
+                                    <img class="be-lazy" src="//storeimg.meizu.com/product/1467363452-36956.png@240x240.jpg" data-src="//openfile.meizu.com/group1/M00/00/1F/Cix_s1ef_G2AYNlYAAIxGo35tB4079.png@240x240.jpg">
                                     <p>
                                         <span class="vm-tit">魅族 Type-C 金属数据线</span>
                                         <span class="slogan">
@@ -296,7 +296,7 @@
                             </li>
                             <li>
                                 <a href="https://detail.meizu.com/item/meizu_16X_protector.html?click=mall_list_lc_kw_14" data-mtype="mall_list_lc_kw_14">
-                                    <img class="be-lazy" src="//mall.res.meizu.com/common/img/blank.png" data-src="//openfile.meizu.com/group1/M00/06/DF/Cgbj0FwRr7qAE0YNAAmBMjuVfOU842.png@240x240.jpg">
+                                    <img class="be-lazy" src="//openfile.meizu.com/group1/M00/06/DF/Cgbj0FwRr7qAE0YNAAmBMjuVfOU842.png@240x240.jpg" data-src="//openfile.meizu.com/group1/M00/06/DF/Cgbj0FwRr7qAE0YNAAmBMjuVfOU842.png@240x240.jpg">
                                     <p>
                                         <span class="vm-tit">魅族 16X 高透保护膜</span>
                                         <span class="slogan">
@@ -315,7 +315,7 @@
                             </li>
                             <li>
                                 <a href="https://detail.meizu.com/item/wireless_charger.html?click=mall_list_lc_kw_15" data-mtype="mall_list_lc_kw_15">
-                                    <img class="be-lazy" src="//mall.res.meizu.com/common/img/blank.png" data-src="//openfile.meizu.com/group1/M00/04/15/Cgbj0VrcXw2AL0tBAApTh_xwKKk709.png@240x240.jpg">
+                                    <img class="be-lazy" src="//openfile.meizu.com/group1/M00/04/15/Cgbj0VrcXw2AL0tBAApTh_xwKKk709.png@240x240.jpg" data-src="//openfile.meizu.com/group1/M00/04/15/Cgbj0VrcXw2AL0tBAApTh_xwKKk709.png@240x240.jpg">
                                     <p>
                                         <span class="vm-tit">魅族无线充电器</span>
                                         <span class="slogan">
@@ -335,7 +335,7 @@
                             </li>
                             <li>
                                 <a href="https://detail.meizu.com/item/micro_usb_cable.html?click=mall_list_lc_kw_16" data-mtype="mall_list_lc_kw_16">
-                                    <img class="be-lazy" src="//mall.res.meizu.com/common/img/blank.png" data-src="//storeimg.meizu.com/product/1458617159-29477.png@240x240.jpg">
+                                    <img class="be-lazy" src="//storeimg.meizu.com/product/1467363452-36956.png@240x240.jpg" data-src="//storeimg.meizu.com/product/1458617159-29477.png@240x240.jpg">
                                     <p>
                                         <span class="vm-tit">魅族 Micro USB 数据线</span>
                                         <span class="slogan">
@@ -354,7 +354,7 @@
                             </li>
                             <li>
                                 <a href="https://detail.meizu.com/item/up0830s.html?click=mall_list_lc_kw_17" data-mtype="mall_list_lc_kw_17">
-                                    <img class="be-lazy" src="//mall.res.meizu.com/common/img/blank.png" data-src="//storeimg.meizu.com/product/1467170145-52479.png@240x240.jpg">
+                                    <img class="be-lazy" src="//storeimg.meizu.com/product/1467170145-52479.png@240x240.jpg" data-src="//storeimg.meizu.com/product/1467170145-52479.png@240x240.jpg">
                                     <p>
                                         <span class="vm-tit">快充电源适配器（UP0830S）</span>
                                         <span class="slogan">
@@ -374,7 +374,7 @@
                             </li>
                             <li>
                                 <a href="https://detail.meizu.com/item/color_mini_selfie_stick.html?click=mall_list_lc_kw_18" data-mtype="mall_list_lc_kw_18">
-                                    <img class="be-lazy" src="//mall.res.meizu.com/common/img/blank.png" data-src="//openfile.meizu.com/group1/M00/01/AE/Cgbj0VlWDM-AMSS5AAHtFENnYsc914.png@240x240.jpg">
+                                    <img class="be-lazy" src="//openfile.meizu.com/group1/M00/01/AE/Cgbj0VlWDM-AMSS5AAHtFENnYsc914.png@240x240.jpg" data-src="//openfile.meizu.com/group1/M00/01/AE/Cgbj0VlWDM-AMSS5AAHtFENnYsc914.png@240x240.jpg">
                                     <p>
                                         <span class="vm-tit">魅族缤纷 Mini 自拍杆</span>
                                         <span class="slogan">
@@ -393,7 +393,7 @@
                             </li>
                             <li>
                                 <a href="https://detail.meizu.com/item/meizu_outlet_stents1.html?click=mall_list_lc_kw_19" data-mtype="mall_list_lc_kw_19">
-                                    <img class="be-lazy" src="//mall.res.meizu.com/common/img/blank.png" data-src="//openfile.meizu.com/group1/M00/01/0C/CnQOjViX1x-AdYHaAAKUWbEvTpo772.png@240x240.jpg">
+                                    <img class="be-lazy" src="//openfile.meizu.com/group1/M00/01/0C/CnQOjViX1x-AdYHaAAKUWbEvTpo772.png@240x240.jpg" data-src="//openfile.meizu.com/group1/M00/01/0C/CnQOjViX1x-AdYHaAAKUWbEvTpo772.png@240x240.jpg">
                                     <p>
                                         <span class="vm-tit">魅族熊猫磁吸出风口支架</span>
                                         <span class="slogan">
@@ -412,7 +412,7 @@
                             </li>
                             <li>
                                 <a href="https://detail.meizu.com/item/bluetooth_selfie_stick.html?click=mall_list_lc_kw_20" data-mtype="mall_list_lc_kw_20">
-                                    <img class="be-lazy" src="//mall.res.meizu.com/common/img/blank.png" data-src="//openfile.meizu.com/group1/M00/01/0B/Cix_s1iW3W-AKGlWAAIXT7S3bdY622.png@240x240.jpg">
+                                    <img class="be-lazy" src="//openfile.meizu.com/group1/M00/01/0B/Cix_s1iW3W2AQAzZAAJUz1tTYF4022.png@240x240.jpg" data-src="//openfile.meizu.com/group1/M00/01/0B/Cix_s1iW3W-AKGlWAAIXT7S3bdY622.png@240x240.jpg">
                                     <p>
                                         <span class="vm-tit">魅族蓝牙自拍杆</span>
                                         <span class="slogan">

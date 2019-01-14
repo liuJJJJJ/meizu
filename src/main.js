@@ -29,7 +29,7 @@ import recommend from "./container/Recommend.vue";//推荐
 import phone from "./container/Phone.vue";        //手机
 import headset from "./container/Headset.vue";    //声学  
 import part from "./container/Part.vue";          //配置
-import live from "./container/Live.vue";
+import live from "./container/Live.vue";          //生活
 
 
 
@@ -53,7 +53,7 @@ const routes = [{
     {
         path:'headset',
         component:headset,
-        name:"headeset",
+        name:"headset",
     },
     {
         path:'part',
@@ -162,5 +162,6 @@ const store = new Vuex.Store({
 //实例化vue
 new Vue({
     router,
+    store,
   render: h => h(App),
 }).$mount('#app')

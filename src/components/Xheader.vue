@@ -34,12 +34,8 @@
   <!-- 头部导航 -->
   <div class="index-header" id="index-nav"><div class="nav-bar">
     <ul>
-        <li @click="selectNav(index)" v-for="(n,index) in navs" :key="index" :class="{
-        li_active:nav===index
-        }">
-                                    <a href="javascript:;" >
-        {{n.title}}
-                                    </a>
+		<li @click="selectNav(index)" v-for="(n,index) in navs" :key="index" :class="{li_active:nav===index}">
+       		<a href="javascript:;" >{{n.title}}</a>
         </li>
     </ul>
   </div></div>

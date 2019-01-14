@@ -10,29 +10,7 @@
                                 </a>
                             </div>
                 </section>
-                <!--正常展示坑位-->
-
-                    <!-- <div class="index-header" id="index-nav">
-                    <div class="nav-bar">
-                        <ul>
-                            <li id="header-nav-bar-0">
-                                <a href="https://m.meizu.com/?click=mall_index_dh_tuijian2" data-bh="click_mall_index_dh_tuijian1" data-mtype="mall_index_dh_tuijian2">推荐</a>
-                            </li>
-                            <li id="header-nav-bar-1">          
-                                <a href="https://mall.meizu.com/list/category?categoryId=76&amp;click=mall_index_dh_tuijian3" data-bh="click_mall_index_dh_tuijian2" data-mtype="mall_index_dh_tuijian3">手机</a>
-                            </li>
-                            <li id="header-nav-bar-2" class="li_active">          
-                                <a href="https://mall.meizu.com/list/category?categoryId=231&amp;click=mall_index_dh_tuijian4" data-bh="click_mall_index_dh_tuijian3" data-mtype="mall_index_dh_tuijian4">声学</a>
-                            </li>
-                            <li id="header-nav-bar-3">         
-                                <a href="https://mall.meizu.com/list/category?categoryId=186&amp;click=mall_index_dh_tuijian5" data-bh="click_mall_index_dh_tuijian4" data-mtype="mall_index_dh_tuijian5">配件</a>
-                            </li> 
-                            <li id="header-nav-bar-4">         
-                                <a href="https://mall.meizu.com/list/category?categoryId=222&amp;click=mall_index_dh_tuijian6" data-bh="click_mall_index_dh_tuijian5" data-mtype="mall_index_dh_tuijian6">生活</a>
-                            </li> 
-                        </ul>
-                    </div>
-                </div> -->
+                
                 <section class="list-goods" id="J_listGoods">
                     <ul class="grid">
                         <!--网格{grid}，列表{list}-->
@@ -117,7 +95,7 @@
                             </li>
                             <li>
                                 <a href="https://detail.meizu.com/item/ep_2x.html?click=mall_list_lc_kw_5" data-mtype="mall_list_lc_kw_5">
-                                    <img class="be-lazy" src="//mall.res.meizu.com/common/img/blank.png" data-src="//openfile.meizu.com/group1/M00/00/A2/Cix_s1gcTHCANftiAAErzSizI8c299.png@240x240.jpg">
+                                    <img class="be-lazy" src="//openfile.meizu.com/group1/M00/00/A2/Cix_s1gcTHCANftiAAErzSizI8c299.png@240x240.jpg" data-src="//openfile.meizu.com/group1/M00/00/A2/Cix_s1gcTHCANftiAAErzSizI8c299.png@240x240.jpg">
                                     <p>
                                         <span class="vm-tit">魅族 EP2X 耳机</span>
                                         <span class="slogan">
@@ -137,7 +115,7 @@
                             </li>
                             <li>
                                 <a href="https://detail.meizu.com/item/meizu_ep51.html?click=mall_list_lc_kw_6" data-mtype="mall_list_lc_kw_6">
-                                    <img class="be-lazy" src="//mall.res.meizu.com/common/img/blank.png" data-src="//storeimg.meizu.com/product/1459849377-64075.png@240x240.jpg">
+                                    <img class="be-lazy" src="//storeimg.meizu.com/product/1459849377-64075.png@240x240.jpg" data-src="//storeimg.meizu.com/product/1459849377-64075.png@240x240.jpg">
                                     <p>
                                         <span class="vm-tit">魅族 EP51 蓝牙运动耳机</span>
                                         <span class="slogan">
@@ -158,7 +136,7 @@
                             </li>
                             <li>
                                 <a href="https://detail.meizu.com/item/EP31.html?click=mall_list_lc_kw_7" data-mtype="mall_list_lc_kw_7">
-                                    <img class="be-lazy" src="//mall.res.meizu.com/common/img/blank.png" data-src="//openfile.meizu.com/group1/M00/06/20/Cgbj0Ft-WkOAAhCKAAFqcNe6c3M482.png@240x240.jpg">
+                                    <img class="be-lazy" src="//openfile.meizu.com/group1/M00/06/70/Cgbj0FuZwuGADzVHAAG7wQGHkAM447.png@240x240.jpg" data-src="//openfile.meizu.com/group1/M00/06/20/Cgbj0Ft-WkOAAhCKAAFqcNe6c3M482.png@240x240.jpg">
                                     <p>
                                         <span class="vm-tit">魅族 EP-31 耳机</span>
                                         <span class="slogan">
@@ -178,7 +156,7 @@
                             </li>
                             <li>
                                 <a href="https://detail.meizu.com/item/meizu_xp.html?click=mall_list_lc_kw_8" data-mtype="mall_list_lc_kw_8">
-                                    <img class="be-lazy" src="//mall.res.meizu.com/common/img/blank.png" data-src="//openfile.meizu.com/group1/M00/06/70/Cgbj0FuZwuGADzVHAAG7wQGHkAM447.png@240x240.jpg">
+                                    <img class="be-lazy" src="//openfile.meizu.com/group1/M00/06/20/Cgbj0Ft-WkOAAhCKAAFqcNe6c3M482.png@240x240.jpg" data-src="//openfile.meizu.com/group1/M00/06/70/Cgbj0FuZwuGADzVHAAG7wQGHkAM447.png@240x240.jpg">
                                     <p>
                                         <span class="vm-tit">魅族蓝牙音频接收器</span>
                                         <span class="slogan">
@@ -197,7 +175,7 @@
                             </li>
                             <li>
                                 <a href="https://detail.meizu.com/item/flowbass.html?click=mall_list_lc_kw_9" data-mtype="mall_list_lc_kw_9">
-                                    <img class="be-lazy" src="//mall.res.meizu.com/common/img/blank.png" data-src="//openfile.meizu.com/group1/M00/02/EE/Cgbj0FpeqUqAYAbBAAJRQlEIMmc702.png@240x240.jpg">
+                                    <img class="be-lazy" src="//openfile.meizu.com/group1/M00/03/C9/Cgbj0VrBl16Af2alAAWkq7hK2yI025.png@240x240.jpg" data-src="//openfile.meizu.com/group1/M00/02/EE/Cgbj0FpeqUqAYAbBAAJRQlEIMmc702.png@240x240.jpg">
                                     <p>
                                         <span class="vm-tit">魅族 Flow Bass 三单元耳机</span>
                                         <span class="slogan">
@@ -217,7 +195,7 @@
                             </li>
                             <li>
                                 <a href="https://detail.meizu.com/item/meiuzep71.html?click=mall_list_lc_kw_10" data-mtype="mall_list_lc_kw_10">
-                                    <img class="be-lazy" src="//mall.res.meizu.com/common/img/blank.png" data-src="//openfile.meizu.com/group1/M00/02/EF/Cgbj0FpeqaKAYLSmAATXqR4BPH8829.png@240x240.jpg">
+                                    <img class="be-lazy" src="//openfile.meizu.com/group1/M00/02/EE/Cgbj0FpeqUqAYAbBAAJRQlEIMmc702.png@240x240.jpg" data-src="//openfile.meizu.com/group1/M00/02/EF/Cgbj0FpeqaKAYLSmAATXqR4BPH8829.png@240x240.jpg">
                                     <p>
                                         <span class="vm-tit">魅族 LIVE 四单元动铁耳机</span>
                                         <span class="slogan">
@@ -237,7 +215,7 @@
                             </li>
                             <li>
                                 <a href="https://detail.meizu.com/item/me20.html?click=mall_list_lc_kw_11" data-mtype="mall_list_lc_kw_11">
-                                    <img class="be-lazy" src="//mall.res.meizu.com/common/img/blank.png" data-src="//openfile.meizu.com/group1/M00/01/D5/Cgbj0VmRZCiAKwA3AADYrtiPJlQ156.png@240x240.jpg">
+                                    <img class="be-lazy" src="//openfile.meizu.com/group1/M00/02/EF/Cgbj0FpeqaKAYLSmAATXqR4BPH8829.png@240x240.jpg" data-src="//openfile.meizu.com/group1/M00/01/D5/Cgbj0VmRZCiAKwA3AADYrtiPJlQ156.png@240x240.jpg">
                                     <p>
                                         <span class="vm-tit">ME20入耳式耳机</span>
                                         <span class="slogan">
@@ -256,7 +234,7 @@
                             </li>
                             <li>
                                 <a href="https://detail.meizu.com/item/flowearphone.html?click=mall_list_lc_kw_12" data-mtype="mall_list_lc_kw_12">
-                                    <img class="be-lazy" src="//mall.res.meizu.com/common/img/blank.png" data-src="//openfile.meizu.com/group1/M00/01/AE/Cgbj0Fl22W2AJpEcAAG7IoqPYcI904.png@240x240.jpg">
+                                    <img class="be-lazy" src="//openfile.meizu.com/group1/M00/01/D5/Cgbj0VmRZCiAKwA3AADYrtiPJlQ156.png@240x240.jpg" data-src="//openfile.meizu.com/group1/M00/01/AE/Cgbj0Fl22W2AJpEcAAG7IoqPYcI904.png@240x240.jpg">
                                     <p>
                                         <span class="vm-tit">魅族 Flow 三单元耳机</span>
                                         <span class="slogan">
@@ -276,7 +254,7 @@
                             </li>
                             <li>
                                 <a href="https://detail.meizu.com/item/mc_5n.html?click=mall_list_lc_kw_13" data-mtype="mall_list_lc_kw_13">
-                                    <img class="be-lazy" src="//mall.res.meizu.com/common/img/blank.png" data-src="//openfile.meizu.com/group1/M00/03/C9/Cgbj0VrBl16Af2alAAWkq7hK2yI025.png@240x240.jpg">
+                                    <img class="be-lazy" src="//openfile.meizu.com/group1/M00/01/AE/Cgbj0Fl22W2AJpEcAAG7IoqPYcI904.png@240x240.jpg" data-src="//openfile.meizu.com/group1/M00/03/C9/Cgbj0VrBl16Af2alAAWkq7hK2yI025.png@240x240.jpg">
                                     <p>
                                         <span class="vm-tit">魅族 MC-5N 耳机升级线</span>
                                         <span class="slogan">
@@ -295,7 +273,7 @@
                             </li>
                             <li>
                                 <a href="https://detail.meizu.com/item/ep21_new.html?click=mall_list_lc_kw_14" data-mtype="mall_list_lc_kw_14">
-                                    <img class="be-lazy" src="//mall.res.meizu.com/common/img/blank.png" data-src="//storeimg.meizu.com/product/1449643421-24522.png@240x240.jpg">
+                                    <img class="be-lazy" src="//storeimg.meizu.com/product/1449643421-24522.png@240x240.jpg" data-src="//storeimg.meizu.com/product/1449643421-24522.png@240x240.jpg">
                                     <p>
                                         <span class="vm-tit">魅族 EP21耳机</span>
                                         <span class="slogan">
@@ -314,7 +292,7 @@
                             </li>
                             <li>
                                 <a href="https://detail.meizu.com/item/meizu_yinxiang_a20.html?click=mall_list_lc_kw_15" data-mtype="mall_list_lc_kw_15">
-                                    <img class="be-lazy" src="//mall.res.meizu.com/common/img/blank.png" data-src="//openfile.meizu.com/group1/M00/01/1D/Cix_s1ij7KeAdy0cAAbboUvsAC4250.png@240x240.jpg">
+                                    <img class="be-lazy" src="//openfile.meizu.com/group1/M00/01/1D/Cix_s1ij7KeAdy0cAAbboUvsAC4250.png@240x240.jpg" data-src="//openfile.meizu.com/group1/M00/01/1D/Cix_s1ij7KeAdy0cAAbboUvsAC4250.png@240x240.jpg">
                                     <p>
                                         <span class="vm-tit">魅族蓝牙小音箱</span>
                                         <span class="slogan">

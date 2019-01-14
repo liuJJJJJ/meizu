@@ -1212,12 +1212,12 @@ var jd = {
 };
 var MZ = {};
 MZ.modelData = {
-    searchUrl: '//mall.meizu.com/category/search',
-    categories: '1',
-    categoryId: '76',
-    features: '',
-    clickIndexFrom: 1,
-    categoryMap: jd,
-    pageTitle: '手机',
-    onlyShowInStock: false
+    "searchUrl": "",//mall.meizu.com/category/search',
+    "categories": "1",
+    "categoryId": "76",
+    "features": "",
+    "clickIndexFrom": 1,
+    "categoryMap": "jd",
+    "pageTitle": "手机",
+    "onlyShowInStock": false
 }
