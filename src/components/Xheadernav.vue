@@ -79,7 +79,7 @@
   </div>
     <div class="phone-list" id="phoneList">
   <div class="phone-content">
-    <a href="https://detail.meizu.com/item/meizu16th.html?click=mall_index_kw_1_2" data-mtype="mall_index_kw_1_2">
+    <a href="#/Detail" data-mtype="mall_index_kw_1_2">
       <img src="https://openfile.meizu.com/group1/M00/05/E2/Cgbj0FtqgnmAFgJPAAhgnScaoFg724.png" lazy-src="https://openfile.meizu.com/group1/M00/05/E2/Cgbj0FtqgnmAFgJPAAhgnScaoFg724.png" alt="">
       <div class="info">
         <p class="products-name">魅族 16th</p>

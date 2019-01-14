@@ -17,12 +17,14 @@
 export default {
 	methods:{	
 		home(){
-	        this.$router.push("Index");
+	        this.$router.push({name:"recommend"});
 	    },
 	    back(){
-	      	this.$router.history.go(-1);
+	      	this.$router.go(-1);
 	    }
-	}
+	},
+	mounted(){
+	}	
 }
 </script>
 

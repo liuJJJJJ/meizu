@@ -2139,7 +2139,8 @@ body,html {
 }
 
 .maincon {
-    height: auto
+    height: auto;
+    margin-top: 24vw;
 }
 
 .maincon .ad-img-1 {

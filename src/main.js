@@ -70,9 +70,15 @@ const routes = [{
 
 
 const router = new VueRouter({
-    routes // (缩写) 相当于 routes: routes
+    routes, // (缩写) 相当于 routes: routes
+    scrollBehavior(to,from,savedPosition){
+        return{x:0,y:0}
+    }
 });
 
+router.afterEach((to,from,next)=>{
+    window.scrollTo(0,0);
+})
 
 const store = new Vuex.Store({
   // 状态

@@ -421,10 +421,6 @@
     </main>
 </template>
 
-<script src="../assets/MZ.json"></script>
-<script src="../assets/zepto.js"></script>
-<script src="../assets/main-994bbe158d.js"></script>
-<script src="../assets/ntkfstat.js"></script>
 <script>
 
 </script>
