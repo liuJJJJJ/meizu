@@ -22,7 +22,7 @@
         <input type="text" id="indexSearch" placeholder="">
       </div> -->
       <a href="#/search" id="btn-search" class="icon-search"></a>
-      <a href="/" data-mtype="mgw_index_yt_cart" data-bh="click_mgw_index_yt_cart" class="shop-cart"></a>
+      <a href="#/Cart" data-mtype="mgw_index_yt_cart" data-bh="click_mgw_index_yt_cart" class="shop-cart"></a>
       <span @click="perso" class="icon-nav-btn" data-mtype="mgw_index_yt_menu" id="JS_menubar"></span>
     </header>
 
@@ -61,6 +61,7 @@
 			selectNav(nav) {
 				this.$router.push({ name: this.navs[nav].path });
 				this.$store.dispatch("setNav", nav);
+				this.index=nav;
 			},
 			judgeRouter
 		},
@@ -86,6 +87,11 @@
 		watch:{},
 		mounted(){
 			this.judgeRouter("nav");
+			if(this.$route.query.item){
+				this.nav = this.$route.query.item;
+			}else{
+				this.nav = 0;
+			}
 		}
 	}
 	

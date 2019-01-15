@@ -101,5 +101,5 @@
 </script>
 
 <style scoped>
-
+@import url("../assets/main-04470bf.css");
 </style>

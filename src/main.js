@@ -21,6 +21,7 @@ import Search from "./container/Search.vue";
 import Personal from "./container/Personal.vue";
 import Goodlist from "./container/Goodlist.vue";
 import Detail from "./container/Detail.vue";
+import Cart from "./container/Cart.vue";
 
 //二级路由
 import recommend from "./container/Recommend.vue";
@@ -66,6 +67,10 @@ const routes = [{
     path: '/Detail',
     component: Detail,
     name: "Detail",
+}, {
+    path: '/Cart',
+    component: Cart,
+    name: "Cart",
 }]
 
 
