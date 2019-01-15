@@ -115,146 +115,21 @@
 <div class="title">相关推荐</div>
 <div class="recommend-slider" id="J_recommendSlider">
 <ul class="slider-wrap">
-    
-    <li class="rs-item">
-        <a class="rs-item-wrap" title="魅族 15" href="//detail.meizu.com/item/meizu15.html" target="_blank" data-mtype="mall_xgtj_kw_1" data-bh="click_mall_xgtj_kw_1">
+    <li class="rs-item" v-for="item in relevant" :key="item.id">
+        <a class="rs-item-wrap" title="item.name" href="/" target="_blank">
             <div class="mod-pic">
-                <img class="recommend-pic" src="//openfile.meizu.com/group1/M00/04/0B/Cgbj0FrcblSAGHrPAAvT_qZZSA0427.png@240x240.jpg">
+                <img class="recommend-pic" :src="item.imgUrl">
             </div>
-    
             <div class="mod-desc">
-                <p class="vm-name">魅族 15</p>
+                <p class="vm-name">{{item.name}}</p>
                 <p class="vm-price">
                     <small>¥</small>
-                    
-                        <span class="vm-price-text">1498</span>
-                        
-                            <span class="vm-price-qi">起</span>
-                        
-                    
+                    <span class="vm-price-text">{{item.minPrice}}</span>
+                    <span class="vm-price-qi">起</span>               
                 </p>
             </div>
         </a>
     </li>
-    
-    <li class="rs-item">
-        <a class="rs-item-wrap" title="魅族 15 Plus" href="//detail.meizu.com/item/meizu_15plus.html" target="_blank" data-mtype="mall_xgtj_kw_2" data-bh="click_mall_xgtj_kw_2">
-            <div class="mod-pic">
-                <img class="recommend-pic" src="//openfile.meizu.com/group1/M00/04/1C/Cgbj0VrcbrCANJBMAAxI8Fi80MA520.png@240x240.jpg">
-            </div>
-    
-            <div class="mod-desc">
-                <p class="vm-name">魅族 15 Plus</p>
-                <p class="vm-price">
-                    <small>¥</small>
-                    
-                        <span class="vm-price-text">1798</span>
-                        
-                            <span class="vm-price-qi">起</span>
-                        
-                    
-                </p>
-            </div>
-        </a>
-    </li>
-    
-    <li class="rs-item">
-        <a class="rs-item-wrap" title="魅族 16th Plus 亲肤保护壳" href="//detail.meizu.com/item/meizu_16th_plus_protector.html" target="_blank" data-mtype="mall_xgtj_kw_3" data-bh="click_mall_xgtj_kw_3">
-            <div class="mod-pic">
-                <img class="recommend-pic" src="//openfile.meizu.com/group1/M00/06/16/Cgbj0Ft7iV6AQANcAAL00J0tbyQ152.png@240x240.jpg">
-            </div>
-    
-            <div class="mod-desc">
-                <p class="vm-name">魅族 16th Plus 亲肤保护壳</p>
-                <p class="vm-price">
-                    <small>¥</small>
-                    
-                        <span class="vm-price-text">29</span>
-                        
-                    
-                </p>
-            </div>
-        </a>
-    </li>
-    
-    <li class="rs-item">
-        <a class="rs-item-wrap" title="魅族 16th 高透保护膜" href="//detail.meizu.com/item/meizu_16_pasting.html" target="_blank" data-mtype="mall_xgtj_kw_4" data-bh="click_mall_xgtj_kw_4">
-            <div class="mod-pic">
-                <img class="recommend-pic" src="//openfile.meizu.com/group1/M00/06/F9/Cgbj0VwkSZKATjTlAAajD8PGNhs208.png@240x240.jpg">
-            </div>
-    
-            <div class="mod-desc">
-                <p class="vm-name">魅族 16th 高透保护膜</p>
-                <p class="vm-price">
-                    <small>¥</small>
-                    
-                        <span class="vm-price-text">19</span>
-                        
-                    
-                </p>
-            </div>
-        </a>
-    </li>
-    
-    <li class="rs-item">
-        <a class="rs-item-wrap" title="魅族 16th Plus 高透保护膜" href="//detail.meizu.com/item/meizu_16_plus_pasting.html" target="_blank" data-mtype="mall_xgtj_kw_5" data-bh="click_mall_xgtj_kw_5">
-            <div class="mod-pic">
-                <img class="recommend-pic" src="//openfile.meizu.com/group1/M00/06/DF/Cgbj0FwRr7qARwTRAAXzl3eAweE919.png@240x240.jpg">
-            </div>
-    
-            <div class="mod-desc">
-                <p class="vm-name">魅族 16th Plus 高透保护膜</p>
-                <p class="vm-price">
-                    <small>¥</small>
-                    
-                        <span class="vm-price-text">19</span>
-                        
-                    
-                </p>
-            </div>
-        </a>
-    </li>
-    
-    <li class="rs-item">
-        <a class="rs-item-wrap" title="魅蓝 6T" href="//detail.meizu.com/item/meilan6t.html" target="_blank" data-mtype="mall_xgtj_kw_6" data-bh="click_mall_xgtj_kw_6">
-            <div class="mod-pic">
-                <img class="recommend-pic" src="//openfile.meizu.com/group1/M00/04/8C/Cgbj0VsM-iyAAgTIAAbXIwKFVL4647.png@240x240.jpg">
-            </div>
-    
-            <div class="mod-desc">
-                <p class="vm-name">魅蓝 6T</p>
-                <p class="vm-price">
-                    <small>¥</small>
-                    
-                        <span class="vm-price-text">799</span>
-                        
-                            <span class="vm-price-qi">起</span>
-                        
-                    
-                </p>
-            </div>
-        </a>
-    </li>
-    
-    <li class="rs-item">
-        <a class="rs-item-wrap" title="魅蓝 E3" href="//detail.meizu.com/item/meilane3.html" target="_blank" data-mtype="mall_xgtj_kw_7" data-bh="click_mall_xgtj_kw_7">
-            <div class="mod-pic">
-                <img class="recommend-pic" src="//openfile.meizu.com/group1/M00/03/BC/Cgbj0Vq9-oeARs_XAALvUdl5qpo302.png@240x240.jpg">
-            </div>
-    
-            <div class="mod-desc">
-                <p class="vm-name">魅蓝 E3</p>
-                <p class="vm-price">
-                    <small>¥</small>
-                    
-                        <span class="vm-price-text">1799</span>
-                        
-                    
-                </p>
-            </div>
-        </a>
-    </li>
-    
 </ul>
 </div>
 </div>
@@ -640,10 +515,18 @@
     export default {
         data() {
             return {
-                
+                relevant:[]
             };
         },
-        methods: {
+        methods: { 
+            load(){
+                this.axios.get("/Detail",{
+                
+                }).then(res => {
+                    console.log(res.data.data)
+                    this.relevant = res.data.data;
+                })
+            }
 
         },
         watch: {},
@@ -651,15 +534,12 @@
             new Swiper('.swiper-container', {
                 centeredSlides: true,
                 loop:true,
-                autoplay: {
-                    delay: 2500,
-                    disableOnInteraction: false,
-                },
                 pagination: {
                     el: '.swiper-pagination',
                     clickable: true,
                 },
-            })
+            }),
+            this.load();
         }
     }
 </script>

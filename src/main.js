@@ -8,6 +8,7 @@ Vue.use(VueRouter)
 import axios from 'axios';
 Vue.prototype.axios = axios;
 
+
 import Vuex from 'vuex'
 Vue.use(Vuex)
 
