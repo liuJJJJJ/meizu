@@ -1,0 +1,431 @@
+html {
+    font-size: 200%;
+}
+
+.main-form {
+    width: 20.625rem;
+    margin: 0 auto;
+    overflow: visible;
+    height: auto;
+}
+
+.tab-title{
+    font-size: 18px;
+    /*margin-bottom: 60px;*/
+    margin-top: 35px;
+    width: 100%;
+    text-align: center;
+}
+.register-line{
+    color: #d9d9d9;
+    display: inline-block;
+    border: 1px solid #dadada;
+    border-left: 1px;
+    height: 16px;
+    line-height: 20px;
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+#pwdBtn {
+    margin-top: 13px;
+    margin-bottom: 10px;
+}
+
+.pwdBtn,
+.pwdBtnShow {
+    outline: none;
+    position: absolute;
+    right: 0;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    overflow: hidden;
+    float: right;
+    margin-right: 10px;
+}
+
+.noselect {
+    -moz-user-select: none;
+}
+
+.pwdBtnShow i,
+.pwdBtn i {
+    background: url("/resources/uc/wlogin/base/images/elements.png") no-repeat;
+    _background-image: none;
+    _filter: progid: DXImageTransform.Microsoft.AlphaImageLoader(src='/resources/uc/wlogin/base/images/elements.png');
+}
+
+.pwdBtnShow i {
+    background-position: -30px -92.65px;
+    _margin-left: -30px;
+    _margin-top: -93px;
+}
+
+.pwdBtn i {
+    background-position: -60px -91px;
+    _margin-left: -60px;
+    _margin-top: -91px;
+}
+
+.i_icon {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+#password,
+#password1 {
+    float: left;
+    width: 100%;
+}
+
+#password1 {
+    line-height: 22px;
+    padding: 14px 0;
+    height: 22px;
+}
+
+.form-line {
+    color: #d9d9d9;
+    height: 40px;
+    display: inline-block;
+    border-left: 1px solid #dadada;
+    position: absolute;
+    right: 140px;
+    top: 5px;
+    _top:0;
+}
+
+.normalInput {
+    width: 20rem;
+    /*height: auto;*/
+    overflow: hidden;
+    clear: both;
+    padding: 0 0.3125rem;
+    margin-top: 5px;
+    margin-bottom: 20px !important;
+}
+
+/*.normalInput input {
+    height: 2.5rem;
+    line-height: 2.5rem;
+}*/
+
+.get_kapkey, .kapkey_requested {
+    cursor: pointer !important;
+    width: 140px;
+    border: none;
+    outline: none;
+    height: 48px;
+    line-height: 48px;
+    font-size: 16px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    white-space: nowrap;
+    text-align: center;
+    /*color: #00a7ea !important;*/
+}
+
+#forgetpwd {
+    float: right;
+}
+
+a.fullBtnBlue {
+    width: 100%;
+    /*height: 2.5rem;
+    line-height: 2.5rem;
+    padding: 0.3125rem;*/
+    background-color: #198DED;
+}
+a.fullBtnBlue:hover {
+    /*height: 2.5rem;
+    line-height: 2.5rem;
+    padding: 0.3125rem;*/
+    background-color: #198DED;
+}
+a.linkABlue:link,
+a.linkABlue:visited {
+    color: #198DED;
+}
+
+a.linkABlue:hover {
+    color: #198DED;
+}
+
+.mzdialog a.fullBtnBlue {
+    width: 90%;
+}
+
+.rememberField {
+    width: 20.625rem;
+    height: 1.4rem;
+    line-height: 1.4rem;
+    margin-bottom: 15px;
+}
+
+.rememberField .mzchkbox {
+    position: relative;
+    top: -2px;
+}
+
+footer {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    clear: both;
+    border-top: 1px solid #ededed;
+    margin: auto;
+}
+
+footer section {
+    height: 2.1rem;
+    line-height: 2.1rem;
+    clear: both;
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+footer section a {
+    font-size: 0.8rem;
+}
+
+#kapkey {
+    width: 100%
+}
+
+#imgKey {
+    right: 5px;
+}
+
+
+/* 濯掍綋鏌ヨ */
+
+@media screen and (max-width: 980px) {
+    body {
+        width: 100%
+    }
+}
+
+@media (min-width:720px) and (max-width:959px) {
+    html {
+        font-size: 30px;
+    }
+}
+
+@media (max-width:719px) {
+    html {
+        font-size: 28px;
+    }
+}
+
+@media (max-width:579px) {
+    html {
+        font-size: 24px;
+    }
+}
+
+@media (max-width:479px) {
+    html {
+        font-size: 20px;
+    }
+}
+
+@media (max-width:429px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+@media (max-width:320px) {
+    html {
+        font-size: 12px;
+    }
+    /*a.fullBtnBlue,.normalInput,.rememberField{width: 20rem;padding: 0}*/
+    a.fullBtnBlue {
+        padding: 1rem 0.3125rem
+    }
+    .rememberField,
+    .rememberField a,
+    .rememberField label {
+        font-size: 12px;
+    }
+}
+
+#abnormal {
+    line-height: 22px;
+    padding: 12px 0;
+    height: 22px;
+}
+
+
+/* #getKey,a.linkABlue:link, a.linkABlue:visited{color:#1788e8;} */
+
+.check_chk i {
+    background-position: -31px -160px;
+}
+
+a.linkABlue {
+    color: #32A5E7;
+}
+
+.hide {
+    display: none
+}
+
+.content {
+    min-height: auto!important;
+}
+
+.t_c {
+    text-align: center;
+}
+
+span.error, span.otherError {
+    margin-left: 0;
+}
+
+.geetest_error {
+    display: block;
+    margin-bottom: 15px;
+}
+
+.register {
+    width: 100%;
+    text-align: center;
+    display: block;
+}
+
+span.inputTip {
+    top: 13px
+}
+
+.pl_5 {
+    padding-left: 5px;
+}
+
+#aa_login {
+    color: #909090
+}
+
+.login-btn {
+    margin-top: 50px;
+}
+
+.btn-go2register {
+    display: block;
+    text-align: center;
+}
+
+@media screen and (max-width: 500px) {
+    .mzdialog {
+        height: 210px!important;
+        width: 300px!important;
+        margin-left: -150px;
+        margin-right: -150px;
+        left: 50%!important
+    }
+    .alertDialogMain {
+        margin: 0px;
+        width: 300px;
+        box-sizing: border-box;
+        padding: 5px;
+    }
+    .alertDialogContent {
+        margin-left: 0px;
+        width: 100%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .alertDialogContent .normalInput {
+        width: 238px;
+        margin: 0px;
+        height: 40px;
+        margin-top: 10px;
+    }
+    .alertDialogContent .normalInput .kapkey {
+        padding-left: 10px;
+        height: 40px;
+    }
+    .alertDialogContent .normalInput #imgKey {
+        top: 2px;
+        right: 4px;
+    }
+    .alertDialogBtnField {
+        padding: 0px 20px;
+    }
+    a.fullBtnBlue {
+        width: 100%!important;
+                                                                                                                 
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 800px) and (orientation: landscape) {
+    .mzdialog {
+        height: 210px!important;
+        width: 300px!important;
+        margin-left: -150px;
+        margin-right: -150px;
+        left: 50%!important
+    }
+    .alertDialogMain {
+        margin: 0px;
+        width: 300px;
+        box-sizing: border-box;
+        padding: 5px;
+    }
+    .alertDialogContent {
+        margin-left: 0px;
+        width: 100%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .alertDialogContent .normalInput {
+        width: 238px;
+        margin: 0px;
+        height: 40px;
+        margin-top: 10px;
+    }
+    .alertDialogContent .normalInput .kapkey {
+        padding-left: 10px;
+        height: 40px;
+    }
+    .alertDialogContent .normalInput #imgKey {
+        top: 2px;
+        right: 4px;
+    }
+    .alertDialogBtnField {
+        padding: 0px 20px;
+    }
+    a.fullBtnBlue {
+        height: 1.5rem;
+        line-height: 1.5rem;
+        width: 96%!important
+    }
+    .alertDialogBtnField {
+        margin-top: 10px
+    }
+}
+
+.abnormal-tips {
+    color:#32A5E7;font-size:12px;padding:5px 0;cursor: pointer;margin:-10px 0 10px;
+}
+
+.normalInput{border-radius: 2px;}
+.tip-box{position: relative;height: 33px;display: table;width: 100%;margin-bottom: 4px;margin-top: 4px;border: solid 1px #ffc2b3;background: #ffd1ca;border-radius: 2px;}
+.tip-font{overflow: visible;color: #666;font-size: 12px;padding-right: 25px;padding-left: 35px;display: table-cell;vertical-align: middle;}
+/*.err-ico{background:url('../images/error-ico.png');width: 16px;height: 16px;display: inline-block;position: absolute;top: 8px;left: 10px;}*/
+/*.close-ico{background:url('../images/close-ico.png');background-repeat: no-repeat;cursor: pointer;width: 16px;height: 16px;display: inline-block;position: absolute;top: 8px;right: 10px;}*/
+.btn-error{border: 1px solid red;}
+.btn-focus{border:1px solid #198DED;}
+.visiblility-hidden{visibility: hidden;}
+.tab-title{position:relative;}
+.tab-title .linkABlack{position: absolute;right: 50%;margin-right: 25px;}
+.tab-title .linkAGray{position: absolute;left: 50%;margin-left: 25px;}
+.hide{display:none !important}
+.btn-wrap .btn-blue{border: solid 1px #198DED;}
+.btn-wrap{display: flex;justify-content: space-between;width: 100%;}
+.btn{width: 85px;height: 36px;text-align: center;line-height: 36px;border: solid 1px #ccc;border-radius: 4px;cursor: pointer;white-space: nowrap;text-overflow: ellipsis;overflow: hidden;}

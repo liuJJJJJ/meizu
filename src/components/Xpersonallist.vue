@@ -19,7 +19,7 @@
 		<div class="content">
 			<ul id="menuListOne">
 				<li>
-					<a href="https://me.m.meizu.com/?click=mgw_menu_group_1_1" data-mtype="mgw_menu_group_1_1"> <img src="https://fms.res.meizu.com/dms/2018/08/14/15569c6b-5e3f-41da-8dbf-edfd557191fb.png" alt=""> <span>个人中心</span> </a>
+					<a href="#/My" data-mtype="mgw_menu_group_1_1"> <img src="https://fms.res.meizu.com/dms/2018/08/14/15569c6b-5e3f-41da-8dbf-edfd557191fb.png" alt=""> <span>个人中心</span> </a>
 				</li>
 				<li>
 					<a href="https://ordercenter.mall.meizu.com/mall/order/init.html?click=mgw_menu_group_1_2" data-mtype="mgw_menu_group_1_2"> <img src="https://fms.res.meizu.com/dms/2018/08/14/00963788-63ab-4dfc-8722-b59d4096c437.png" alt=""> <span>我的订单</span> </a>
