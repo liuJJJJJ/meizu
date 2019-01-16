@@ -1,0 +1,34 @@
+{
+    "jsonp2": {
+        "code": 200, 
+        "data": [
+            {
+                "fitChannel": "mall", 
+                "id": 9, 
+                "keyword": "魅族16th plus", 
+                "status": 1
+            }, 
+            {
+                "fitChannel": "mall", 
+                "id": 10, 
+                "keyword": "PRO 7", 
+                "status": 1
+            }, 
+            {
+                "fitChannel": "mall", 
+                "id": 11, 
+                "keyword": "魅蓝 E2", 
+                "status": 1
+            }, 
+            {
+                "fitChannel": "mall", 
+                "id": 12, 
+                "keyword": "魅蓝 S6", 
+                "status": 1
+            }
+        ], 
+        "msg": "请求成功", 
+        "status": 1, 
+        "success": true
+    }
+}
