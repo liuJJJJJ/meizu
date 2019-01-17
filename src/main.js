@@ -8,9 +8,13 @@ Vue.use(VueRouter)
 import axios from 'axios';
 Vue.prototype.axios = axios;
 
-
 import Vuex from 'vuex'
 Vue.use(Vuex)
+
+import VueResource from 'vue-resource'
+Vue.use(VueResource)
+
+require('./mock.js')
 
 import Mint from 'mint-ui';
 Vue.use(Mint)
@@ -83,7 +87,7 @@ const routes = [{
     name: "Login",
 }]
 
-
+import { setCookie,getCookie,delCookie } from './assets/cookie.js';
 
 const router = new VueRouter({
     routes, // (缩写) 相当于 routes: routes
@@ -91,6 +95,8 @@ const router = new VueRouter({
         return{x:0,y:0}
     }
 });
+
+
 
 router.afterEach((to,from,next)=>{
     window.scrollTo(0,0);
@@ -127,7 +133,8 @@ const store = new Vuex.Store({
         isSelect: false
       },
     ],
-    nav: 0
+    nav: 0,
+    isLogin:false
   },
   // 修改状态
   mutations: {
@@ -145,7 +152,7 @@ const store = new Vuex.Store({
     },
     setNav(context, data) {
       context.commit('editNav', data);
-    },
+    }
   },
   // 组件从store(中介)手上拿数据  配个 computed
   getters: {

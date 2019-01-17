@@ -5,11 +5,11 @@
         <div class="member-info">
             <a href="#/Login">
                 <div class="img-box"><img src="//mall.res.meizu.com/member/img/login.png"></div>
-                <span class="name">点击登录</span>
+                <span class="name">欢迎{{name}}</span>
             </a>
         </div>
         <div class="member-index-message">
-                <a href="//me.m.meizu.com/home/m/message_index" class="message-btn">
+                <a href="#/" class="message-btn">
                     <i class="iconfont icon-message-01"></i>
                 </a>
         </div>
@@ -44,16 +44,24 @@
 </template>
 
 <script>
+    import { setCookie,getCookie,delCookie } from '../assets/cookie.js';
     export default {
         data() {
             return {
-
+                name:''
             };
         },
         methods: {  
+            quit(){
+                delCookie('username')
+            }
         },
         mounted(){
-
+            let uname = getCookie('username')
+            this.name = uname
+            if(uname == ""){
+                this.$router.push('/')
+            }
         }
     }
 </script>
