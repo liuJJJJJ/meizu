@@ -44,11 +44,11 @@
                     this.$http.post('/login',data).then((res)=>{
                         console.log(res)
 
+                        sessionStorage.setItem('token','11');
+                        this.$router.push({name:"My"})
+
                         setCookie('username',this.username,1000*60)
 
-                        setTimeout(function(){
-                            this.$router.push({name:"My"})
-                        }.bind(this),1000)
                   })
               }
             }

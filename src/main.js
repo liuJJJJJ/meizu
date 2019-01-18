@@ -77,6 +77,9 @@ const routes = [{
     path: '/Cart',
     component: Cart,
     name: "Cart",
+    meta:{
+        requireAuth:true
+    }
 }, {
     path: '/My',
     component: My,
@@ -87,7 +90,6 @@ const routes = [{
     name: "Login",
 }]
 
-import { setCookie,getCookie,delCookie } from './assets/cookie.js';
 
 const router = new VueRouter({
     routes, // (缩写) 相当于 routes: routes
@@ -96,11 +98,23 @@ const router = new VueRouter({
     }
 });
 
-
+router.beforeEach((to,from,next)=>{
+    if(to.meta.requireAuth){
+        if(sessionStorage.getItem('token')){
+            next();
+        }else{
+            next({
+                path:'/Login'
+            })
+        }
+    }else{
+        next();
+    }
+});
 
 router.afterEach((to,from,next)=>{
     window.scrollTo(0,0);
-})
+});
 
 const store = new Vuex.Store({
   // 状态
@@ -133,8 +147,7 @@ const store = new Vuex.Store({
         isSelect: false
       },
     ],
-    nav: 0,
-    isLogin:false
+    nav: 0
   },
   // 修改状态
   mutations: {
@@ -143,6 +156,9 @@ const store = new Vuex.Store({
     },
     editNav(state, data) {
       state.nav = data
+    },
+    changeLogin(state,data){
+        state.isLogin=data
     }
   },
   // actions  一般配合 事件@xxx 触发

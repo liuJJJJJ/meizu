@@ -93,7 +93,7 @@
 	export default {
 		methods: {
 			back() {
-				this.$router.history.go(-1);
+				this.$router.push({name:'recommend'});
 			},
 		},
 	}

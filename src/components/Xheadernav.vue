@@ -4,12 +4,12 @@
   <!-- 轮播图 -->
   <div class="swiper-container">
     <div class="swiper-wrapper">
-      <div class="swiper-slide"><img src="https://fms.res.meizu.com/dms/2018/12/29/3eefa61e-79ee-4935-9959-92ad1cf1831a.jpg" style="width:375px;"></div>
-      <div class="swiper-slide"><img src="https://fms.res.meizu.com/dms/2018/12/29/2d596394-2ffc-4773-a03f-85614f6f38ab.jpg" style="width:375px;"></div>
-      <div class="swiper-slide"><img src="https://openfile.meizu.com/group1/M00/06/E1/Cgbj0FwaChSAOPmIAAHqkCSTzsI528.jpg" style="width:375px;"></div>
-      <div class="swiper-slide"><img src="https://openfile.meizu.com/group1/M00/06/F1/Cgbj0VwZ9kSADxvDAAGXgSSzm8s747.jpg" style="width:375px;"></div>
-      <div class="swiper-slide"><img src="https://openfile.meizu.com/group1/M00/06/E1/Cgbj0FwZ9-CAMhf_AADjezobOTQ307.jpg" style="width:375px;"></div>
-      <div class="swiper-slide"><img src="https://openfile.meizu.com/group1/M00/06/E8/Cgbj0VwJKueASN6UAAJHf--24yc269.jpg" style="width:375px;"></div>
+      <div class="swiper-slide"><img src="https://fms.res.meizu.com/dms/2018/12/29/3eefa61e-79ee-4935-9959-92ad1cf1831a.jpg" style="width:100%;"></div>
+      <div class="swiper-slide"><img src="https://fms.res.meizu.com/dms/2018/12/29/2d596394-2ffc-4773-a03f-85614f6f38ab.jpg" style="width:100%;"></div>
+      <div class="swiper-slide"><img src="https://openfile.meizu.com/group1/M00/06/E1/Cgbj0FwaChSAOPmIAAHqkCSTzsI528.jpg" style="width:100%;"></div>
+      <div class="swiper-slide"><img src="https://openfile.meizu.com/group1/M00/06/F1/Cgbj0VwZ9kSADxvDAAGXgSSzm8s747.jpg" style="width:100%;"></div>
+      <div class="swiper-slide"><img src="https://openfile.meizu.com/group1/M00/06/E1/Cgbj0FwZ9-CAMhf_AADjezobOTQ307.jpg" style="width:100%;"></div>
+      <div class="swiper-slide"><img src="https://openfile.meizu.com/group1/M00/06/E8/Cgbj0VwJKueASN6UAAJHf--24yc269.jpg" style="width:100%;"></div>
     </div>
     <div class="swiper-pagination"></div>
   </div>
