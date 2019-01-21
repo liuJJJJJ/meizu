@@ -15,32 +15,32 @@
   </div>
   <!-- 热点 -->
   <div class="index-hot-site" id="index-hot-site"><div class="hot-tip-bar">
-    <span class="icon"><img src="https://fms.res.meizu.com/dms/2018/03/30/99f49dfe-25c2-485a-b7b3-8b63d6487b46.png">魅族官方直供</span>
-    <span class="icon"><img src="https://fms.res.meizu.com/dms/2018/03/30/8f1252b1-3fb2-48e2-b992-1f38a9745314.png">满80免运费</span>
-    <span class="icon"><img src="https://fms.res.meizu.com/dms/2018/03/30/3924a1e1-5b4a-41de-9e79-ee904ec69d90.png">7 天无理由退货</span>
+    <span class="icon"><img v-lazy="img[0]">魅族官方直供</span>
+    <span class="icon"><img v-lazy="img[1]">满80免运费</span>
+    <span class="icon"><img src="https://fms.res.meizu.com/dms/2018/03/30/3924a1e1-5b4a-41de-9e79-ee904ec69d90.png">7天无理由退货</span>
   </div>
   <div class="hot-site">
     <ul>
       <li>
-        <a href="https://hd.mall.meizu.com/sale/choujiang.html?click=mall_index_menu_1" data-mtype="mall_index_menu_1" data-bh="click_mall_index_menu_1">
+        <a href="javascript:;" data-mtype="mall_index_menu_1" data-bh="click_mall_index_menu_1">
           <img src="https://fms.res.meizu.com/dms/2019/01/06/9eca077f-0cea-4125-a4c3-4576f252815a.jpg" alt="">
           <span>购机赢好礼</span>
         </a>
       </li>
       <li>
-        <a href="http://mformy.meizu.com/?click=mall_index_menu_2" data-mtype="mall_index_menu_2" data-bh="click_mall_index_menu_2">
+        <a href="javascript:;" data-mtype="mall_index_menu_2" data-bh="click_mall_index_menu_2">
           <img src="https://openfile.meizu.com/group1/M00/06/C4/Cgbj0Vu8GACARZblAAAUpjA0os8971.png" alt="">
           <span>M码通道</span>
         </a>
       </li>
       <li>
-        <a href="http://mcycle.mall.meizu.com/?click=mall_index_menu_3" data-mtype="mall_index_menu_3" data-bh="click_mall_index_menu_3">
+        <a href="javascript:;" data-mtype="mall_index_menu_3" data-bh="click_mall_index_menu_3">
           <img src="https://fms.res.meizu.com/dms/2018/11/19/bd78ec91-b232-479e-9b8b-3df2cca4c19a.png" alt="">
           <span>以旧换新</span>
         </a>
       </li>
       <li>
-        <a href="https://bbs.meizu.cn/thread-10612160-1-1.html?click=mall_index_menu_4" data-mtype="mall_index_menu_4" data-bh="click_mall_index_menu_4">
+        <a href="javascript:;" data-mtype="mall_index_menu_4" data-bh="click_mall_index_menu_4">
           <img src="https://fms.res.meizu.com/dms/2018/12/28/20b9fcff-8ec0-4c8a-8619-014f1e31716e.jpg" alt="">
           <span>锦鲤福利</span>
         </a>
@@ -50,19 +50,19 @@
   <!-- 广告banner -->
   <div class="index-banner" id="index-banner"><div class="row">
     <div class="banner-lg">
-      <a href="https://detail.meizu.com/item/meizunote8.html?click=mall_index_ad_1" data-mtype="mall_index_ad_1">
-        <img src="https://openfile.meizu.com/group1/M00/06/D4/Cgbj0VvRLw2ARZHpAADy-0rw2qQ300.jpg">
+      <a href="javascript:;" data-mtype="mall_index_ad_1">
+        <img v-lazy="img[2]">
       </a>
     </div>
   </div>
   <div class="row">
     <div class="banner-lg">
-      <a href="https://detail.meizu.com/item/meizuv8.html?click=mall_index_ad_2" data-mtype="mall_index_ad_2">
+      <a href="javascript:;" data-mtype="mall_index_ad_2">
         <img src="https://openfile.meizu.com/group1/M00/06/A1/Cgbj0VuiDiaAdvQiAABVuQ2IAhk237.jpg">
       </a>
     </div>
     <div class="banner-lg">
-      <a href="https://detail.mall.meizu.com/item/meizu_ep52_lite.html?click=mall_index_ad_3" data-mtype="mall_index_ad_3">
+      <a href="javascript:;" data-mtype="mall_index_ad_3">
         <img src="https://fms.res.meizu.com/dms/2018/09/28/e981240f-523c-4f1d-926a-9458f208fa5c.jpg">
       </a>
     </div>
@@ -72,7 +72,7 @@
     <h3 class="list-title">智能手机</h3>
     <div id="phone-header-ad">
   <div class="list-ad">
-    <a href="https://detail.meizu.com/item/meizu16x.html?click=mall_index_kw_1_1" data-mtype="mall_index_kw_1_1">
+    <a href="javascript:;" data-mtype="mall_index_kw_1_1">
       <img src="https://openfile.meizu.com/group1/M00/06/A2/Cgbj0VuiFjeAQu85AADz4RX6mZQ072.jpg" lazy-src="https://openfile.meizu.com/group1/M00/06/A2/Cgbj0VuiFjeAQu85AADz4RX6mZQ072.jpg" alt="">
     </a>
   </div>
@@ -92,7 +92,7 @@
   </div>
   
   <div class="phone-content">
-    <a href="https://detail.meizu.com/item/meizunote8.html?click=mall_index_kw_1_3" data-mtype="mall_index_kw_1_3">
+    <a href="javascript:;" data-mtype="mall_index_kw_1_3">
       <img src="https://openfile.meizu.com/group1/M00/06/C4/Cgbj0FvQPnmABVZHAAM7MXAlUiQ783.png" lazy-src="https://openfile.meizu.com/group1/M00/06/C4/Cgbj0FvQPnmABVZHAAM7MXAlUiQ783.png" alt="">
       <div class="info">
         <p class="products-name">魅族 Note8</p>
@@ -105,7 +105,7 @@
   </div>
   
   <div class="phone-content">
-    <a href="https://detail.meizu.com/item/meizux8.html?click=mall_index_kw_1_4" data-mtype="mall_index_kw_1_4">
+    <a href="javascript:;" data-mtype="mall_index_kw_1_4">
       <img src="https://openfile.meizu.com/group1/M00/06/A9/Cgbj0FusSK2AQZgiAAlFKHoO-co889.png" lazy-src="https://openfile.meizu.com/group1/M00/06/A9/Cgbj0FusSK2AQZgiAAlFKHoO-co889.png" alt="">
       <div class="info">
         <p class="products-name">魅族 X8</p>
@@ -118,7 +118,7 @@
   </div>
   
   <div class="phone-content">
-    <a href="https://detail.meizu.com/item/meizuv8_bp.html?click=mall_index_kw_1_5" data-mtype="mall_index_kw_1_5">
+    <a href="javascript:;" data-mtype="mall_index_kw_1_5">
       <img src="https://openfile.meizu.com/group1/M00/06/99/Cgbj0FujMs-AZDb5AA14vDzyhPE669.png" lazy-src="https://openfile.meizu.com/group1/M00/06/99/Cgbj0FujMs-AZDb5AA14vDzyhPE669.png" alt="">
       <div class="info">
         <p class="products-name">魅族 V8 标配版</p>
@@ -131,7 +131,7 @@
   </div>
   
   <div class="phone-content">
-    <a href="https://detail.meizu.com/item/meizu15.html?click=mall_index_kw_1_6" data-mtype="mall_index_kw_1_6">
+    <a href="javascript:;" data-mtype="mall_index_kw_1_6">
       <img src="https://openfile.meizu.com/group1/M00/04/0B/Cgbj0FrcblSAGHrPAAvT_qZZSA0427.png" lazy-src="https://openfile.meizu.com/group1/M00/04/0B/Cgbj0FrcblSAGHrPAAvT_qZZSA0427.png" alt="">
       <div class="info">
         <p class="products-name">魅族 15</p>
@@ -144,7 +144,7 @@
   </div>
   
   <div class="phone-content">
-    <a href="https://detail.meizu.com/item/meilane3.html?click=mall_index_kw_1_7" data-mtype="mall_index_kw_1_7">
+    <a href="javascript:;" data-mtype="mall_index_kw_1_7">
       <img src="https://openfile.meizu.com/group1/M00/03/BC/Cgbj0Vq9-oeARs_XAALvUdl5qpo302.png" lazy-src="https://openfile.meizu.com/group1/M00/03/BC/Cgbj0Vq9-oeARs_XAALvUdl5qpo302.png" alt="">
       <div class="info">
         <p class="products-name">魅蓝 E3</p>
@@ -162,7 +162,7 @@
     <h3 class="list-title">魅族声学</h3>
     <div class="audio-list-ad" id="audio-list-ad">
   <div class="accessoary-ad" style="background:#F55C5C">
-    <a href="https://detail.mall.meizu.com/item/meizu_tws.html?click=mall_index_kw_2_1" data-mtype="mall_index_kw_2_1">
+    <a href="javascript:;" data-mtype="mall_index_kw_2_1">
       <div>
         <h4>POP 真无线蓝牙耳机</h4>
         <p>六期免息 双无线 零设限</p>
@@ -173,7 +173,7 @@
   </div>
   
   <div class="accessoary-ad" style="background:#7063C9">
-    <a href="https://detail.mall.meizu.com/item/meizu_live_pro.html?click=mall_index_kw_2_2" data-mtype="mall_index_kw_2_2">
+    <a href="javascript:;" data-mtype="mall_index_kw_2_2">
       <div>
         <h4>魅族LIVE 四单元动铁耳机15周年限定版</h4>
         <p>魅族声学15年集大成之作</p>
@@ -185,7 +185,7 @@
   </div>
     <div class="phone-list audio-list" id="audioList">
   <div class="phone-content">
-    <a href="https://detail.meizu.com/item/meizu_ep52_lite.html?click=mall_index_kw_2_2" data-mtype="mall_index_kw_2_2">
+    <a href="javascript:;" data-mtype="mall_index_kw_2_2">
       <img src="https://openfile.meizu.com/group1/M00/06/97/Cgbj0Fui_-OAIlOuAAIlimOCLcA452.png" lazy-src="https://openfile.meizu.com/group1/M00/06/97/Cgbj0Fui_-OAIlOuAAIlimOCLcA452.png" alt="">
       <div class="info">
         <p class="products-name">魅族 EP52 Lite 蓝牙耳机</p>
@@ -198,7 +198,7 @@
   </div>
   
   <div class="phone-content">
-    <a href="https://detail.meizu.com/item/meizu_ep51.html?click=mall_index_kw_2_3" data-mtype="mall_index_kw_2_3">
+    <a href="javascript:;" data-mtype="mall_index_kw_2_3">
       <img src="https://storeimg.meizu.com/product/1459849377-64075.png" lazy-src="https://storeimg.meizu.com/product/1459849377-64075.png" alt="">
       <div class="info">
         <p class="products-name">魅族 EP51 蓝牙运动耳机</p>
@@ -211,7 +211,7 @@
   </div>
   
   <div class="phone-content">
-    <a href="https://detail.meizu.com/item/ep_2x.html?click=mall_index_kw_2_4" data-mtype="mall_index_kw_2_4">
+    <a href="javascript:;" data-mtype="mall_index_kw_2_4">
       <img src="https://openfile.meizu.com/group1/M00/00/A2/Cix_s1gcVpeAOmoaAAGh-ubroNg891.png" lazy-src="https://openfile.meizu.com/group1/M00/00/A2/Cix_s1gcVpeAOmoaAAGh-ubroNg891.png" alt="">
       <div class="info">
         <p class="products-name">魅族 EP2X 耳机</p>
@@ -224,7 +224,7 @@
   </div>
   
   <div class="phone-content">
-    <a href="https://detail.meizu.com/item/meilanep52.html?click=mall_index_kw_2_5" data-mtype="mall_index_kw_2_5">
+    <a href="javascript:;" data-mtype="mall_index_kw_2_5">
       <img src="https://openfile.meizu.com/group1/M00/02/69/Cgbj0Vn2f8mAcov7AAHUhmjUdk0958.png" lazy-src="https://openfile.meizu.com/group1/M00/02/69/Cgbj0Vn2f8mAcov7AAHUhmjUdk0958.png" alt="">
       <div class="info">
         <p class="products-name">魅蓝 EP52 蓝牙耳机</p>
@@ -237,7 +237,7 @@
   </div>
   
   <div class="phone-content">
-    <a href="https://detail.meizu.com/item/EP31.html?click=mall_index_kw_2_6" data-mtype="mall_index_kw_2_6">
+    <a href="javascript:;" data-mtype="mall_index_kw_2_6">
       <img src="https://openfile.meizu.com/group1/M00/06/20/Cgbj0Ft-WkOAAhCKAAFqcNe6c3M482.png" lazy-src="https://openfile.meizu.com/group1/M00/06/20/Cgbj0Ft-WkOAAhCKAAFqcNe6c3M482.png" alt="">
       <div class="info">
         <p class="products-name">魅族 EP-31 耳机</p>
@@ -250,7 +250,7 @@
   </div>
   
   <div class="phone-content">
-    <a href="https://detail.meizu.com/item/flowbass.html?click=mall_index_kw_2_7" data-mtype="mall_index_kw_2_7">
+    <a href="javascript:;" data-mtype="mall_index_kw_2_7">
       <img src="https://openfile.meizu.com/group1/M00/02/EE/Cgbj0FpeqUqAYAbBAAJRQlEIMmc702.png" lazy-src="https://openfile.meizu.com/group1/M00/02/EE/Cgbj0FpeqUqAYAbBAAJRQlEIMmc702.png" alt="">
       <div class="info">
         <p class="products-name">魅族 Flow Bass 三单元耳机</p>
@@ -268,7 +268,7 @@
     <h3 class="list-title">智能配件</h3>
     <div class="accessory-list-ad" id="accessory-list-ad">
   <div class="accessoary-ad" style="background: #55C3C3">
-    <a href="https://detail.mall.meizu.com/item/meizu_power_bank_3.html?click=mall_index_kw_3_1" data-mtype="mall_index_kw_3_1">
+    <a href="javascript:;" data-mtype="mall_index_kw_3_1">
       <div>
         <h4>魅族移动电源3</h4>
         <p>双向快充双充电口 轻薄小巧</p>
@@ -279,7 +279,7 @@
   </div>
   
   <div class="accessoary-ad" style="background:#FFAE45">
-    <a href="https://detail.mall.meizu.com/item/wireless_charger.html?click=mall_index_kw_3_2" data-mtype="mall_index_kw_3_2">
+    <a href="javascript:;" data-mtype="mall_index_kw_3_2">
       <div>
         <h4>魅族无线充电器</h4>
         <p>10W快速充电 无线即放即充</p>
@@ -291,7 +291,7 @@
   </div>
     <div class="phone-list accessory-list" id="accessoryList">
   <div class="phone-content">
-    <a href="/" data-mtype="mall_index_kw_3_2">
+    <a href="javascript:;" data-mtype="mall_index_kw_3_2">
       <img src="https://openfile.meizu.com/group1/M00/06/A6/Cgbj0Vui_8WAE1NEAAKmTUL1qRE335.png" lazy-src="https://openfile.meizu.com/group1/M00/06/A6/Cgbj0Vui_8WAE1NEAAKmTUL1qRE335.png" alt="">
       <div class="info">
         <p class="products-name">魅族移动电源3</p>
@@ -304,7 +304,7 @@
   </div>
   
   <div class="phone-content">
-    <a href="https://detail.meizu.com/item/up0830s.html?click=mall_index_kw_3_3" data-mtype="mall_index_kw_3_3">
+    <a href="javascript:;" data-mtype="mall_index_kw_3_3">
       <img src="https://storeimg.meizu.com/product/1467170145-52479.png" lazy-src="https://storeimg.meizu.com/product/1467170145-52479.png" alt="">
       <div class="info">
         <p class="products-name">快充电源适配器（UP0830S）</p>
@@ -317,7 +317,7 @@
   </div>
   
   <div class="phone-content">
-    <a href="/" data-mtype="mall_index_kw_3_4">
+    <a href="javascript:;" data-mtype="mall_index_kw_3_4">
       <img src="https://openfile.meizu.com/group1/M00/03/2F/Cgbj0FqYqxqAcZ-nAAGaLqkN71s729.png" lazy-src="https://openfile.meizu.com/group1/M00/03/2F/Cgbj0FqYqxqAcZ-nAAGaLqkN71s729.png" alt="">
       <div class="info">
         <p class="products-name">魅族 Type-C 2.0数据线</p>
@@ -330,7 +330,7 @@
   </div>
   
   <div class="phone-content">
-    <a href="https://detail.meizu.com/item/meizu_hezi.html?click=mall_index_kw_3_5" data-mtype="mall_index_kw_3_5">
+    <a href="javascript:;" data-mtype="mall_index_kw_3_5">
       <img src="https://openfile.meizu.com/group1/M00/00/9B/CnQOjVgYZV6Af6VlAADvhkEyt98979.png" lazy-src="https://openfile.meizu.com/group1/M00/00/9B/CnQOjVgYZV6Af6VlAADvhkEyt98979.png" alt="">
       <div class="info">
         <p class="products-name">魅族盒子 一键找回遥控器</p>
@@ -343,7 +343,7 @@
   </div>
   
   <div class="phone-content">
-    <a href="/" data-mtype="mall_index_kw_3_6">
+    <a href="javascript:;" data-mtype="mall_index_kw_3_6">
       <img src="https://openfile.meizu.com/group1/M00/06/09/Cgbj0Ft1OouARgW_AAAqV1uVbaA668.png" lazy-src="https://openfile.meizu.com/group1/M00/06/09/Cgbj0Ft1OouARgW_AAAqV1uVbaA668.png" alt="">
       <div class="info">
         <p class="products-name">魅族 16th Plus 高透保护膜</p>
@@ -356,7 +356,7 @@
   </div>
   
   <div class="phone-content">
-    <a href="/" data-mtype="mall_index_kw_3_7">
+    <a href="javascript:;" data-mtype="mall_index_kw_3_7">
       <img src="https://openfile.meizu.com/group1/M00/06/16/Cgbj0Ft7iV6AQANcAAL00J0tbyQ152.png" lazy-src="https://openfile.meizu.com/group1/M00/06/16/Cgbj0Ft7iV6AQANcAAL00J0tbyQ152.png" alt="">
       <div class="info">
         <p class="products-name">魅族 16th Plus 亲肤保护壳</p>
@@ -661,7 +661,11 @@
 		data() {
 			return {
         isTop: true,
-        timer: null
+        timer: null,
+        img:["https://fms.res.meizu.com/dms/2018/03/30/99f49dfe-25c2-485a-b7b3-8b63d6487b46.png",
+              "https://fms.res.meizu.com/dms/2018/03/30/8f1252b1-3fb2-48e2-b992-1f38a9745314.png",
+              "https://openfile.meizu.com/group1/M00/06/D4/Cgbj0VvRLw2ARZHpAADy-0rw2qQ300.jpg"
+        ]
 			};
 		},
 		methods: {

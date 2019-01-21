@@ -28,7 +28,7 @@
                 </div>
                 <div class="secrow radio-row">
                     <div>
-                        <a href="/the_binder/index?cartItemId=2240750&amp;itemId=12213&amp;skuId=9166&amp;quantity=1&amp;refer=cart" data-mtype="mall_cart_redem_choose" data-bh="click_mall_cart_redem_choose" class="one-more sele-icon">
+                        <a href="javascript:;" data-mtype="mall_cart_redem_choose" data-bh="click_mall_cart_redem_choose" class="one-more sele-icon">
                             <span class="tag-onemore">另加15元起，即可换购超值商品</span>
                         </a>
                     </div>
@@ -37,12 +37,12 @@
                         <div class="radio-fld">
                             <div class="item">
                                 <div class="prod-img">
-                                    <a href="//detail.meizu.com/item/meizu16th.html?skuId=9166" data-mtype="mall_cart_prod" data-bh="click_mall_cart_prod">
+                                    <a href="javascript:;" data-bh="click_mall_cart_prod">
                                         <img src="//openfile.meizu.com/group1/M00/05/F1/Cgbj0VtqgmyADfzUAAdk_Uz-jKk371.png@240x240.jpg">
                                     </a>
                                 </div>
                                 <div class="intro">
-                                    <a href="/detail.meizu.com/item/meizu16th.html?skuId=9166" data-mtype="mall_cart_prod" data-bh="click_mall_cart_prod">
+                                    <a href="javascript:;" data-mtype="mall_cart_prod" data-bh="click_mall_cart_prod">
                                         <h3>魅族 16th</h3>
                                         <p class="attrs">
                                             <span>全网通公开版 远山白 6+64GB</span>

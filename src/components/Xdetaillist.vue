@@ -80,7 +80,7 @@
                         <i class="icon icon-enter" id="J_prodPromoEnter"></i>
                     </section>
 
-                    <section class="prod-selected" id="J_prodSelected" data-ctrl="J_layerProps" data-mtype="mall_de_msg_package" data-bh="click_mall_de_msg_package">
+                    <section class="prod-selected" id="J_prodSelected" data-ctrl="J_layerProps" data-mtype="mall_de_msg_package" data-bh="click_mall_de_msg_package" v-model="popupVisible">
                         <label>已选</label>
                         <p>
                             <span class="vm-props s-selected" id="J_selectedProps">全网通公开版,远山白,6+64GB,官方标配</span>
@@ -88,7 +88,11 @@
                         </p>
                         <i class="icon icon-enter" id="J_prodPromoEnter"></i>
                     </section>
-
+                    <mt-popup
+                      v-model="popupVisible"
+                      position="bottom">
+                      ...
+                    </mt-popup>
                     <section class="prod-suda" id="J_prodSuda" data-ctrl="J_layerSuda" data-mtype="mall_de_msg_address" data-bh="click_mall_de_msg_address">
                         <!--去掉百城判断-->
                             <div class="prod-suda-selector" id="J_sudaSelector" data-url="//area.meizu.com/area/child/query/">
@@ -148,11 +152,11 @@
                     <div class="container">
                         <article class="desc-pictures">
 
-                                        <a href="//hd.mall.meizu.com/sale/choujiang.html">
+                                        <a href="javascript:;">
                                             <img src="//openfile.meizu.com/group1/M00/07/00/Cgbj0Vw73CeAY1tSAAUzx1mao6I358.jpg">
                                         </a>
 
-                                        <a href="//service.meizu.com/care-broken.html">
+                                        <a href="javascript:;">
                                             <img src="//openfile.meizu.com/group1/M00/05/D1/Cgbj0Ftn_UaALVQMAAFwKc5I7WM651.jpg">
                                         </a>
 
@@ -515,7 +519,8 @@
     export default {
         data() {
             return {
-                relevant:[]
+                relevant:[],
+                popupVisible:true
             };
         },
         methods: { 

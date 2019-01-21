@@ -2,7 +2,7 @@
 	<div class="header-wrapper header_wrapper_hide header_wrapper_show" id="header-wrapper">
 
     <header class="index-header-bar" id="header-m">
-      <a href="https://m.meizu.com/?click=mgw_index_yt_logo" data-mtype="mgw_index_yt_logo" data-bh="click_mgw_index_yt_logo" class="index-logo">
+      <a href="javascript:;" data-mtype="mgw_index_yt_logo" data-bh="click_mgw_index_yt_logo" class="index-logo">
         <svg fill="#00b4ff" version="1.1" id="Logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="402.048px" height="73.556px" viewBox="17.318 5.824 402.048 73.556" enable-background="new 17.318 5.824 402.048 73.556" xml:space="preserve">
         <path d="M321.513,5.824H256.91v12.878h51.478l-49.294,44.581c-8.227,7.023-2.872,16.096,3.958,16.096h65.337V66.472
           h-52.117l48.964-44.554C333.52,14.473,328.535,5.824,321.513,5.824"></path>

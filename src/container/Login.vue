@@ -673,11 +673,7 @@ span.normalTip {
 .radio_unchk,
 .radio_chk,
 .check_chk i,
-.check_unchk i {
-    background: url(/resources/uc/wlogin/base/images/elements.png) no-repeat;
-    _background-image: none;
-    _filter: progid: DXImageTransform.Microsoft.AlphaImageLoader(src='/resources/uc/wlogin/base/images/elements.png');
-}
+
 
 .radio_unchk {
     background-position: -75px 4px;

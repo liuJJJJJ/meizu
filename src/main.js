@@ -19,7 +19,6 @@ require('./mock.js')
 import Mint from 'mint-ui';
 Vue.use(Mint)
 
-
 import Index from "./container/Index.vue";
 import Search from "./container/Search.vue";
 import Personal from "./container/Personal.vue";
