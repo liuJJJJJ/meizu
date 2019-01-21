@@ -28,7 +28,7 @@
                     <ul class="grid">
                         <!--网格{grid}，列表{list}-->
                         <li>
-                            <a href="//detail.meizu.com/item/meizunote8.html?click=mall_list_lc_kw_1" data-mtype="mall_list_lc_kw_1">
+                            <a href="javascript:;" data-mtype="mall_list_lc_kw_1">
                                 <img class="" src="//openfile.meizu.com/group1/M00/06/D4/Cgbj0VvQPnuAAwPPAAMv8zzt2DE910.png@240x240.jpg">
                                 <p>
                                     <span class="vm-tit">魅族 Note8</span>
@@ -38,7 +38,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="//detail.meizu.com/item/meizu16x.html?click=mall_list_lc_kw_2" data-mtype="mall_list_lc_kw_2">
+                            <a href="javascript:;" data-mtype="mall_list_lc_kw_2">
                                 <img class="" src="//openfile.meizu.com/group1/M00/06/BC/Cgbj0FvINLWACd0AAAh2dGv5_R0516.png@240x240.jpg">
                                 <p>
                                     <span class="vm-tit">魅族 16 X</span>
@@ -48,7 +48,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="//detail.meizu.com/item/meizu16thplus.html?click=mall_list_lc_kw_3" data-mtype="mall_list_lc_kw_3">
+                            <a href="javascript:;" data-mtype="mall_list_lc_kw_3">
                                 <img class="" src="//openfile.meizu.com/group1/M00/05/F0/Cgbj0VtqgjeAV_ChAAfVjwwpNdw016.png@240x240.jpg">
                                 <p>
                                     <span class="vm-tit">魅族 16th Plus</span>
@@ -58,7 +58,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="//detail.meizu.com/item/meizu16th.html?click=mall_list_lc_kw_4" data-mtype="mall_list_lc_kw_4">
+                            <a href="javascript:;" data-mtype="mall_list_lc_kw_4">
                                 <img class="" src="//openfile.meizu.com/group1/M00/05/E2/Cgbj0FtqgnmAFgJPAAhgnScaoFg724.png@240x240.jpg">
                                 <p>
                                     <span class="vm-tit">魅族 16th</span>
@@ -68,7 +68,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="//detail.meizu.com/item/meizuv8.html?click=mall_list_lc_kw_5" data-mtype="mall_list_lc_kw_5">
+                            <a href="javascript:;" data-mtype="mall_list_lc_kw_5">
                                 <img class="" src="//openfile.meizu.com/group1/M00/06/AC/Cgbj0VujaMOAFzUFAARRWnHvM84529.png@240x240.jpg">
                                 <p>
                                     <span class="vm-tit">魅族 V8 高配版</span>
@@ -78,7 +78,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="//detail.meizu.com/item/meizuv8_bp.html?click=mall_list_lc_kw_6" data-mtype="mall_list_lc_kw_6">
+                            <a href="javascript:;" data-mtype="mall_list_lc_kw_6">
                                 <img class="" src="//openfile.meizu.com/group1/M00/06/99/Cgbj0FujMs-AZDb5AA14vDzyhPE669.png@240x240.jpg">
                                 <p>
                                     <span class="vm-tit">魅族 V8 标配版</span>
@@ -88,7 +88,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="//detail.meizu.com/item/meizu_m15.html?click=mall_list_lc_kw_7" data-mtype="mall_list_lc_kw_7">
+                            <a href="javascript:;" data-mtype="mall_list_lc_kw_7">
                                 <img class="" src="//openfile.meizu.com/group1/M00/05/3F/Cgbj0Vsx5FmABcbVAAOfr1Ktzm4058.png@240x240.jpg">
                                 <p>
                                     <span class="vm-tit">魅族 M15</span>
@@ -98,7 +98,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="//detail.meizu.com/item/meizu15.html?click=mall_list_lc_kw_8" data-mtype="mall_list_lc_kw_8">
+                            <a href="javascript:;" data-mtype="mall_list_lc_kw_8">
                                 <img class="" src="//openfile.meizu.com/group1/M00/04/0B/Cgbj0FrcblSAGHrPAAvT_qZZSA0427.png@240x240.jpg">
                                 <p>
                                     <span class="vm-tit">魅族 15</span>
@@ -108,7 +108,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="//detail.meizu.com/item/meizux8.html?click=mall_list_lc_kw_9" data-mtype="mall_list_lc_kw_9">
+                            <a href="javascript:;" data-mtype="mall_list_lc_kw_9">
                                 <img class="" src="//openfile.meizu.com/group1/M00/06/A9/Cgbj0FusSK2AQZgiAAlFKHoO-co889.png@240x240.jpg">
                                 <p>
                                     <span class="vm-tit">魅族 X8</span>
@@ -118,7 +118,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="//detail.meizu.com/item/meilannote6.html?click=mall_list_lc_kw_10" data-mtype="mall_list_lc_kw_10">
+                            <a href="javascript:;" data-mtype="mall_list_lc_kw_10">
                                 <img class="" src="//openfile.meizu.com/group1/M00/02/03/Cgbj0VmtGa6AThj0AA1hVmco7-o197.png@240x240.jpg">
                                 <p>
                                     <span class="vm-tit">魅蓝 Note6</span>
@@ -128,7 +128,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="//detail.meizu.com/item/meilan6t.html?click=mall_list_lc_kw_11" data-mtype="mall_list_lc_kw_11">
+                            <a href="javascript:;" data-mtype="mall_list_lc_kw_11">
                                 <img class="be-lazy" src="//mall.res.meizu.com/common/img/blank.png" data-src="//openfile.meizu.com/group1/M00/04/8C/Cgbj0VsM-iyAAgTIAAbXIwKFVL4647.png@240x240.jpg">
                                 <p>
                                     <span class="vm-tit">魅蓝 6T</span>
@@ -138,7 +138,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="//detail.meizu.com/item/meizu_15plus.html?click=mall_list_lc_kw_12" data-mtype="mall_list_lc_kw_12">
+                            <a href="javascript:;" data-mtype="mall_list_lc_kw_12">
                                 <img class="be-lazy" src="//mall.res.meizu.com/common/img/blank.png" data-src="//openfile.meizu.com/group1/M00/04/1C/Cgbj0VrcbrCANJBMAAxI8Fi80MA520.png@240x240.jpg">
                                 <p>
                                     <span class="vm-tit">魅族 15 Plus</span>
@@ -148,7 +148,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="//detail.meizu.com/item/meilane3.html?click=mall_list_lc_kw_13" data-mtype="mall_list_lc_kw_13">
+                            <a href="javascript:;" data-mtype="mall_list_lc_kw_13">
                                 <img class="be-lazy" src="//mall.res.meizu.com/common/img/blank.png" data-src="//openfile.meizu.com/group1/M00/03/BB/Cgbj0Vq9-m2AJr_PAAp1B7CA5GY057.png@240x240.jpg">
                                 <p>
                                     <span class="vm-tit">魅蓝 E3</span>
@@ -158,7 +158,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="//detail.meizu.com/item/meilan_6.html?click=mall_list_lc_kw_14" data-mtype="mall_list_lc_kw_14">
+                            <a href="javascript:;" data-mtype="mall_list_lc_kw_14">
                                 <img class="be-lazy" src="//mall.res.meizu.com/common/img/blank.png" data-src="//openfile.meizu.com/group1/M00/02/21/Cgbj0FnCGzOABMFZAAq4uv7SLg8039.png@240x240.jpg">
                                 <p>
                                     <span class="vm-tit">魅蓝 6</span>
@@ -168,7 +168,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="//detail.meizu.com/item/meilans6.html?click=mall_list_lc_kw_15" data-mtype="mall_list_lc_kw_15">
+                            <a href="javascript:;" data-mtype="mall_list_lc_kw_15">
                                 <img class="be-lazy" src="//mall.res.meizu.com/common/img/blank.png" data-src="//openfile.meizu.com/group1/M00/02/F3/Cgbj0Fpe-_yAFtuLAAw27mVWra0383.png@240x240.jpg">
                                 <p>
                                     <span class="vm-tit">魅蓝 S6</span>
@@ -178,7 +178,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="//detail.meizu.com/item/pro7plus.html?click=mall_list_lc_kw_16" data-mtype="mall_list_lc_kw_16">
+                            <a href="javascript:;" data-mtype="mall_list_lc_kw_16">
                                 <img class="be-lazy" src="//mall.res.meizu.com/common/img/blank.png" data-src="//openfile.meizu.com/group1/M00/01/BC/Cgbj0Fl4OduAN6lZAAoYW04sCAc119.png@240x240.jpg">
                                 <p>
                                     <span class="vm-tit">魅族 PRO 7 Plus</span>

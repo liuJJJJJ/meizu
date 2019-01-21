@@ -2,25 +2,25 @@
     <div>
 	<div class="index-footer-service" id="index-footer-service">
         <div>
-          <a href="https://mall.meizu.com/marrive/summary.html" data-mtype="mall_index_buttom_serv_1" data-bh="click_mall_index_buttom_serv_1">
+          <a href="javascript:;" data-mtype="mall_index_buttom_serv_1" data-bh="click_mall_index_buttom_serv_1">
             <img src="https://fms.res.meizu.com/dms/2018/12/26/237d883a-d669-4231-b645-d0363ac3f1df.jpg" lazy-src="https://fms.res.meizu.com/dms/2018/12/26/237d883a-d669-4231-b645-d0363ac3f1df.jpg" alt="">
           </a>
         </div>
       
         <div>
-          <a href="http://service.meizu.com/authenticity.html" data-mtype="mall_index_buttom_serv_2" data-bh="click_mall_index_buttom_serv_2">
+          <a href="javascript:;" data-mtype="mall_index_buttom_serv_2" data-bh="click_mall_index_buttom_serv_2">
             <img src="https://fms.res.meizu.com/dms/2018/12/26/44d9807b-1240-4637-aaef-43e1f6742f81.jpg" lazy-src="https://fms.res.meizu.com/dms/2018/12/26/44d9807b-1240-4637-aaef-43e1f6742f81.jpg" alt="">
           </a>
         </div>
       
         <div>
-          <a href="http://service.meizu.com/help/after_ser.html#policy3" data-mtype="mall_index_buttom_serv_3" data-bh="click_mall_index_buttom_serv_3">
+          <a href="javascript:;" data-mtype="mall_index_buttom_serv_3" data-bh="click_mall_index_buttom_serv_3">
             <img src="https://fms.res.meizu.com/dms/2018/12/26/518fc8a2-c14d-488c-9ada-b757bbd71c08.jpg" lazy-src="https://fms.res.meizu.com/dms/2018/12/26/518fc8a2-c14d-488c-9ada-b757bbd71c08.jpg" alt="">
           </a>
         </div>
       
         <div>
-          <a href="https://bbs.res.meizu.com/static_new/guide/" data-mtype="mall_index_buttom_serv_4" data-bh="click_mall_index_buttom_serv_4">
+          <a href="javascript:;" data-mtype="mall_index_buttom_serv_4" data-bh="click_mall_index_buttom_serv_4">
             <img src="https://fms.res.meizu.com/dms/2018/12/26/61250d46-6eb9-4846-99ce-6d65778a84a2.jpg" lazy-src="https://fms.res.meizu.com/dms/2018/12/26/61250d46-6eb9-4846-99ce-6d65778a84a2.jpg" alt="">
           </a>
         </div>
@@ -34,7 +34,7 @@
         </div>
         <div class="footer-nav clearfix">
             <p class="footer-copy">
-              <a href="http://www.miitbeian.gov.cn/">粤ICP备13003602号-2</a>
+              <a href="javascript:;">粤ICP备13003602号-2</a>
               <a href="https://www3.res.meizu.com/static/cn/_partial/footer/images/icp2_fb8db74.jpg">合字B2-20170010</a><br>
               <a href="http://www2.res.meizu.com/zh_cn/images/common/com_licence.jpg">营业执照</a>
             

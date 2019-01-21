@@ -181,7 +181,7 @@ input[type=search]::-webkit-search-cancel-button {
     transition: background-color .1s linear
 }
 
-.radio-group .radio.checked:after {
+/*.radio-group .radio.checked:after {
     content: "\E608";
     color: #00c3f5;
     font-size: 24px;
@@ -189,7 +189,7 @@ input[type=search]::-webkit-search-cancel-button {
     line-height: .55556rem;
     border: none
 }
-
+*/
 .fixed-btm {
     position: fixed;
     left: 0;

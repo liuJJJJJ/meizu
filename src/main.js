@@ -8,13 +8,16 @@ Vue.use(VueRouter)
 import axios from 'axios';
 Vue.prototype.axios = axios;
 
-
 import Vuex from 'vuex'
 Vue.use(Vuex)
 
+import VueResource from 'vue-resource'
+Vue.use(VueResource)
+
+require('./mock.js')
+
 import Mint from 'mint-ui';
 Vue.use(Mint)
-
 
 import Index from "./container/Index.vue";
 import Search from "./container/Search.vue";
@@ -22,6 +25,8 @@ import Personal from "./container/Personal.vue";
 import Goodlist from "./container/Goodlist.vue";
 import Detail from "./container/Detail.vue";
 import Cart from "./container/Cart.vue";
+import My from "./container/My.vue";
+import Login from "./container/Login.vue";
 
 //二级路由
 import recommend from "./container/Recommend.vue";
@@ -71,8 +76,18 @@ const routes = [{
     path: '/Cart',
     component: Cart,
     name: "Cart",
+    meta:{
+        requireAuth:true
+    }
+}, {
+    path: '/My',
+    component: My,
+    name: "My",
+}, {
+    path: '/Login',
+    component: Login,
+    name: "Login",
 }]
-
 
 
 const router = new VueRouter({
@@ -82,9 +97,23 @@ const router = new VueRouter({
     }
 });
 
+router.beforeEach((to,from,next)=>{
+    if(to.meta.requireAuth){
+        if(sessionStorage.getItem('token')){
+            next();
+        }else{
+            next({
+                path:'/Login'
+            })
+        }
+    }else{
+        next();
+    }
+});
+
 router.afterEach((to,from,next)=>{
     window.scrollTo(0,0);
-})
+});
 
 const store = new Vuex.Store({
   // 状态
@@ -126,6 +155,9 @@ const store = new Vuex.Store({
     },
     editNav(state, data) {
       state.nav = data
+    },
+    changeLogin(state,data){
+        state.isLogin=data
     }
   },
   // actions  一般配合 事件@xxx 触发
@@ -135,7 +167,7 @@ const store = new Vuex.Store({
     },
     setNav(context, data) {
       context.commit('editNav', data);
-    },
+    }
   },
   // 组件从store(中介)手上拿数据  配个 computed
   getters: {
